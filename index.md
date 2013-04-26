@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Thotcon 0x4 Badges
-tagline: Workshop 88
 ---
 {% include JB/setup %}
 
