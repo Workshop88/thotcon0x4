@@ -5,7 +5,7 @@ tagline: Workshop 88
 ---
 {% include JB/setup %}
 
-!(badge.png "Badge Rendering")
+![Badge Rendering](badge.png "Badge Rendering")
 
 <ul class="posts">
   {% for post in site.posts %}
