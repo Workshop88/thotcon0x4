@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Thotcon 0x4 Badges
 ---
 {% include JB/setup %}
 
