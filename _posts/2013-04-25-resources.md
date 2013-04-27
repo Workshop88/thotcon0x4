@@ -16,3 +16,5 @@ Some resources related to the hardware on the board.
 Some options for programming 
 * [Sparkfun Pocket Programmer](https://www.sparkfun.com/products/9825) 
 * [Use an Arduino](http://arduino.cc/en/Tutorial/ArduinoISP) 
+* [Adafruit USBtinyISP] (http://www.adafruit.com/products/46)
+
