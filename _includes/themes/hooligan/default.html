@@ -32,6 +32,18 @@
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
+  <script type="text/javascript">
+  function trackOutboundLink(link, category, action) { 
+	   
+	  try { 
+		  _gaq.push(['_trackEvent', category , action]); 
+	  } catch(err){}
+	   
+	  setTimeout(function() {
+			  document.location.href = link.href;
+			  }, 100);
+  }
+</script>
   </head>
 
   <body>
@@ -111,7 +123,7 @@
       </div>
 
       <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} <a href="http://workshop88.com">{{ site.author.name }}</a>
+        <p>&copy; {{ site.time | date: '%Y' }} <a href="http://workshop88.com" onClick="trackOutboundLink(this, 'Outbound Links', 'workshop88.com'); return false;">{{ site.author.name }}</a>
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://github.com/dhulihan/hooligan" target="_blank">The Hooligan Theme</a>
         </p>
