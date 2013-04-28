@@ -2,7 +2,7 @@
 layout: post
 title: "Thanks for coming!"
 description: ""
-category: 
+category: blog
 tags: []
 ---
 {% include JB/setup %}

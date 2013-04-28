@@ -2,8 +2,8 @@
 layout: post
 title: "Last minute assembly"
 description: ""
-category: 
-tags: []
+category: blog
+tags: [pictures]
 ---
 {% include JB/setup %}
 

@@ -2,8 +2,8 @@
 layout: post
 title: "resources"
 description: ""
-category: 
-tags: []
+category: resources
+tags: [links]
 ---
 {% include JB/setup %}
 
