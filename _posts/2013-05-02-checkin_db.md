@@ -11,10 +11,10 @@ One of the functions of the badge was to report its location checkins to a centr
 
 Upon entering the con each badge was issued a two byte unique ID that is proceeded in the welcome message by "THOTCON 0x4 Badge Node:".  You can power up your badge, read your badge node number and query the database to see where you spent your time at the con.  The following is an example of the query for badge id 0x027d: 
 
-```sqlite3 reports 'select * from checkins where BID = "0x027d";' 
-```0x02d7|0|38|2|11|16|79|0|1|4|5
-```0x02d7|0|38|2|11|16|79|0|1|4|6
-```0x02d7|0|38|2|11|16|79|0|1|4|6
+	sqlite3 reports 'select * from checkins where BID = "0x027d";' 
+	0x02d7|0|38|2|11|16|79|0|1|4|5
+	0x02d7|0|38|2|11|16|79|0|1|4|6
+	0x02d7|0|38|2|11|16|79|0|1|4|6
 
 The data returned is representative of your badge ID followed by the number of checkin for each numbered beacon.  The beacons were placed in the following areas or at the following events and were released incrimentally throughout the conference:
 
