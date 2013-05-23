@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/x-kicad-pcbnew
+Icon=pcbnew
+Patterns=*.brd
+Comment=KiCad PCB
+Comment[fr]=Circuit imprimé KiCad

@@ -1,0 +1,87 @@
+PCBNEW-BOARD Version 2 date Sat 19 Jan 2013 11:23:40 CST
+
+# Created by Pcbnew(2012-11-15 BZR 3804)-stable
+
+$GENERAL
+encoding utf-8
+Units mm
+LayerCount 2
+EnabledLayers 1FFF8001
+VisibleLayers 1FFFFFFF
+Links 0
+NoConn 0
+Di 0 0 0 0
+Ndraw 0
+Ntrack 0
+Nzone 0
+BoardThickness 1.6
+Nmodule 0
+Nnets 1
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A 11000 8500
+Title "BOARD, PC, THOTKON_0x04"
+Date "19 jan 2013"
+Rev "T1"
+Comp "Workshop 88"
+Comment1 "Proj. Mgr: Rudy Rustich"
+Comment2 "Engineer: Paul Reich"
+Comment3 "Drawn: Paul Reich"
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+Layers 2
+Layer[0] B.Cu signal
+Layer[15] F.Cu signal
+TrackWidth 0.254
+TrackClearence 0.254
+ZoneClearence 0.508
+Zone_45_Only 0
+TrackMinWidth 0.254
+DrawSegmWidth 0.2
+EdgeSegmWidth 0.15
+ViaSize 0.889
+ViaDrill 0.635
+ViaMinSize 0.889
+ViaMinDrill 0.508
+MicroViaSize 0.508
+MicroViaDrill 0.127
+MicroViasAllowed 0
+MicroViaMinSize 0.508
+MicroViaMinDrill 0.127
+TextPcbWidth 0.3
+TextPcbSize 1 1
+EdgeModWidth 0.15
+TextModSize 1 1
+TextModWidth 0.15
+PadSize 1 1
+PadDrill 0.6
+Pad2MaskClearance 0
+SolderMaskMinWidth 0
+AuxiliaryAxisOrg 0 0
+VisibleElements FFFFFFBF
+PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 152400) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 0.254
+TrackWidth 0.254
+ViaDia 0.889
+ViaDrill 0.635
+uViaDia 0.508
+uViaDrill 0.127
+AddNet ""
+$EndNCLASS
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD

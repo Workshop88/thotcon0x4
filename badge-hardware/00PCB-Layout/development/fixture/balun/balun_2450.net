@@ -1,0 +1,30 @@
+# EESchema Netlist Version 1.1 created  Fri 15 Mar 2013 14:04:06 CDT
+(
+ ( /514370D9 $noname  Z2 STRIPLINE_100 {Lib=STRIPLINE_100}
+  (    1 N-000002 )
+  (    2 N-000002 )
+ )
+ ( /514370E8 $noname  Z1 STRIPLINE_100 {Lib=STRIPLINE_100}
+  (    1 N-000001 )
+  (    2 N-000001 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component Z2
+ STRIPLINE_100
+$endlist
+$component Z1
+ STRIPLINE_100
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ Z1 1
+ Z1 2
+Net 2 "" ""
+ Z2 1
+ Z2 2
+}
+#End

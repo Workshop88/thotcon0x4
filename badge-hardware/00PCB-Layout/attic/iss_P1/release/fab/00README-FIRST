@@ -1,0 +1,71 @@
+This package contains PCB fabrication information as follows:
+
+Project: "Thotcon Badge Project"
+
+Manufacture panels as follows:
+
+1:  Panelize 8-up 10.5" x 12" panels, indented breakaway style.
+
+2:  COLORS and LEGENDS:
+
+    70  panels:
+        black color solder mask, white silkscreen;
+        with the "THOTCON_0x4_hacker.png" legend artwork
+        positioned in "logo area" per drawing.
+
+    10  panels:
+        green color solder mask, white silkscreen;
+        with the "THOTCON_0x4_vip.png" legend artwork
+        positioned in "logo area" per drawing.
+
+    7  panels:
+        red color solder mask, black silkscreen;
+        with the "THOTCON_0x4_oper.png" legend artwork
+        positioned in "logo area" per drawing.
+
+    7  panels:
+        yellow color solder mask, black silkscreen;
+        with the "THOTCON_0x4_root.png" legend artwork
+        positioned in "logo area" per drawing.
+
+    3  panels:
+        blue solder mask, white silkscreen;
+        with "THOTCON_0x4_voice.png" legend artwork
+        positioned in "logo area" per drawing.
+  ___________
+    97 panels total, of various color schemes.95 panels: 
+
+
+
+IMPORTANT: Refer to thotcon_badge_zig-Dwgs_User.gbr, 
+           and thotcon_badge_zig-Edge_Cuts.gbr gerber 
+           overlays for fab info!
+
+
+File name                            Description
+-----------------------------------------------------------------
+00README-FIRST                       This file
+THOTCON_0x4_hacker.png   \           Logo file #1 - #5
+THOTCON_0x4_oper.png     |           See fab instructions.
+THOTCON_0x4_root.png     |
+THOTCON_0x4_vip.png      |
+THOTCON_0x4_voice.png    /
+
+thotcon_badge_zig-B_copper.gbl       back copper (gerber)
+thotcon_badge_zig-B_Mask.gbs         back solder mask (gerber)
+thotcon_badge_zig-B_Paste.gbp        back solder past mask (gerber)
+thotcon_badge_zig-B_SilkS.gbo        back side silk screen (gerber)
+thotcon_badge_zig.drl                excellon drill file, PTH
+thotcon_badge_zig-drl_map.pho        drill file (gerber)
+thotcon_badge_zig-drl.rpt            drill tool report (text)
+thotcon_badge_zig-Dwgs_User.gbr      Dimensional and fab drawing
+                                     (gerber overlay)
+thotcon_badge_zig-Edge_Cuts.gbr      Board routing outline
+                                     (gerber overlay)
+thotcon_badge_zig-F_copper.gtl       component side copper (gerber)
+thotcon_badge_zig-F_Mask.gts         component side solder mask (gerber)
+thotcon_badge_zig-F_Paste.gtp        component side paste mask (gerber)
+thotcon_badge_zig-F_SilkS.gto        component side silk screen(gerber)
+thotcon_badge_zig-NPTH.drl           excellon drill file, non-PTH
+thotcon_badge_zig-NPTH-drl_map.pdf   hole location map (PDF format)
+thotcon_badge_zig-NPTH-drl_map.pho   hole location map (PDF format)

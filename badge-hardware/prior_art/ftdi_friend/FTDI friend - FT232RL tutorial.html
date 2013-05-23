@@ -1,0 +1,782 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><script id="bug.surrogate">var urchinTracker=function(){},_gaq={push:function(){try {if(arguments[0][0]=='_link')window.location.href=arguments[0][1]}catch(er){}}},_gat={_createTracker:function(){}, _getTracker:function(){return{__noSuchMethod__:function(){},_link:function(o){if(o)location.href=o;},_linkByPost:function(){return true;},_getLinkerUrl:function(o){return o;},_trackEvent:function(){}}}}; if (document.location.host == 'www.salon.com') {var _ga_ = document.querySelectorAll('script[src$=ga\\.js]')[0], ga_e = document.createEvent('Event'); ga_e.initEvent('load', true, true);_ga_.dispatchEvent(ga_e);}</script><!-- InstanceBegin template="/Templates/bobplus.dwt" codeOutsideHTMLIsLocked="false" --><head>
+<link rel="alternate" type="application/rss+xml" title="ladyada.net blog  RSS Feed" href="http://www.ladyada.net/feed/">
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7723544-2");
+pageTracker._trackPageview();
+} catch(err) {}</script> 
+
+<!-- InstanceBeginEditable name="overlib" -->
+<script type="text/javascript" src="FTDI%20friend%20-%20FT232RL%20tutorial_files/overlib.js"><!-- overLIB (c) Erik Bosrup --></script>
+<!-- InstanceEndEditable -->
+<meta http-equiv="imagetoolbar" content="no">
+<link rel="stylesheet" href="FTDI%20friend%20-%20FT232RL%20tutorial_files/make.css" type="text/css">
+<link rel="stylesheet" href="FTDI%20friend%20-%20FT232RL%20tutorial_files/skeleton.css" type="text/css">
+<link rel="stylesheet" media="all" type="text/css" href="FTDI%20friend%20-%20FT232RL%20tutorial_files/css.css">
+<link rel="stylesheet" media="screen" type="text/css" href="FTDI%20friend%20-%20FT232RL%20tutorial_files/css_002.css">
+<link rel="stylesheet" type="text/css" href="FTDI%20friend%20-%20FT232RL%20tutorial_files/wiki.css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>FTDI friend - FT232RL tutorial</title>
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" -->
+<link rel="stylesheet" media="all" type="text/css" href="FTDI%20friend%20-%20FT232RL%20tutorial_files/css.css">
+<link rel="stylesheet" media="screen" type="text/css" href="FTDI%20friend%20-%20FT232RL%20tutorial_files/css_002.css">
+<link rel="stylesheet" type="text/css" href="FTDI%20friend%20-%20FT232RL%20tutorial_files/wiki.css"><!-- InstanceEndEditable -->
+<style>@media print, screen and (view-mode:minimized){#ghostery-purple-bubble{display:none}}</style></head>
+
+<body>
+
+    <div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>
+  
+<!-- InstanceBeginEditable name="badge" -->
+<div class="topheader"><img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/topheaderbadge.png" height="190" width="171"></div>
+<!-- InstanceEndEditable -->
+<span class="topheadertext"><!-- InstanceBeginEditable name="heading" -->FTDI Friend<!-- InstanceEndEditable --></span>
+<span class="topsubheadertext"><!-- InstanceBeginEditable name="Subheading" -->FTDI Friend is a friend, not an enemy<!-- InstanceEndEditable --></span>
+
+<ul id="menu">
+	<li class="first"></li> 
+  
+    <li>
+      <div class="menuitemtext"><a href="http://www.ladyada.net/learn/breakoutplus/index.html">Overview</a></div>
+    </li>
+  
+    <li>
+      <div class="menuitemtext"><a href="http://www.ladyada.net/learn/breakoutplus/ds1307rtc.html">DS1307</a></div>
+    </li>
+  
+    <li>
+      <div class="menuitemtext"><a href="http://www.ladyada.net/learn/sensors/thermocouple.html">MAX6675</a></div>
+    </li>
+  
+    <li>
+      <div class="menuitemtext"><a href="http://www.ladyada.net/learn/breakoutplus/ftdifriend.html">FT232RL</a></div>
+    </li>
+  
+    <li>
+      <div class="menuitemtext">microSD</div>
+    </li>
+  
+    <li>
+      <div class="menuitemtext"><a href="http://forums.ladyada.net/">Forums</a></div>
+    </li>
+  
+    <li>
+      <div class="menuitemtext"><a href="http://www.adafruit.com/index.php?main_page=index&amp;cPath=42">Buy BB+</a></div>
+    </li>
+  
+	<li class="last"></li>
+</ul>
+
+<ul id="nav">
+
+<li><a href="http://www.ladyada.net/">Home</a></li>
+
+<li><a href="http://www.ladyada.net/about.html">About<!--[if gte IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul>
+	<li><a href="http://www.ladyada.net/about.html">ladyada.net</a></li>
+	<li><a href="http://www.ladyada.net/portfolio/2007/index.html">Portfolio</a></li>
+	<li><a href="http://www.ladyada.net/pub/research.html">Research</a></li>
+	<li><a href="http://www.ladyada.net/pub/press.html">Press</a></li>
+	<li><a href="http://www.ladyada.net/pub/pub.html">Publication &amp; Presentation</a></li>
+	<li><a href="http://www.flickr.com/photos/ladyada/">Photos</a></li>
+	<li><a href="http://www.ladyada.net/wiki">Wiki (backend)</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+
+<li><a href="http://www.ladyada.net/make/">Projects<!--[if gte IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul>
+	<li><a href="#nogo">Arduino »<!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+    	<li><a href="http://www.ladyada.net/make/logshield/">Datalogger&nbsp;Shield</a></li>
+	    <li><a href="http://www.ladyada.net/make/eshield/">Ethernet&nbsp;Shield</a></li>
+	    <li><a href="http://www.ladyada.net/make/gpsshield/">GPS&nbsp;Shield</a></li>
+	  	<li><a href="http://www.ladyada.net/make/pshield/">Proto&nbsp;Shield</a></li>
+	  	<li><a href="http://www.ladyada.net/make/mshield/">Motor&nbsp;Shield</a></li>
+	  	<li><a href="http://www.ladyada.net/make/waveshield/">Wave&nbsp;Shield</a></li>
+	  </ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li><li><a href="http://www.ladyada.net/make/bbpsup/">Adj.&nbsp;power&nbsp;supply</a></li>
+	<li><a href="http://www.ladyada.net/make/brain/">Brain&nbsp;Machine</a></li>
+	<li><a href="http://www.ladyada.net/make/boarduino/">BoArduino</a></li>
+	<li><a href="http://www.ladyada.net/make/digg/">DIGG&nbsp;Button</a></li>
+	<li><a href="http://www.ladyada.net/make/drawdio/">Drawdio</a></li>
+    <li><a href="http://www.ladyada.net/make/fuzebox/">Fuzebox</a></li>
+    <li><a href="http://www.ladyada.net/make/gamegrrl/">Game&nbsp;Grrl</a></li>
+	<li><a href="http://www.ladyada.net/make/conway/">Game&nbsp;of&nbsp;Life</a></li>
+	<li><a href="http://www.ladyada.net/make/icetube/">Ice&nbsp;Tube&nbsp;clock</a></li>
+    <li><a href="http://www.ladyada.net/make/midisense/">MIDIsense</a></li>
+	<li><a href="http://www.ladyada.net/make/minipov2/">MiniPOV2</a></li>
+	<li><a href="http://www.ladyada.net/make/minipov3/">MiniPOV3</a></li>
+	<li><a href="http://www.ladyada.net/make/minty/">MintyMP3</a></li>
+	<li><a href="http://www.ladyada.net/make/mintyboost/">MintyBoost</a></li>
+    <li><a href="http://www.ladyada.net/make/monochron/">MONOCHRON</a></li>
+    <li><a href="http://www.ladyada.net/make/simreader/">SIM&nbsp;Reader</a></li>
+	<li><a href="http://www.ladyada.net/make/spokepov/">SpokePOV</a></li>
+	<li><a href="http://www.ladyada.net/make/tvbgone/">TV-B-Gone</a></li>
+	<li><a href="http://www.ladyada.net/make/tweetawatt/">Tweet-a-Watt</a></li>
+    <li><a href="http://www.ladyada.net/make/usbtinyisp/">USBtinyISP</a></li>
+	<li><a href="http://www.ladyada.net/make/wavebubble/">Wave&nbsp;Bubble</a></li>
+	<li><a href="http://www.ladyada.net/make/x0xb0x/">x0xb0x</a></li>
+	<li><a href="http://www.ladyada.net/make/xbee/">XBee</a></li>
+	<li><a href="http://www.ladyada.net/make/ybox2/">YBox2</a></li>
+	<li><a href="#nogo">Quickies »<!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+    <li><a href="http://www.ladyada.net/make/usbgamepad/index.html">USB&nbsp;Gamepad</a></li>
+	    <li><a href="http://www.ladyada.net/make/pumpkin/pumpkin.html">Halloween&nbsp;Pumpkin</a></li>
+	    <li><a href="http://www.ladyada.net/make/vintagelight/index.html">Vintage&nbsp;Bike&nbsp;Lite</a></li>
+	  	<li><a href="http://www.ladyada.net/make/sudc4kap/index.html">Kite&nbsp;Arial&nbsp;Photo</a></li>
+	  	<li><a href="http://www.ladyada.net/make/bikestand/index.html">Bike&nbsp;Stand</a></li>
+	  	<li><a href="http://www.ladyada.net/make/bikelite/index.html">LiIon&nbsp;Bike&nbsp;Lite</a></li>
+     	<li><a href="http://www.ladyada.net/make/pogojig/index.html">Pogo&nbsp;Jib</a></li>
+	  	<li><a href="http://www.ladyada.net/make/massprog/index.html">Mass&nbsp;Programming</a></li>
+	  	<li><a href="http://www.ladyada.net/make/solarlipo/index.html">Solar&nbsp;LiPo&nbsp;Charging</a></li>
+	  	<li><a href="http://www.ladyada.net/make/magstripe/index.html">Magstripe&nbsp;Reader</a></li>
+	  	<li><a href="http://www.ladyada.net/make/solarlogger/index.html">Solar&nbsp;Tracker</a></li>
+        <li><a href="http://www.ladyada.net/make/tronbag/">TRON&nbsp;Bag</a></li>
+	  </ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+      </li>
+   	<li><a href="http://www.ladyada.net/make/">More...</a></li>
+	<li><a href="http://www.instructables.com/member/ladyada/">-&gt;Instructables</a></li>
+</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+
+<li><a href="http://www.ladyada.net/learn/">Learn<!--[if gte IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul>
+	<li><a href="http://www.ladyada.net/learn/arduino/">Arduino&nbsp;tutorial</a></li>
+	<li><a href="http://www.ladyada.net/learn/avr/">AVR&nbsp;tutorial</a></li>
+	<li><a href="http://www.ladyada.net/learn/barcodescan/">Barcode&nbsp;scanners</a></li>
+	<li><a href="http://www.ladyada.net/learn/el-wire/">EL&nbsp;Wire&nbsp;tutorial</a></li>
+	<li><a href="http://www.ladyada.net/learn/lcd/">LCDs</a></li>
+	<li><a href="http://www.ladyada.net/learn/arduino/LEDs.html">LEDs</a></li>
+	<li><a href="http://www.ladyada.net/learn/multimeter/">Multimeter&nbsp;tutorial</a></li>
+   	<li><a href="http://www.ladyada.net/learn/scale/">Digital&nbsp;scales</a></li>
+    <li><a href="http://www.ladyada.net/learn/sensors/">Sensors »<!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+    	<li><a href="http://www.ladyada.net/learn/sensors/fsr.html">FSR</a></li>
+	    <li><a href="http://www.ladyada.net/learn/sensors/cds.html">CdS&nbsp;Photocell</a></li>
+	    <li><a href="http://www.ladyada.net/learn/sensors/tmp36.html">Temperature</a></li>
+	  	<li><a href="http://www.ladyada.net/learn/sensors/tilt.html">Tilt</a></li>
+	  	<li><a href="http://www.ladyada.net/learn/sensors/pir.html">PIR</a></li>
+        <li><a href="http://www.ladyada.net/learn/sensors/thermocouple.html">Thermocouple</a></li>
+        <li><a href="http://www.ladyada.net/learn/sensors/ir.html">IR&nbsp;Receiver</a></li>
+	  </ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+    </li>
+        <li><a href="http://www.ladyada.net/learn/breakoutplus/">Breakout boards »<!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+    	<li><a href="http://www.ladyada.net/learn/breakoutplus/ds1307rtc.html">DS1307&nbsp;RTC</a></li>
+        <li><a href="http://www.ladyada.net/learn/sensors/thermocouple.html">MAX6675</a></li>
+        <li><a href="http://www.ladyada.net/learn/products/atmega32u4breakout/">ATmega32u4&nbsp;Breakout+</a></li>
+	  </ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+    </li>
+  
+          <li><a href="http://www.ladyada.net/products/">Products »<!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul>
+     <li><a href="http://www.ladyada.net/products/i2cspilcdbackpack/">i2c/SPI&nbsp;LCD&nbsp;backpack</a></li>
+     <li><a href="http://www.ladyada.net/products/usbboarduino/">USB&nbsp;Boarduino</a></li>
+     <li><a href="http://www.ladyada.net/products/atmega32u4breakout/">ATmega32u4&nbsp;Breakout+</a></li>
+     <li><a href="http://www.ladyada.net/products/tfttouchbreakout/">2.8&nbsp;TFT&nbsp;touchscreen</a></li>
+     <li><a href="http://www.ladyada.net/products/18tftbreakout/">1.8&nbsp;SPI&nbsp;TFT&nbsp;</a></li>
+     <li><a href="http://www.ladyada.net/products/rfidnfc/">RFID/NFC</a></li>
+     	  </ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+    </li>
+      
+	<li><a href="http://www.ladyada.net/learn/chumby/">Chumby&nbsp;Hacker&nbsp;Board</a></li>
+	<li><a href="http://www.ladyada.net/learn/soldering/">Soldering&nbsp;tutorial</a></li>
+	<li><a href="http://www.ladyada.net/learn/powersupply/">Power&nbsp;Supply&nbsp;tutorial</a></li>
+    <li><a href="http://www.ladyada.net/learn/electroknit/">Brother&nbsp;KH-9033&nbsp;tutorial</a></li>
+	<li><a href="http://www.ladyada.net/learn/diykinect/">USB&nbsp;reverse-engineering&nbsp;tutorial</a></li>
+    <li><a href="http://www.ladyada.net/learn/calipers/">Calipers&nbsp;tutorial</a></li>
+    <li><a href="http://www.ladyada.net/products/rgbledstrip/">RGB&nbsp;LED&nbsp;Strips</a></li>
+    <li><a href="http://www.ladyada.net/products/rgbledpixels/">RGB&nbsp;LED&nbsp;Pixels</a></li>
+    <li><a href="http://www.ladyada.net/learn/lipoly/">LiIon&nbsp;&amp;&nbsp;LiPoly&nbsp;Batteries</a></li>
+</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+
+	
+<li><a href="http://www.ladyada.net/library/">Library<!--[if gte IE 7]><!--></a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul>	
+	<li><a href="http://www.ladyada.net/library/arduino/">Arduino&nbsp;Hacks</a></li>
+    <li><a href="http://www.ladyada.net/library/batteries.html">Batteries</a></li>
+	<li><a href="http://www.ladyada.net/library/diyboostcalc.html">Boost&nbsp;Calc</a></li>
+    <li><a href="http://www.ladyada.net/library/equipt/">E.E.&nbsp;Tools</a></li>
+	<li><a href="http://www.ladyada.net/library/hackcomputer.html">E.E.&nbsp;Computer</a></li>
+    <li><a href="http://www.ladyada.net/library/procure/">Find&nbsp;Parts</a></li>
+	<li><a href="http://www.ladyada.net/library/kits/">Kits</a></li>
+	<li><a href="http://www.ladyada.net/library/laser/">Laser</a></li>
+	<li><a href="http://www.ladyada.net/library/ucannoyances.html">uC Annoyances</a></li>
+	<li><a href="http://www.ladyada.net/library/openhardware/">Open Source Hardware</a></li>
+	<li><a href="http://www.ladyada.net/library/pcb/">PCB&nbsp;Design&nbsp;&amp;&nbsp;Tips</a></li>
+	<li><a href="http://www.ladyada.net/library/picvsavr.html">PIC&nbsp;vs.&nbsp;AVR</a></li>
+	<li><a href="http://www.ladyada.net/library/software/index.html">Software</a></li>
+	<li><a href="http://www.ladyada.net/library/smt/index.html">SMT</a></li>
+        <li><a href="http://www.ladyada.net/library/zencart/">Zen-Cart&nbsp;Mods</a></li>
+</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+
+<li><a href="http://www.adafruit.com/blog/">Blog</a></li>
+
+<li><a href="http://www.adafruit.com/" target="_blank">Store</a></li>
+
+<li><a href="http://forums.adafruit.com/" target="_blank">Forums</a></li>
+
+</ul>
+
+<div id="searchbox">
+<!-- Google CSE Search Box Begins -->
+<form id="searchbox_012941403977924873237:omv8mprm6ek" action="http://www.google.com/cse" target="_top"> <input name="cx" value="012941403977924873237:omv8mprm6ek" type="hidden"> <input name="q" size="23" type="text"><br> <span class="style1">ladyada.net</span> <input name="sa" value="Search" type="submit"> <input name="cof" value="FORID:0" type="hidden"> </form><script type="text/javascript" src="FTDI%20friend%20-%20FT232RL%20tutorial_files/brand"></script>
+<!-- Google CSE Search Box Ends -->
+</div>
+
+<div id="lefttcol">
+<!-- this is just a buffer -->
+</div>
+
+<div id="content">
+  <!-- InstanceBeginRepeat name="texts" --><!-- InstanceEndRepeat --> <div class="wikiinclude">
+<!-- InstanceBeginEditable name="wikispace" --><script language="Javascript" src="FTDI%20friend%20-%20FT232RL%20tutorial_files/show.html"></script>
+<h3 class="sectionedit1"><a name="introduction" id="introduction">Introduction</a> </h3>
+<div class="level3">
+<ul>
+<li class="level1"><div class="li"><a href="#installing_ftdi_drivers" title="tutorials:learn:breakoutplus:ftdifriend.html ↵" class="wikilink1">Installing windows drivers (mac/linux don't need to install drivers!)</a> </div>
+</li>
+<li class="level1"><div class="li"><a href="#com_serial_port_name" title="tutorials:learn:breakoutplus:ftdifriend.html ↵" class="wikilink1">Identifying the COM/serial port (mac/windows/linux)</a> </div>
+</li>
+<li class="level1"><div class="li"><a href="#whats_the_difference_between_an_ftdi_cableadapter_avr_programmer" title="tutorials:learn:breakoutplus:ftdifriend.html ↵" class="wikilink1">Whats the difference between an FTDI cable/adapter and an AVR programmer? </a> </div>
+</li>
+<li class="level1"><div class="li"><a href="#programming_blank_avrs" title="tutorials:learn:breakoutplus:ftdifriend.html ↵" class="wikilink1">How to use the FTDI friend as a (slow) AVR programmer </a> </div>
+</li>
+<li class="level1"><div class="li"><a href="#if_you_just_want_to_program_the_arduino_bootloader_on" title="tutorials:learn:breakoutplus:ftdifriend.html ↵" class="wikilink1">How to burn Arduino bootloaders using the previous tutorial</a>  </div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT1 SECTION "Introduction" [1-566] -->
+<h3 class="sectionedit2"><a name="files" id="files">Files!</a> </h3>
+<div class="level3">
+
+<p>
+<a href="http://github.com/adafruit/FTDI-Friend" class="urlextern" title="http://github.com/adafruit/FTDI-Friend" rel="nofollow">You can get the schematic and layout files over at GitHub</a> , they're licensed CC attrib/sharealike
+</p>
+
+</div>
+<!-- EDIT2 SECTION "Files!" [567-728] -->
+<h3 class="sectionedit3"><a name="installing_ftdi_drivers" id="installing_ftdi_drivers">Installing FTDI drivers</a> </h3>
+<div class="level3">
+
+<p>
+Step #1 is to plug in your FTDI adapter and install the driver (in case 
+it isnt on there already). If you have an FTDI cable proper, there is 
+already a USB A connector on the end. If you have an FTDI adapter, 
+you'll need a standard mini-B cable, pretty much everything uses these 
+so steal your camera's or cell phone's data cable
+</p>
+
+<p>
+<a href="http://www.ladyada.net/images/monochron/minibftdi.jpg" class="media" title="http://www.ladyada.net/images/monochron/minibftdi.jpg" rel="nofollow"><img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_002.jpg" class="mediacenter" alt="" height="385" width="500"></a> 
+</p>
+
+<p>
+If you are using <strong>Windows or Mac <acronym title="Operating System">OS</acronym></strong>, <a href="http://www.ftdichip.com/Drivers/VCP.htm" class="urlextern" title="http://www.ftdichip.com/Drivers/VCP.htm" rel="nofollow">you may need to need to download the FTDI driver</a>  if you haven't already installed it for another project. <strong>If you are using Linux, the driver is already built in to the operating system (handy!)</strong>
+</p>
+
+<p>
+Next up, plug it into your computer! If you are using Windows you may 
+hear a sound from the computer and a little popup bubble in the bottom 
+right corner of the screen that says <strong>Found New Hardware FT232R USB UART </strong>
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_018.jpg" class="mediacenter" alt="" height="129" width="256">
+</p>
+
+<p>
+After a few seconds, the new hardware wizard will start. Select <strong>"No not this time"</strong> and click <strong>Next&gt; </strong>
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_016.jpg" class="mediacenter" alt="" height="392" width="503">
+</p>
+
+<p>
+At the next screen, select <strong>Install from a list or specific location </strong>
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_013.jpg" class="mediacenter" alt="" height="392" width="503">
+</p>
+
+<p>
+At the next screen make sure <strong>Include this location</strong> is selected and browse to the folder that contains the driver you downloaded. Select the folder and click <strong>OK</strong>
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_006.jpg" class="mediacenter" alt="" height="395" width="505">
+</p>
+
+<p>
+It should copy some files and then come up with this window. Click <strong>Finish</strong>
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_011.jpg" class="mediacenter" alt="" height="392" width="503">
+</p>
+
+<p>
+Almost immediately, another window will pop up, this time it will say <strong>USB Serial Port</strong>. As before, click <strong>Install from a list or specific location </strong>
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_003.jpg" class="mediacenter" alt="" height="392" width="503">
+</p>
+
+<p>
+Browse to the same folder again…
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_006.jpg" class="mediacenter" alt="" height="395" width="505">
+</p>
+
+<p>
+And it should complete successfully! 
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_004.jpg" class="mediacenter" alt="" height="392" width="503">
+</p>
+
+<p>
+You may need to reboot the computer.
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_010.jpg" class="mediacenter" alt="" height="85" width="311">
+</p>
+
+</div>
+<!-- EDIT3 SECTION "Installing FTDI drivers" [729-3177] -->
+<h3 class="sectionedit4"><a name="com_serial_port_name" id="com_serial_port_name">COM / Serial port name</a> </h3>
+<div class="level3">
+
+<p>
+OK now we will verify that the driver installed properly. 
+</p>
+
+<p>
+Under Mac, in the <strong>Terminal </strong>window, type in <strong>ls /dev/cu.</strong>* which should give the following responses or so
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_015.jpg" class="mediacenter" alt="" height="252" width="503">
+</p>
+
+<p>
+The name we are looking for is <strong>/dev/cu.usbserial-XXXX </strong>where the X's are going to be unique for each cable. Copy and paste the name into a text file so you'll remember it for later.
+</p>
+
+<p>
+For Linux/Unix type <strong>ls /dev/ttyUSB</strong>* into a terminal window, you should see a device file called something like ttyUSB0
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch.png" class="mediacenter" alt="" height="294" width="635">
+</p>
+
+<p>
+If you are using Windows, go to the <strong>Device Manager</strong> (From the <strong>Start Menu</strong>, select Settings→Control Panel. Double click on <strong>System</strong> and select the <strong>Hardware</strong> tab. Then click on the <strong>Device Manager</strong> button) 
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_019.jpg" class="mediacenter" alt="" height="520" width="470">
+</p>
+
+<p>
+Look for an entry under <strong>Ports (COM &amp; LPT) </strong> that says <strong>USB Serial Port (COM)</strong> the COM number may vary but it should be something like <strong>COM3</strong> or <strong>COM4 </strong>the COM number may be as high as <strong>COM99</strong> so just look for the USB serial port. The COM stands for "communication", and each one has a unique number, known as the <strong>COM Port number</strong>. In this case the COM Port number is <strong>COM3</strong>. If you don't see the COM port verify the cable is plugged in, and check that you installed the VCP FTDI driver. 
+</p>
+
+<p>
+Then right click and select <strong>Properties</strong>
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_007.jpg" class="mediacenter" alt="" height="455" width="412">
+</p>
+
+<p>
+Click on the <strong>Port Settings</strong> tab, and click on <strong>Advanced…</strong>
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_006.gif" class="mediacenter" alt="" height="455" width="636">
+</p>
+
+<p>
+Make sure <strong>Set RTS On Close</strong> used to be required for 
+people using the Arduino IDE before like version 18 or so. Now you dont 
+need it so make sure its not selected!
+</p>
+
+</div>
+<!-- EDIT4 SECTION "COM / Serial port name" [3178-5086] -->
+<h3 class="sectionedit5"><a name="whats_the_difference_between_an_ftdi_cableadapter_avr_programmer" id="whats_the_difference_between_an_ftdi_cableadapter_avr_programmer">Whats the difference between an FTDI cable/adapter &amp; AVR programmer?</a> </h3>
+<div class="level3">
+
+<p>
+? <img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_012.jpg" class="mediacenter" alt="" height="191" width="250"> OR <a href="http://www.ladyada.net/images/monochron/ftdicable.jpg" class="media" title="http://www.ladyada.net/images/monochron/ftdicable.jpg" rel="nofollow"><img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_005.jpg" class="mediacenter" alt="" height="191" width="250"></a>  ?
+</p>
+
+<p>
+There are two ways to program an AVR microcontroller. One is to 
+reprogram the entire chip using an AVR programmer. The other is to use a
+ <strong>bootloader</strong> that is pre-programmed onto the chip that 
+allows the chip to re-program itself. An AVR programmer is more 
+powerful: you can really mess with anything on the chip and the entire 
+32K of memory is available. Using the bootloader is safer: there's no 
+way to mess with the fuse settings (which could brick the chip) but you 
+only get 30K of memory since 2K is used by the bootloader. Not a big 
+deal, but if you are working on a big project which requires tons of 
+flash space, you may need it
+</p>
+
+<p>
+<a href="http://www.ladyada.net/learn/avr/programmers.html" class="urlextern" title="http://www.ladyada.net/learn/../learn/avr/programmers.html" rel="nofollow">For a lot more information about AVR programmers and bootloaders, I strongly recommend reading this short article</a> 
+</p>
+
+<p>
+Note that to program an AVR you need an AVR programmer (like a <a href="http://www.ladyada.net/learn/avr/programmers.html" class="urlextern" title="http://www.ladyada.net/learn/avr/programmers.html" rel="nofollow">USBtinyISP</a>
+ ), but to upload using the bootloader you need a computer-serial 
+connection (such as an FTDI cable). Unfortunately, they are not the same
+ device! If you're not a microcontroller wiz, I suggest going with the 
+bootloader (FTDI) method. Its as fast (or faster), allows you to debug 
+as well, and theres virtually no way to damage/brick the chip by messing
+ with the fuses. If you're familiar with microcontroller programming, 
+and you have a programmer, then feel free to go that direction.
+</p>
+
+<p>
+<strong>SO!</strong>
+</p>
+<ul>
+<li class="level1"><div class="li"><strong>AVR programmers</strong> are 
+more powerful in that you can program any AVR, even blank ones from the 
+factory. But that also means you have a pretty good chance of 'bricking'
+ the chip! </div>
+</li>
+<li class="level1"><div class="li"><strong>FTDI adapters</strong> can 
+send any serial data back and forth including updating AVRs with a 
+bootloader on them. But you need to get that bootloader on there first, 
+which basically requires an AVR programmer.</div>
+</li>
+</ul>
+
+<p>
+If you use an AVR programmer to write to chip with a bootloader on it, you'll overwrite the bootloader so just be aware of that!
+</p>
+
+</div>
+<!-- EDIT5 SECTION "Whats the difference between an FTDI cable/adapter & AVR programmer?" [5087-7355] -->
+<h3 class="sectionedit6"><a name="programming_blank_avrs" id="programming_blank_avrs">Programming blank AVRs</a> </h3>
+<div class="level3">
+
+<p>
+So even though I said FTDI adapters are not for programming 'raw' AVRs, 
+it turns out you can 'convince' the chip to do it with a bit of 
+manipulation. One <a href="http://www.geocities.jp/arduino_diecimila/bootloader/index_en.html" class="urlextern" title="http://www.geocities.jp/arduino_diecimila/bootloader/index_en.html" rel="nofollow">
+ way that is documented so far doesnt require soldering but it does 
+require updating the AVRDUDE software and installing a different driver</a> . (<a href="http://www.kerrywong.com/2010/04/02/on-atmega328-bootloading-with-ftdi-bitbang-method/" class="urlextern" title="http://www.kerrywong.com/2010/04/02/on-atmega328-bootloading-with-ftdi-bitbang-method/" rel="nofollow">see also this post</a>  and <a href="http://doswa.com/blog/2010/08/24/avrdude-5-10-with-ftdi-bitbang/" class="urlextern" title="http://doswa.com/blog/2010/08/24/avrdude-5-10-with-ftdi-bitbang/" rel="nofollow"> this link for using an FTDI adapter instead of an Arduino</a> ) 
+</p>
+
+<p>
+If you have an FTDI friend or other breakout where you can get to the 
+DTR line, I found a way to do it that requires soldering a wire but no 
+AVRDUDE/driver messing. The trade off is that it is <strong>really</strong> slow - good for maybe burning a bootloader on, not good for day-to-day AVR development
+</p>
+
+<p>
+Turn over the FTDI friend, and solder a dot of solder onto the DTR pin on the bottom left.
+</p>
+
+<p>
+<a href="http://www.ladyada.net/images/ftdi/friendvise.jpg" class="media" title="http://www.ladyada.net/images/ftdi/friendvise.jpg" rel="nofollow"><img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_008.jpg" class="mediacenter" alt="" height="385" width="500"></a> 
+</p>
+
+<p>
+Solder a wire onto it, making sure you dont short it to the gold square just to the right. We'll use a <strong>white</strong> wire
+</p>
+
+<p>
+<a href="http://www.ladyada.net/images/ftdi/dtrsolder.jpg" class="media" title="http://www.ladyada.net/images/ftdi/dtrsolder.jpg" rel="nofollow"><img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_014.jpg" class="mediacenter" alt="" height="385" width="500"></a> 
+</p>
+
+<p>
+Plug in wires into the FTDI breakout, <strong>black</strong> is ground, <strong>blue</strong> is CTS, <strong>red </strong> is VCC, <strong>orange </strong>is TX and <strong>green</strong> is RTS
+</p>
+
+<p>
+<a href="http://www.ladyada.net/images/ftdi/ftdisquidtop.jpg" class="media" title="http://www.ladyada.net/images/ftdi/ftdisquidtop.jpg" rel="nofollow"><img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_009.jpg" class="mediacenter" alt="" height="350" width="500"></a> 
+</p>
+
+<p>
+<a href="http://www.ladyada.net/images/ftdi/ftdisquid.jpg" class="media" title="http://www.ladyada.net/images/ftdi/ftdisquid.jpg" rel="nofollow"><img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch.jpg" class="mediacenter" alt="" height="291" width="500"></a> 
+</p>
+
+<p>
+Now you have to make a text edit to your <strong>avrdude.conf</strong>. 
+</p>
+
+<p>
+If you've installed <strong><a href="http://www.ladyada.net/learn/avr/setup-win.html" class="urlextern" title="http://www.ladyada.net/learn/avr/setup-win.html" rel="nofollow">WinAVR</a> </strong> or similar (say <a href="http://www.ladyada.net/learn/avr/setup-mac.html" class="urlextern" title="http://www.ladyada.net/learn/avr/setup-mac.html" rel="nofollow">for Mac</a>  or <a href="http://www.ladyada.net/learn/avr/setup-unix.html" class="urlextern" title="http://www.ladyada.net/learn/avr/setup-unix.html" rel="nofollow">Linux</a> ) , it'll be in something like <strong>C:\WinAVR\bin\avrdude.conf</strong> or <strong>C:\WinAVR\etc\avrdude.conf</strong> if you aren't sure where it is, but you have <strong>avrdude</strong> installed, you can run <strong>avrdude -c xyz</strong>which will dump the programmer list, if you look to the right, the name of the conf file will be printed
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_004.gif" class="mediacenter" alt="" height="362" width="669">
+</p>
+
+<p>
+A common reason for wanting to program an AVR is to put the Arduino 
+bootloader on there, in which case, you may not have WinAVR installed. 
+Luckily, avrdude is there, its just 'hidden' in the IDE package (for Mac
+ users,you need to actually "explore" the App) if you're running 
+windows, go to the folder where you have the IDE installed and go into 
+the <strong>hardware\tools\avr\etc</strong> folder to open up<strong> avrdude.conf</strong>
+</p>
+
+<p>
+OK! Now that you have <strong>avrdude.conf </strong>open, find the string <strong>ponyser</strong>, then add the following bold text right before hand so the <strong>avrdude.conf</strong> looks like this:
+</p>
+<pre class="code C"><span class="co2"># some ultra cheap programmers use bitbanging on the </span>
+<span class="co2"># serialport.</span>
+<span class="co2">#</span>
+<span class="co2"># PC - DB9 - Pins for RS232:</span>
+<span class="co2">#</span>
+<span class="co2"># GND   5   -- |O</span>
+<span class="co2">#              |   O| &lt;-   9   RI</span>
+<span class="co2"># DTR   4   &lt;- |O   |</span>
+<span class="co2">#              |   O| &lt;-   8   CTS</span>
+<span class="co2"># TXD   3   &lt;- |O   |</span>
+<span class="co2">#              |   O| -&gt;   7   RTS</span>
+<span class="co2"># RXD   2   -&gt; |O   |</span>
+<span class="co2">#              |   O| &lt;-   6   DSR</span>
+<span class="co2"># DCD   1   -&gt; |O</span>
+<span class="co2">#</span>
+<span class="co2"># Using RXD is currently not supported.</span>
+<span class="co2"># Using RI is not supported under Win32 but is supported under Posix.</span>
+&nbsp;
+<span class="co2"># serial ponyprog design (dasa2 in uisp)</span>
+<span class="co2"># reset=!txd sck=rts mosi=dtr miso=cts</span>
+programmer
+  id    <span class="sy0">=</span> <span class="st0">"ftdifriend"</span><span class="sy0">;</span>
+  desc  <span class="sy0">=</span> <span class="st0">"design ftdi adatper, reset=dtr sck=tx mosi=rts miso=cts"</span><span class="sy0">;</span>
+  type  <span class="sy0">=</span> serbb<span class="sy0">;</span>
+  reset <span class="sy0">=</span> ~<span class="nu0">4</span><span class="sy0">;</span>
+  sck   <span class="sy0">=</span> ~<span class="nu0">3</span><span class="sy0">;</span>
+  mosi  <span class="sy0">=</span> ~<span class="nu0">7</span><span class="sy0">;</span>
+  miso  <span class="sy0">=</span> ~<span class="nu0">8</span><span class="sy0">;</span>
+<span class="sy0">;</span>
+<span class="co2"># serial ponyprog design (dasa2 in uisp)</span>
+<span class="co2"># reset=!txd sck=rts mosi=dtr miso=cts</span>
+&nbsp;
+programmer
+  id    <span class="sy0">=</span> <span class="st0">"ponyser"</span><span class="sy0">;</span>
+  desc  <span class="sy0">=</span> <span class="st0">"design ponyprog serial, reset=!txd sck=rts mosi=dtr miso=cts"</span><span class="sy0">;</span>
+  type  <span class="sy0">=</span> serbb<span class="sy0">;</span>
+  reset <span class="sy0">=</span> ~<span class="nu0">3</span><span class="sy0">;</span>
+  sck   <span class="sy0">=</span> <span class="nu0">7</span><span class="sy0">;</span>
+  mosi  <span class="sy0">=</span> <span class="nu0">4</span><span class="sy0">;</span>
+  miso  <span class="sy0">=</span> <span class="nu0">8</span><span class="sy0">;</span>
+<span class="sy0">;</span>
+&nbsp;
+&nbsp;</pre>
+
+<p>
+Save the file. 
+</p>
+
+</div>
+<!-- EDIT6 SECTION "Programming blank AVRs" [7356-11424] -->
+<h3 class="sectionedit7"><a name="if_you_just_want_to_program_the_arduino_bootloader_on" id="if_you_just_want_to_program_the_arduino_bootloader_on">If you just want to program the Arduino Bootloader on...</a> </h3>
+<div class="level3">
+
+<p>
+Don't forget, if you have two 'duinos, you can turn one into an <acronym title="Internet Service Provider">ISP</acronym> programmer, <a href="http://arduino.cc/en/Tutorial/ArduinoISP" class="urlextern" title="http://arduino.cc/en/Tutorial/ArduinoISP" rel="nofollow">check out this tutorial which runs much faster than the below.</a> 
+</p>
+
+<p>
+You can burn chips right from the Arduin IDE with one more edit, open up the <strong>programmers.txt </strong>file (its in<strong> hardware\arduino </strong>in the IDE installation) and add the following text to the bottom
+</p>
+<pre class="code C">ftdifriend.<span class="me1">name</span><span class="sy0">=</span>FTDI Friend bitbang
+ftdifriend.<span class="me1">communication</span><span class="sy0">=</span>serial
+ftdifriend.<span class="me1">protocol</span><span class="sy0">=</span>ftdifriend</pre>
+
+<p>
+Save <strong>programmers.txt</strong>
+</p>
+
+<p>
+<a href="http://www.ladyada.net/images/ftdi/bitbang.jpg" class="media" title="http://www.ladyada.net/images/ftdi/bitbang.jpg" rel="nofollow"><img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_017.jpg" class="mediacenter" alt="" height="301" width="500"></a> 
+</p>
+
+<p>
+Its time to wire it up!
+</p>
+<ul>
+<li class="level1"><div class="li">Connect the Black (Ground) wire to the ground of your chip</div>
+</li>
+<li class="level1"><div class="li">Connect the Red (VCC) wire to the power/VCC/5V pin of your chip</div>
+</li>
+<li class="level1"><div class="li">Connect the White (DTR) wire to the Reset pin </div>
+</li>
+<li class="level1"><div class="li">Connect the Orange (TX) wire to SCK pin (Arduino pin 13)</div>
+</li>
+<li class="level1"><div class="li">Connect the Green (RTS) wire to MOSI pin (Arduino pin 12)</div>
+</li>
+<li class="level1"><div class="li">Connect the Blue (CTS) wire to the MISO pin (Arduino pin 11)</div>
+</li>
+</ul>
+
+<p>
+Start up the IDE and select the COM port of the FTDI friend
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_007.gif" class="mediacenter" alt="" height="233" width="402">
+</p>
+
+<p>
+Make sure you have the right <strong>Board</strong> selected, for whatever you want to burn. Then select <strong>Burn Bootloader→FTDI Friend</strong>
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch.gif" class="mediacenter" alt="" height="319" width="472">
+</p>
+
+<p>
+<strong>It will take a really really long time to program the chip, about two hours!</strong>
+</p>
+
+<p>
+Its taking forever because its programming very inefficiently. It takes 4
+ bytes to program one byte of the AVR, and data is sent as a single bit 
+in two USB packet, each packet takes 3 milliseconds and an AVR has 32768
+ bytes = 262144 bits. 262144 bits * 2 packet/bit * 3 ms/packet * 4 
+bytes/byte = 6291456 ms = 6300 seconds = 104 minutes! If you used a real
+ AVR programmer, it would take maybe 15 seconds so thats why its nice to
+ have one.
+</p>
+
+<p>
+Do this before you go to bed or watch a movie! The <strong>L</strong> 
+(pin 13) LED will be on 'solid' while its programming. When it goes out 
+you're done. Its very slow but if you're in a pinch, it may come in 
+handy!
+</p>
+
+</div>
+<!-- EDIT7 SECTION "If you just want to program the Arduino Bootloader on..." [11425-13612] -->
+<h3 class="sectionedit8"><a name="using_the_command_line_avrdude" id="using_the_command_line_avrdude">Using the command line AVRdude</a> </h3>
+<div class="level3">
+
+<p>
+Now if you open up a terminal and try running <strong>avrdude -c ftdifriend</strong> If you are using the avrdude installation thats inside the Arduino IDE, you can open up a <strong>cmd</strong> terminal and <strong>cd</strong> to the directory where you have the IDE installed and then go to <strong>hardware\tools\avr</strong>. Then you can run<strong> bin\avrdude.exe -C etc\avrdude.conf -c ftdifriend </strong>so for example, my installation is in <strong>C:\arduino-0018\</strong> I <strong>cd</strong> to <strong>C:\arduino-0018\hardware\tools</strong><strong>\avr</strong>
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_003.gif" class="mediacenter" alt="" height="302" width="669">
+</p>
+
+<p>
+You should get a note that<strong> No AVR part has been specified</strong> (not that it <strong>Can't find programmer id "ftdifriend"</strong>) 
+</p>
+
+<p>
+Great, now its time to program! 
+</p>
+<ul>
+<li class="level1"><div class="li">Connect the Black (Ground) wire to the ground of your chip</div>
+</li>
+<li class="level1"><div class="li">Connect the Red (VCC) wire to the power/VCC/5V pin of your chip</div>
+</li>
+<li class="level1"><div class="li">Connect the White (DTR) wire to the Reset pin </div>
+</li>
+<li class="level1"><div class="li">Connect the Orange (TX) wire to SCK pin</div>
+</li>
+<li class="level1"><div class="li">Connect the Green (RTS) wire to MOSI pin </div>
+</li>
+<li class="level1"><div class="li">Connect the Blue (CTS) wire to the MISO pin We suggest verifying the wiring! We'll verify the connection by running <strong>avrdude -c ftdifriend</strong> <strong>-P \\.\COMxx -p atmega328p </strong>Replace the <strong>\\.\COMxx</strong>
+ with the COM port you found in the earlier part of this tutorial via 
+the Device Manager. If you're using linux or mac, the COM port should be
+ <strong>/dev/cu.usbserialXXX </strong>or <strong>/dev/ttyUSBx</strong> to match the name. For the device, we're testing with an <strong>Atmega328p</strong> chip which is found in the latest Arduinos. If you're using some other chip, substitute the name right after the <strong>-p</strong> </div>
+</li>
+</ul>
+
+<p>
+If you are using the avrdude in the Arduino IDE, you'll need to use <strong>bin\avrdude -C etc\avrdude.conf -c ftdifriend</strong> <strong>-P \\.\COMxx -p atmega328p </strong>etc.
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_002.gif" class="mediacenter" alt="" height="230" width="669">
+</p>
+
+<p>
+Once you have the hashbar show up nicely, that means you are talking to 
+the chip all right. Yay! You can now program the chip using the<strong> -U flash:w: </strong>command. 
+</p>
+
+<p>
+Press the up arrow to get back the command you wrote and tack onto the end a <strong>-U flash:w:firmware.hex</strong> (where <strong>firmware.hex</strong>
+ is the hex file you want to burn in) For example, if you want to burn a
+ bootloader on, make it easy on yourself by copying the file from use:
+</p>
+
+<p>
+<strong>bin\avrdude.exe -C etc\avrdude.conf -c ftdifriend -P \\.\COM46 
+-p atmega328p -U 
+flash:w:..\..\arduino\bootloaders\atmega\ATmegaBOOT_168_atmega328.hex</strong>
+</p>
+
+<p>
+(you can also copy your file to C:\ so its not so long to type. Hit 
+return and grab a beer, it'll take about 5 minutes per byte of data you 
+want to write&amp;verify)
+</p>
+
+<p>
+<img src="FTDI%20friend%20-%20FT232RL%20tutorial_files/fetch_005.gif" class="mediacenter" alt="" height="446" width="669">
+</p>
+
+</div>
+<!-- EDIT8 SECTION "Using the command line AVRdude" [13613-] --><hr><br><em>This page was autogenerated from <a href="http://www.ladyada.net/wiki/tutorials/learn/breakoutplus/ftdifriend.html" target="_blank">http://www.ladyada.net/wiki/tutorials/learn/breakoutplus/ftdifriend.html</a> <br>Please edit the wiki to contribute any updates or corrections.</em><!-- InstanceEndEditable --></div></div>
+
+<div id="rightcol">
+<!-- this is just a buffer -->
+</div>
+
+
+
+<div id="history">
+<!-- #BeginDate format:Am1m -->April 27, 2012  11:17<!-- #EndDate --></div>
+
+
+</body><!-- InstanceEnd --></html>

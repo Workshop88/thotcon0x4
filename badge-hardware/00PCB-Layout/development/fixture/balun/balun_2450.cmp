@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPcb (2012-11-15 BZR 3804)-stable date = Fri 15 Mar 2013 14:04:32 CDT
+
+BeginCmp
+TimeStamp = /514370E8;
+Reference = Z1;
+ValeurCmp = STRIPLINE_100;
+IdModule  = STRIP_50x700;
+EndCmp
+
+BeginCmp
+TimeStamp = /514370D9;
+Reference = Z2;
+ValeurCmp = STRIPLINE_100;
+IdModule  = STRIP_50x700;
+EndCmp
+
+EndListe

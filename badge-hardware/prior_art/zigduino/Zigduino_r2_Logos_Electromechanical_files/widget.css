@@ -1,0 +1,365 @@
+/* Copyright 2008 Google. */
+
+/**
+ * To customize cart's look -- copy the CSS selectors as is and
+ * use !important on your rules to make sure your rules have higher priority.
+ */
+
+/* to hide elements until the cart CSS is loaded */
+body .googlecart-display { display: block; }
+body .googlecart-display-inline { display: inline; }
+body .googlecart-visibility { visibility: visible; }
+
+/* to hide elements after the cart CSS is loaded */
+body .googlecart-hide { display: none; }
+
+/* to show widget elements only when the cart is initialized */
+#googlecart-widget .googlecart-display { display: none; }
+#googlecart-widget.googlecart-widget-initialized .googlecart-display {
+  display: block;
+}
+
+.googlecart-add, .googlecart-buy, .googlecart-add-button,
+.googlecart-buynow-button, #googlecart-widget-control {
+  cursor: pointer;
+}
+
+/* base font size and family for the entire widget */
+.googlecart-widget *,
+.googlecart-widget {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+/* widget and spacer are the same size */
+#googlecart-widget,
+#googlecart-widget-spacer {
+  width: 19em;
+  height: 2em;
+}
+
+/* do not hide other elements when under googlecart-widget-control */
+#googlecart-widget-control #googlecart-widget {
+  height: 0;
+}
+
+#googlecart-widget {
+  position: absolute;
+  z-index: 1000000;
+  text-align: left;
+  margin-right: 4px;
+  margin-top: 2px;
+  right: 0;
+  top: 0;
+  padding: 0;
+}
+
+#googlecart-widget-head {
+  border: 1px solid #C3D6F9;
+  background-color: #EDF5FF;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  padding: .2em 0;
+}
+
+#googlecart-widget-head .googlecart-arrow {
+  margin: 0 .3em;
+  font-size: .75em;
+}
+
+.ie-less-than-7 .googlecart-arrow {
+  font-size: 1em;
+}
+
+#googlecart-title {
+  font-size: .92em;
+  font-weight: bold;
+  margin-right: .5em;
+}
+
+#googlecart-summary {
+  font-size: .8em;
+}
+
+#googlecart-widget-body {
+  border: solid #C3D6F9;
+  border-width: 0 1px 1px 1px;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 0;
+  position: relative; /* Check this to detect if the CSS is loaded. */
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#googlecart-widget-list {
+  width: 100%;
+  border-collapse: collapse;
+  border: 0 none;
+}
+
+.googlecart-widget-item * {
+  border: 0 none;
+}
+
+/**
+ * IE 6 does not show TR border. Show the border only when the widget
+ * is open, to avoid IE 6 rendering bug.
+ */
+.googlecart-widget-item, .open .googlecart-widget-item td {
+  border-bottom: 1px solid #C3D6F9;
+}
+
+.googlecart-widget-quantity-column {
+  padding: .4em .6em;
+  vertical-align: top;
+}
+
+.googlecart-widget-quantity-box {
+  text-align: right;
+  padding: 0 2px 0 2px;
+  font-size: .75em;
+  width: 2em;
+  border: 1px solid #A3C0F8;
+}
+
+.quirks .googlecart-widget-quantity-box {
+  width: 2.5em;
+}
+
+.googlecart-widget-details-column {
+  padding: .4em 0;
+  vertical-align: top;
+  width: 100%;
+}
+
+.googlecart-widget-title {
+  display: block;
+  color: blue;
+  font-size: .8em;
+  font-weight: bold;
+}
+
+.googlecart-widget-short-details {
+  font-size: .75em;
+}
+
+.googlecart-widget-long-details {
+  font-size: .7em;
+  margin-top: .4em;
+}
+
+.googlecart-widget-removed-message {
+  padding: .4em 0;
+  vertical-align: top;
+  font-size: .7em;
+  display: none;
+}
+
+.googlecart-widget-image-column {
+  padding: .4em .4em;
+  text-align: right;
+  vertical-align: top;
+}
+
+.googlecart-widget-img {
+  width: 2.5em;
+}
+
+.googlecart-widget-price-column {
+  padding: .4em .6em .4em 0;
+  vertical-align: top;
+  text-align: right;
+}
+
+.googlecart-widget-price {
+  font-weight: bold;
+  font-size: .8em;
+}
+
+.googlecart-widget-remove {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: .6em;
+}
+
+.googlecart-widget-restore {
+  display: none;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: .6em;
+}
+
+#googlecart-widget-emptymessage {
+  text-align: center;
+  font-size: .8em;
+  padding: 3px 0;
+  height: 2em;
+  line-height: 2em;
+}
+
+.removed .googlecart-widget-removed-message,
+.removed .googlecart-widget-restore {
+  display: block;
+}
+
+.removed .googlecart-widget-short-details,
+.removed .googlecart-widget-long-details,
+.removed .googlecart-widget-remove {
+  display: none;
+}
+
+.removed .googlecart-widget-title,
+.removed .googlecart-widget-price {
+  color: #989898;
+}
+
+.removed .googlecart-widget-img {
+  opacity: .25;
+  filter: alpha(opacity=25);
+}
+
+.removed .googlecart-widget-quantity-box {
+  border-color: #B2B2B2;
+  background-color: #F4F4F4;
+  color: #B2B2B2;
+}
+
+#googlecart-widget-foot {
+  margin: .4em .3em 0 .6em;
+}
+
+#googlecart-widget-foot table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0 none;
+}
+
+#googlecart-checkout-button {
+  cursor: pointer;
+  height: 43px;
+  width: 160px;
+  margin-left: .3em;
+  position: relative;
+  top: -5px;
+}
+
+#googlecart-widget-foot td {
+  padding: 0;
+  border: 0 none;
+  vertical-align: top;
+}
+
+.googlecart-widget-footertext {
+  line-height: 100%;
+  width: 100%;
+}
+
+.googlecart-widget-totalmessage {
+  font-size: .8em;
+}
+
+.googlecart-widget-totalprice {
+  font-size: .92em;
+  font-weight: bold;
+}
+
+.googlecart-widget-disclaimer {
+  font-size: .6em;
+  color: #676767;
+  line-height: 1em;
+  margin-bottom: .6em;
+}
+
+/** don't override the rules below unless you really know what you are doing **/
+
+/* any table in the cart widget */
+#googlecart-widget table {
+  border: 0 none;
+  margin: 0;
+  /* table does not inherit text-align */
+  text-align: left;
+  font-size: 1em;
+  line-height: 100%;
+}
+
+/* hidden row to work around FF 2 table rendering bugs */
+#googlecart-widget-list-head, #googlecart-widget-list-head * {
+  height: 0;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+#googlecart-widget-spacer {
+  position: relative;
+  display: block;
+  z-index: 999999; /* one less than googlecart-widget */
+}
+
+/* when the widget is under spacer, it has no padding */
+#googlecart-widget-spacer #googlecart-widget,
+#googlecart-widget.nohead {
+  margin: 0;
+}
+
+/* injecting the buy and add to cart images as backgrounds */
+.googlecart-add-button {
+  background: transparent url(add.png) no-repeat scroll center top;
+  height: 30px;
+  width: 106px;
+  display: block;
+}
+
+.googlecart-buynow-button {
+  background: transparent url(buy.png) no-repeat scroll center top;
+  height: 43px;
+  width: 107px;
+  display: block;
+}
+
+.noselect {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+}
+
+/* IE fixes */
+
+/* need these for IE7 rendering bug */
+div.googlecart-buynow-button {
+  height: 43px;
+  width: 107px;
+}
+div.googlecart-add-button {
+  height: 30px;
+  width: 106px;
+}
+
+/* IE 6/7 z-index fix */
+#googlecart-widget-control {
+  z-index: 999998;
+}
+
+/* png transparency fix */
+.ie-less-than-7 .googlecart-add-button {
+  background: transparent;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="https://checkout.google.com/seller/gsc/v2.1/public/add.png", sizingMethod="crop");
+}
+
+.ie-less-than-7 .googlecart-buynow-button {
+  background: transparent;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="https://checkout.google.com/seller/gsc/v2.1/public/buy.png", sizingMethod="crop");
+}
+
+/* this iframe is present in IE6 only, to address some z-index bugs */
+#googlecart-widget.googlecart-widget-initialized #googlecart-widget-iframe {
+  display: expression(googlecartWidget._IE6getIFrameHeight() > 0 ? "block" : "none");
+  width: 100%;
+  height: expression(googlecartWidget._IE6getIFrameHeight() + "px");
+  position: absolute; /* so it is under the widget */
+  filter: alpha(opacity=0);
+}

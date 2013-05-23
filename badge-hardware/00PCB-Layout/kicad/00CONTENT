@@ -1,0 +1,40 @@
+00CONTENT  04-28-13.
+
+kicad-2012.11.15-1.r3804.fc16.PWR.src/:
+
+        FILE                                             Description
+    ________________________________________________________________________________________
+
+    kicad-r3805.spec                             # rpm(1) spec file, BZR r3805
+    kicad-2012.11.15.tar.bz2                     # %source0
+    kicad-doc-2012.11.12.tar.bz2                 # %source1
+    kicad-libraries-2012.11.10.tar.bz2           # %source2
+    kicad-ld.conf                                # %source3
+    kicad-2010.05.09.x-kicad-pcbnew.desktop      # %source4
+    pcbnew.desktop                               # %source5
+    kicad-icons.tar.bz2                          # %source6
+    Epcos-MKT-1.0.tar.bz2                        # %source7
+    kicad-2012.11.15-real-version.patch          # %patch10; display current BZR
+    kicad-use-system-boost.patch                 # %patch11; use system boost-1.50
+
+
+
+kicad-2013.04.19-1.r4011.fc18.PWR.src/:
+
+        FILE                                             Description
+    ________________________________________________________________________________________
+
+    kicad-r4011.spec                             # rpm(1) spec file, BZR r4011
+    kicad-2013.04.19.tar.bz2                     # %source0
+    kicad-doc-2013.04.13.tar.bz2                 # %source1
+    kicad-libraries-2013.04.13.tar.bz2           # %source2
+    kicad-ld.conf                                # %source3
+    kicad-2010.05.09.x-kicad-pcbnew.desktop      # %source4
+    pcbnew.desktop                               # %source5
+    kicad-icons.tar.bz2                          # %source6
+    Epcos-MKT-1.0.tar.bz2                        # %source7
+    kicad-2013.04.19-real-version.patch          # %patch10; display current BZR
+    kicad-use-system-boost.patch                 # %patch11; use system boost-1.50
+    kicad-pcb_dialog.patch                       # %patch100; fix compile
+    kicad-download.txt                           # where to get kicad snapshots
+

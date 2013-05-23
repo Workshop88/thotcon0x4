@@ -1,0 +1,49 @@
+This package contains assembly information as follows:
+
+Project: "Thotcon Badge Project"
+
+File name                            Description
+----------------------------------------------------------------------
+00ASSEMBLY-README.1ST                This file
+thotcon_badge_zig-B_Paste.gbp        back solder paste mask (gerber)
+thotcon_badge_zig-F_Paste.gtp        component side paste mask (gerber)
+
+thotcon_badge_zig-B_SilkS.pdf        back side silk screen
+thotcon_badge_zig-F_SilkS.pdf        front side silk screen
+
+thotcon_badge_zig-B_copper.pos       back side centroid file
+thotcon_badge_zig-F_copper.pos       front (component side) centroid file
+
+thotcon_badge_zig_BOM-BY-REF_P1_PRODN.pdf
+                                     BOM-BY-REFERENCE DES. Mouser/Digkey, etc.
+thotcon_badge_zig_BOM-BY-PART_P1_PRODN.pdf
+                                     BOM-BY-PART
+
+FOR REFERENCE:
+File name                            Description
+----------------------------------------------------------------------
+thotcon_badge_zig_SCHEM.pdf          B size schematic, PDF format
+
+thotcon_badge_zig-Dwgs_User.gbr      Dimensional and fab drawing
+                                     (gerber overlay)
+thotcon_badge_zig-Dwgs_User.pdf           "       "   " (PDF)
+
+thotcon_badge_zig-Edge_Cuts.gbr      Board routing outline
+                                     (gerber overlay)
+thotcon_badge_zig-Edge_Cuts.pdf        "      "       "  (PDF)
+
+thotcon_badge_zig-F_copper.gtl       component side copper (gerber)
+thotcon_badge_zig-F_Mask.gts         component side solder mask (gerber)
+thotcon_badge_zig-F_SilkS.gto        component silk screen (gerber)
+
+thotcon_badge_zig-B_copper.gbl       back copper (gerber)
+thotcon_badge_zig-B_Mask.gbs         back solder mask (gerber)
+thotcon_badge_zig-B_SilkS.gbo        back side silk screen (gerber)
+
+thotcon_badge_zig_FRONT.png             } 3D perspective views of
+thotcon_badge_zig_FRONT_PERSPECTIVE.png } assembled product. NOT ALL
+thotcon_badge_zig_REAR.png              } COMPONENTS ARE PLACED.
+thotcon_badge_zig_REAR_PERSPECTIVE.png  }
+
+02-14-2013 Issue P1 release
+EDITS: 02-21-2013

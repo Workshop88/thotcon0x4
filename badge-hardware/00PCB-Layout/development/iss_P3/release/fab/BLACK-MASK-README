@@ -1,0 +1,38 @@
+Part of the "Thotcon Badge Project"
+
+This package contains PCB fabrication information
+for the BLACK soldermake/white silkscreen version.
+
+Manufacture panels:
+
+1:  Panelize 8-up 10.5" x 12" panels, indented breakaway
+    style.
+
+2:  Make 69 panels (552 boards) of black color solder
+    mask, white silkscreen. Front silk should read
+    "THOTCON0x4 Hacker".
+
+IMPORTANT: Refer to files 
+          "thotkon_black_mask_wht_ink-Edge_Cuts.gbr",
+          and "thotkon_black_mask_wht_ink-Dwgs_User.gbr"
+          for the fab drawing.
+
+
+GERBER File name                            Description
+-----------------------------------------------------------------
+BLACK-MASK-README                           This file
+thotcon_black_mask_wht_ink-B_copper.gbl     back copper
+thotcon_black_mask_wht_ink-drl_map.pho      drill file 
+thotcon_black_mask_wht_ink-F_Mask.gts       comp. side mask
+thotcon_black_mask_wht_ink-B_Mask.gbs       back solder mask
+thotcon_black_mask_wht_ink-drl.rpt          drill tool report (text)
+thotcon_black_mask_wht_ink-F_Paste.gtp      comp. side paste
+thotcon_black_mask_wht_ink-B_Paste.gbp      back side solder
+thotcon_black_mask_wht_ink-Dwgs_User.gbr    fab drawing
+thotcon_black_mask_wht_ink-F_SilkS.gto      comp. side silk screen
+thotcon_black_mask_wht_ink-B_SilkS.gbo      back side silk screen
+thotcon_black_mask_wht_ink-Edge_Cuts.gbr    Board routing outline
+thotcon_black_mask_wht_ink-NPTH.drl         Non-plated holes
+thotcon_black_mask_wht_ink.drl              excellon drill file, PTH
+thotcon_black_mask_wht_ink-F_copper.gtl     comp. side copper
+thotcon_black_mask_wht_ink-NPTH-drl_map.pho Non-plated holes.

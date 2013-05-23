@@ -1,0 +1,29 @@
+﻿.pagination {       
+    width: 100%;
+    border: 1px solid #D3D3D3;
+    text-align: center;
+    background-color: #eaeaea;    
+    -moz-border-radius: 4px 4px 4px 4px;
+    border-radius: 4px 4px 4px 4px;
+    padding: 8px 0;
+    margin: 0 0 13px 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+.pages {
+    display: inline;
+}
+.previous {
+    padding: 0 10px 0 0;
+}
+.next {  
+    padding: 0 0 0 12px;
+}
+.previous_disabled {    
+    color: #666;
+    padding: 0 10px 0 0;
+}
+.next_disabled {    
+    color: #666;
+    padding: 0 0 0 12px;
+}

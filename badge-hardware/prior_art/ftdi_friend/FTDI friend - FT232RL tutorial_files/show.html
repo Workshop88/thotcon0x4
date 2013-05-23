@@ -1,0 +1,453 @@
+var zoomy = "\n\
+<h3 class=\"sectionedit1\"><a name=\"introduction\" id=\"introduction\">Introduction</a> </h3>\n\
+<div class=\"level3\">\n\
+<ul>\n\
+<li class=\"level1\"><div class=\"li\"><a href=\"#installing_ftdi_drivers\" title=\"tutorials:learn:breakoutplus:ftdifriend.html &crarr;\" class=\"wikilink1\">Installing windows drivers (mac/linux don&#039;t need to install drivers!)</a> </div>\n\
+</li>\n\
+<li class=\"level1\"><div class=\"li\"><a href=\"#com_serial_port_name\" title=\"tutorials:learn:breakoutplus:ftdifriend.html &crarr;\" class=\"wikilink1\">Identifying the COM/serial port (mac/windows/linux)</a> </div>\n\
+</li>\n\
+<li class=\"level1\"><div class=\"li\"><a href=\"#whats_the_difference_between_an_ftdi_cableadapter_avr_programmer\" title=\"tutorials:learn:breakoutplus:ftdifriend.html &crarr;\" class=\"wikilink1\">Whats the difference between an FTDI cable/adapter and an AVR programmer? </a> </div>\n\
+</li>\n\
+<li class=\"level1\"><div class=\"li\"><a href=\"#programming_blank_avrs\" title=\"tutorials:learn:breakoutplus:ftdifriend.html &crarr;\" class=\"wikilink1\">How to use the FTDI friend as a (slow) AVR programmer </a> </div>\n\
+</li>\n\
+<li class=\"level1\"><div class=\"li\"><a href=\"#if_you_just_want_to_program_the_arduino_bootloader_on\" title=\"tutorials:learn:breakoutplus:ftdifriend.html &crarr;\" class=\"wikilink1\">How to burn Arduino bootloaders using the previous tutorial</a>  </div>\n\
+</li>\n\
+</ul>\n\
+\n\
+</div>\n\
+<!-- EDIT1 SECTION \"Introduction\" [1-566] -->\n\
+<h3 class=\"sectionedit2\"><a name=\"files\" id=\"files\">Files!</a> </h3>\n\
+<div class=\"level3\">\n\
+\n\
+<p>\n\
+<a href=\"http://github.com/adafruit/FTDI-Friend\" class=\"urlextern\" title=\"http://github.com/adafruit/FTDI-Friend\"  rel=\"nofollow\">You can get the schematic and layout files over at GitHub</a> , they&#039;re licensed CC attrib/sharealike\n\
+</p>\n\
+\n\
+</div>\n\
+<!-- EDIT2 SECTION \"Files!\" [567-728] -->\n\
+<h3 class=\"sectionedit3\"><a name=\"installing_ftdi_drivers\" id=\"installing_ftdi_drivers\">Installing FTDI drivers</a> </h3>\n\
+<div class=\"level3\">\n\
+\n\
+<p>\n\
+Step #1 is to plug in your FTDI adapter and install the driver (in case it isnt on there already). If you have an FTDI cable proper, there is already a USB A connector on the end. If you have an FTDI adapter, you&#039;ll need a standard mini-B cable, pretty much everything uses these so steal your camera&#039;s or cell phone&#039;s data cable\n\
+</p>\n\
+\n\
+<p>\n\
+<a href=\"http://www.ladyada.net/images/monochron/minibftdi.jpg\" class=\"media\" title=\"http://www.ladyada.net/images/monochron/minibftdi.jpg\"  rel=\"nofollow\"><img src=\"/wiki/lib/exe/fetch.php?hash=e021b9&amp;w=500&amp;h=385&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Fmonochron%2Fminibftdi_t.jpg\" class=\"mediacenter\" alt=\"\" width=\"500\" height=\"385\" /></a> \n\
+</p>\n\
+\n\
+<p>\n\
+If you are using <strong>Windows or Mac <acronym title=\"Operating System\">OS</acronym></strong>, <a href=\"http://www.ftdichip.com/Drivers/VCP.htm\" class=\"urlextern\" title=\"http://www.ftdichip.com/Drivers/VCP.htm\"  rel=\"nofollow\">you may need to need to download the FTDI driver</a>  if you haven&#039;t already installed it for another project. <strong>If you are using Linux, the driver is already built in to the operating system (handy!)</strong>\n\
+</p>\n\
+\n\
+<p>\n\
+Next up, plug it into your computer! If you are using Windows you may hear a sound from the computer and a little popup bubble in the bottom right corner of the screen that says <strong>Found New Hardware FT232R USB UART </strong>\n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=6837fe&amp;w=256&amp;h=129&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Farduino%2Ffoundft232ruart.jpg\" class=\"mediacenter\" alt=\"\" width=\"256\" height=\"129\" />\n\
+</p>\n\
+\n\
+<p>\n\
+After a few seconds, the new hardware wizard will start. Select <strong>&quot;No not this time&quot;</strong> and click <strong>Next&gt; </strong>\n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=03dc87&amp;w=503&amp;h=392&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Farduino%2Ffoundnewhardware.jpg\" class=\"mediacenter\" alt=\"\" width=\"503\" height=\"392\" />\n\
+</p>\n\
+\n\
+<p>\n\
+At the next screen, select <strong>Install from a list or specific location </strong>\n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=775bc5&amp;w=503&amp;h=392&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Farduino%2Fspecificloc.jpg\" class=\"mediacenter\" alt=\"\" width=\"503\" height=\"392\" />\n\
+</p>\n\
+\n\
+<p>\n\
+At the next screen make sure <strong>Include this location</strong> is selected and browse to the folder that contains the driver you downloaded. Select the folder and click <strong>OK</strong>\n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=f4dd41&amp;w=505&amp;h=395&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Farduino%2Fbrowsedriver.jpg\" class=\"mediacenter\" alt=\"\" width=\"505\" height=\"395\" />\n\
+</p>\n\
+\n\
+<p>\n\
+It should copy some files and then come up with this window. Click <strong>Finish</strong>\n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=185303&amp;w=503&amp;h=392&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Farduino%2Ffoundserialconv.jpg\" class=\"mediacenter\" alt=\"\" width=\"503\" height=\"392\" />\n\
+</p>\n\
+\n\
+<p>\n\
+Almost immediately, another window will pop up, this time it will say <strong>USB Serial Port</strong>. As before, click <strong>Install from a list or specific location </strong>\n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=671c99&amp;w=503&amp;h=392&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Farduino%2Ffoundserialport.jpg\" class=\"mediacenter\" alt=\"\" width=\"503\" height=\"392\" />\n\
+</p>\n\
+\n\
+<p>\n\
+Browse to the same folder again…\n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=f4dd41&amp;w=505&amp;h=395&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Farduino%2Fbrowsedriver.jpg\" class=\"mediacenter\" alt=\"\" width=\"505\" height=\"395\" />\n\
+</p>\n\
+\n\
+<p>\n\
+And it should complete successfully! \n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=14f3e0&amp;w=503&amp;h=392&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Farduino%2Fusbserialportfinished.jpg\" class=\"mediacenter\" alt=\"\" width=\"503\" height=\"392\" />\n\
+</p>\n\
+\n\
+<p>\n\
+You may need to reboot the computer.\n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=fea2a3&amp;w=311&amp;h=85&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Farduino%2Frebootdriver.jpg\" class=\"mediacenter\" alt=\"\" width=\"311\" height=\"85\" />\n\
+</p>\n\
+\n\
+</div>\n\
+<!-- EDIT3 SECTION \"Installing FTDI drivers\" [729-3177] -->\n\
+<h3 class=\"sectionedit4\"><a name=\"com_serial_port_name\" id=\"com_serial_port_name\">COM / Serial port name</a> </h3>\n\
+<div class=\"level3\">\n\
+\n\
+<p>\n\
+OK now we will verify that the driver installed properly. \n\
+</p>\n\
+\n\
+<p>\n\
+Under Mac, in the <strong>Terminal </strong>window, type in <strong>ls /dev/cu.</strong>* which should give the following responses or so\n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=968e9a&amp;w=503&amp;h=252&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Farduino%2Flscu.jpg\" class=\"mediacenter\" alt=\"\" width=\"503\" height=\"252\" />\n\
+</p>\n\
+\n\
+<p>\n\
+The name we are looking for is <strong>/dev/cu.usbserial-XXXX </strong>where the X&#039;s are going to be unique for each cable. Copy and paste the name into a text file so you&#039;ll remember it for later.\n\
+</p>\n\
+\n\
+<p>\n\
+For Linux/Unix type <strong>ls /dev/ttyUSB</strong>* into a terminal window, you should see a device file called something like ttyUSB0\n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=1b0116&amp;w=635&amp;h=294&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Farduino%2Flstty.png\" class=\"mediacenter\" alt=\"\" width=\"635\" height=\"294\" />\n\
+</p>\n\
+\n\
+<p>\n\
+If you are using Windows, go to the <strong>Device Manager</strong> (From the <strong>Start Menu</strong>, select Settings→Control Panel. Double click on <strong>System</strong> and select the <strong>Hardware</strong> tab. Then click on the <strong>Device Manager</strong> button) \n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=6ce16d&amp;w=470&amp;h=520&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Farduino%2Fdevicemanager.jpg\" class=\"mediacenter\" alt=\"\" width=\"470\" height=\"520\" />\n\
+</p>\n\
+\n\
+<p>\n\
+Look for an entry under <strong>Ports (COM &amp; LPT) </strong> that says <strong>USB Serial Port (COM)</strong> the COM number may vary but it should be something like <strong>COM3</strong> or <strong>COM4 </strong>the COM number may be as high as <strong>COM99</strong> so just look for the USB serial port. The COM stands for &quot;communication&quot;, and each one has a unique number, known as the <strong>COM Port number</strong>. In this case the COM Port number is <strong>COM3</strong>. If you don&#039;t see the COM port verify the cable is plugged in, and check that you installed the VCP FTDI driver. \n\
+</p>\n\
+\n\
+<p>\n\
+Then right click and select <strong>Properties</strong>\n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=2bb9f2&amp;w=412&amp;h=455&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Fboarduino%2Fportsettings.jpg\" class=\"mediacenter\" alt=\"\" width=\"412\" height=\"455\" />\n\
+</p>\n\
+\n\
+<p>\n\
+Click on the <strong>Port Settings</strong> tab, and click on <strong>Advanced…</strong>\n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=13e264&amp;w=636&amp;h=455&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Fmonochron%2Fnorts.gif\" class=\"mediacenter\" alt=\"\" width=\"636\" height=\"455\" />\n\
+</p>\n\
+\n\
+<p>\n\
+Make sure <strong>Set RTS On Close</strong> used to be required for people using the Arduino IDE before like version 18 or so. Now you dont need it so make sure its not selected!\n\
+</p>\n\
+\n\
+</div>\n\
+<!-- EDIT4 SECTION \"COM / Serial port name\" [3178-5086] -->\n\
+<h3 class=\"sectionedit5\"><a name=\"whats_the_difference_between_an_ftdi_cableadapter_avr_programmer\" id=\"whats_the_difference_between_an_ftdi_cableadapter_avr_programmer\">Whats the difference between an FTDI cable/adapter &amp; AVR programmer?</a> </h3>\n\
+<div class=\"level3\">\n\
+\n\
+<p>\n\
+? <img src=\"/wiki/lib/exe/fetch.php?hash=a6fd40&amp;w=250&amp;h=191&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Fusbtinyisp%2Fdone_t.jpg\" class=\"mediacenter\" alt=\"\" width=\"250\" height=\"191\" /> OR <a href=\"http://www.ladyada.net/images/monochron/ftdicable.jpg\" class=\"media\" title=\"http://www.ladyada.net/images/monochron/ftdicable.jpg\"  rel=\"nofollow\"><img src=\"/wiki/lib/exe/fetch.php?hash=03d4f9&amp;w=250&amp;h=191&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Fmonochron%2Fftdicable_t.jpg\" class=\"mediacenter\" alt=\"\" width=\"250\" height=\"191\" /></a>  ?\n\
+</p>\n\
+\n\
+<p>\n\
+There are two ways to program an AVR microcontroller. One is to reprogram the entire chip using an AVR programmer. The other is to use a <strong>bootloader</strong> that is pre-programmed onto the chip that allows the chip to re-program itself. An AVR programmer is more powerful: you can really mess with anything on the chip and the entire 32K of memory is available. Using the bootloader is safer: there&#039;s no way to mess with the fuse settings (which could brick the chip) but you only get 30K of memory since 2K is used by the bootloader. Not a big deal, but if you are working on a big project which requires tons of flash space, you may need it\n\
+</p>\n\
+\n\
+<p>\n\
+<a href=\"http://www.ladyada.net/learn/../learn/avr/programmers.html\" class=\"urlextern\" title=\"http://www.ladyada.net/learn/../learn/avr/programmers.html\"  rel=\"nofollow\">For a lot more information about AVR programmers and bootloaders, I strongly recommend reading this short article</a> \n\
+</p>\n\
+\n\
+<p>\n\
+Note that to program an AVR you need an AVR programmer (like a <a href=\"http://www.ladyada.net/learn/avr/programmers.html\" class=\"urlextern\" title=\"http://www.ladyada.net/learn/avr/programmers.html\"  rel=\"nofollow\">USBtinyISP</a> ), but to upload using the bootloader you need a computer-serial connection (such as an FTDI cable). Unfortunately, they are not the same device! If you&#039;re not a microcontroller wiz, I suggest going with the bootloader (FTDI) method. Its as fast (or faster), allows you to debug as well, and theres virtually no way to damage/brick the chip by messing with the fuses. If you&#039;re familiar with microcontroller programming, and you have a programmer, then feel free to go that direction.\n\
+</p>\n\
+\n\
+<p>\n\
+<strong>SO!</strong>\n\
+</p>\n\
+<ul>\n\
+<li class=\"level1\"><div class=\"li\"><strong>AVR programmers</strong> are more powerful in that you can program any AVR, even blank ones from the factory. But that also means you have a pretty good chance of &#039;bricking&#039; the chip! </div>\n\
+</li>\n\
+<li class=\"level1\"><div class=\"li\"><strong>FTDI adapters</strong> can send any serial data back and forth including updating AVRs with a bootloader on them. But you need to get that bootloader on there first, which basically requires an AVR programmer.</div>\n\
+</li>\n\
+</ul>\n\
+\n\
+<p>\n\
+If you use an AVR programmer to write to chip with a bootloader on it, you&#039;ll overwrite the bootloader so just be aware of that!\n\
+</p>\n\
+\n\
+</div>\n\
+<!-- EDIT5 SECTION \"Whats the difference between an FTDI cable/adapter & AVR programmer?\" [5087-7355] -->\n\
+<h3 class=\"sectionedit6\"><a name=\"programming_blank_avrs\" id=\"programming_blank_avrs\">Programming blank AVRs</a> </h3>\n\
+<div class=\"level3\">\n\
+\n\
+<p>\n\
+So even though I said FTDI adapters are not for programming &#039;raw&#039; AVRs, it turns out you can &#039;convince&#039; the chip to do it with a bit of manipulation. One <a href=\"http://www.geocities.jp/arduino_diecimila/bootloader/index_en.html\" class=\"urlextern\" title=\"http://www.geocities.jp/arduino_diecimila/bootloader/index_en.html\"  rel=\"nofollow\"> way that is documented so far doesnt require soldering but it does require updating the AVRDUDE software and installing a different driver</a> . (<a href=\"http://www.kerrywong.com/2010/04/02/on-atmega328-bootloading-with-ftdi-bitbang-method/\" class=\"urlextern\" title=\"http://www.kerrywong.com/2010/04/02/on-atmega328-bootloading-with-ftdi-bitbang-method/\"  rel=\"nofollow\">see also this post</a>  and <a href=\"http://doswa.com/blog/2010/08/24/avrdude-5-10-with-ftdi-bitbang/\" class=\"urlextern\" title=\"http://doswa.com/blog/2010/08/24/avrdude-5-10-with-ftdi-bitbang/\"  rel=\"nofollow\"> this link for using an FTDI adapter instead of an Arduino</a> ) \n\
+</p>\n\
+\n\
+<p>\n\
+If you have an FTDI friend or other breakout where you can get to the DTR line, I found a way to do it that requires soldering a wire but no AVRDUDE/driver messing. The trade off is that it is <strong>really</strong> slow - good for maybe burning a bootloader on, not good for day-to-day AVR development\n\
+</p>\n\
+\n\
+<p>\n\
+Turn over the FTDI friend, and solder a dot of solder onto the DTR pin on the bottom left.\n\
+</p>\n\
+\n\
+<p>\n\
+<a href=\"http://www.ladyada.net/images/ftdi/friendvise.jpg\" class=\"media\" title=\"http://www.ladyada.net/images/ftdi/friendvise.jpg\"  rel=\"nofollow\"><img src=\"/wiki/lib/exe/fetch.php?hash=ff6579&amp;w=500&amp;h=385&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Fftdi%2Ffriendvise_t.jpg\" class=\"mediacenter\" alt=\"\" width=\"500\" height=\"385\" /></a> \n\
+</p>\n\
+\n\
+<p>\n\
+Solder a wire onto it, making sure you dont short it to the gold square just to the right. We&#039;ll use a <strong>white</strong> wire\n\
+</p>\n\
+\n\
+<p>\n\
+<a href=\"http://www.ladyada.net/images/ftdi/dtrsolder.jpg\" class=\"media\" title=\"http://www.ladyada.net/images/ftdi/dtrsolder.jpg\"  rel=\"nofollow\"><img src=\"/wiki/lib/exe/fetch.php?hash=70943a&amp;w=500&amp;h=385&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Fftdi%2Fdtrsolder_t.jpg\" class=\"mediacenter\" alt=\"\" width=\"500\" height=\"385\" /></a> \n\
+</p>\n\
+\n\
+<p>\n\
+Plug in wires into the FTDI breakout, <strong>black</strong> is ground, <strong>blue</strong> is CTS, <strong>red </strong> is VCC, <strong>orange </strong>is TX and <strong>green</strong> is RTS\n\
+</p>\n\
+\n\
+<p>\n\
+<a href=\"http://www.ladyada.net/images/ftdi/ftdisquidtop.jpg\" class=\"media\" title=\"http://www.ladyada.net/images/ftdi/ftdisquidtop.jpg\"  rel=\"nofollow\"><img src=\"/wiki/lib/exe/fetch.php?hash=aa8559&amp;w=500&amp;h=350&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Fftdi%2Fftdisquidtop_t.jpg\" class=\"mediacenter\" alt=\"\" width=\"500\" height=\"350\" /></a> \n\
+</p>\n\
+\n\
+<p>\n\
+<a href=\"http://www.ladyada.net/images/ftdi/ftdisquid.jpg\" class=\"media\" title=\"http://www.ladyada.net/images/ftdi/ftdisquid.jpg\"  rel=\"nofollow\"><img src=\"/wiki/lib/exe/fetch.php?hash=a6288d&amp;w=500&amp;h=291&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Fftdi%2Fftdisquid_t.jpg\" class=\"mediacenter\" alt=\"\" width=\"500\" height=\"291\" /></a> \n\
+</p>\n\
+\n\
+<p>\n\
+Now you have to make a text edit to your <strong>avrdude.conf</strong>. \n\
+</p>\n\
+\n\
+<p>\n\
+If you&#039;ve installed <strong><a href=\"http://www.ladyada.net/learn/avr/setup-win.html\" class=\"urlextern\" title=\"http://www.ladyada.net/learn/avr/setup-win.html\"  rel=\"nofollow\">WinAVR</a> </strong> or similar (say <a href=\"http://www.ladyada.net/learn/avr/setup-mac.html\" class=\"urlextern\" title=\"http://www.ladyada.net/learn/avr/setup-mac.html\"  rel=\"nofollow\">for Mac</a>  or <a href=\"http://www.ladyada.net/learn/avr/setup-unix.html\" class=\"urlextern\" title=\"http://www.ladyada.net/learn/avr/setup-unix.html\"  rel=\"nofollow\">Linux</a> ) , it&#039;ll be in something like <strong>C:\\WinAVR\\bin\\avrdude.conf</strong> or <strong>C:\\WinAVR\\etc\\avrdude.conf</strong> if you aren&#039;t sure where it is, but you have <strong>avrdude</strong> installed, you can run <strong>avrdude -c xyz</strong>which will dump the programmer list, if you look to the right, the name of the conf file will be printed\n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=be2158&amp;w=669&amp;h=362&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Fftdi%2Favrdudeconf.gif\" class=\"mediacenter\" alt=\"\" width=\"669\" height=\"362\" />\n\
+</p>\n\
+\n\
+<p>\n\
+A common reason for wanting to program an AVR is to put the Arduino bootloader on there, in which case, you may not have WinAVR installed. Luckily, avrdude is there, its just &#039;hidden&#039; in the IDE package (for Mac users,you need to actually &quot;explore&quot; the App) if you&#039;re running windows, go to the folder where you have the IDE installed and go into the <strong>hardware\\tools\\avr\\etc</strong> folder to open up<strong> avrdude.conf</strong>\n\
+</p>\n\
+\n\
+<p>\n\
+OK! Now that you have <strong>avrdude.conf </strong>open, find the string <strong>ponyser</strong>, then add the following bold text right before hand so the <strong>avrdude.conf</strong> looks like this:\n\
+</p>\n\
+<pre class=\"code C\"><span class=\"co2\"># some ultra cheap programmers use bitbanging on the </span>\n\
+<span class=\"co2\"># serialport.</span>\n\
+<span class=\"co2\">#</span>\n\
+<span class=\"co2\"># PC - DB9 - Pins for RS232:</span>\n\
+<span class=\"co2\">#</span>\n\
+<span class=\"co2\"># GND   5   -- |O</span>\n\
+<span class=\"co2\">#              |   O| &lt;-   9   RI</span>\n\
+<span class=\"co2\"># DTR   4   &lt;- |O   |</span>\n\
+<span class=\"co2\">#              |   O| &lt;-   8   CTS</span>\n\
+<span class=\"co2\"># TXD   3   &lt;- |O   |</span>\n\
+<span class=\"co2\">#              |   O| -&gt;   7   RTS</span>\n\
+<span class=\"co2\"># RXD   2   -&gt; |O   |</span>\n\
+<span class=\"co2\">#              |   O| &lt;-   6   DSR</span>\n\
+<span class=\"co2\"># DCD   1   -&gt; |O</span>\n\
+<span class=\"co2\">#</span>\n\
+<span class=\"co2\"># Using RXD is currently not supported.</span>\n\
+<span class=\"co2\"># Using RI is not supported under Win32 but is supported under Posix.</span>\n\
+&nbsp;\n\
+<span class=\"co2\"># serial ponyprog design (dasa2 in uisp)</span>\n\
+<span class=\"co2\"># reset=!txd sck=rts mosi=dtr miso=cts</span>\n\
+programmer\n\
+  id    <span class=\"sy0\">=</span> <span class=\"st0\">&quot;ftdifriend&quot;</span><span class=\"sy0\">;</span>\n\
+  desc  <span class=\"sy0\">=</span> <span class=\"st0\">&quot;design ftdi adatper, reset=dtr sck=tx mosi=rts miso=cts&quot;</span><span class=\"sy0\">;</span>\n\
+  type  <span class=\"sy0\">=</span> serbb<span class=\"sy0\">;</span>\n\
+  reset <span class=\"sy0\">=</span> ~<span class=\"nu0\">4</span><span class=\"sy0\">;</span>\n\
+  sck   <span class=\"sy0\">=</span> ~<span class=\"nu0\">3</span><span class=\"sy0\">;</span>\n\
+  mosi  <span class=\"sy0\">=</span> ~<span class=\"nu0\">7</span><span class=\"sy0\">;</span>\n\
+  miso  <span class=\"sy0\">=</span> ~<span class=\"nu0\">8</span><span class=\"sy0\">;</span>\n\
+<span class=\"sy0\">;</span>\n\
+<span class=\"co2\"># serial ponyprog design (dasa2 in uisp)</span>\n\
+<span class=\"co2\"># reset=!txd sck=rts mosi=dtr miso=cts</span>\n\
+&nbsp;\n\
+programmer\n\
+  id    <span class=\"sy0\">=</span> <span class=\"st0\">&quot;ponyser&quot;</span><span class=\"sy0\">;</span>\n\
+  desc  <span class=\"sy0\">=</span> <span class=\"st0\">&quot;design ponyprog serial, reset=!txd sck=rts mosi=dtr miso=cts&quot;</span><span class=\"sy0\">;</span>\n\
+  type  <span class=\"sy0\">=</span> serbb<span class=\"sy0\">;</span>\n\
+  reset <span class=\"sy0\">=</span> ~<span class=\"nu0\">3</span><span class=\"sy0\">;</span>\n\
+  sck   <span class=\"sy0\">=</span> <span class=\"nu0\">7</span><span class=\"sy0\">;</span>\n\
+  mosi  <span class=\"sy0\">=</span> <span class=\"nu0\">4</span><span class=\"sy0\">;</span>\n\
+  miso  <span class=\"sy0\">=</span> <span class=\"nu0\">8</span><span class=\"sy0\">;</span>\n\
+<span class=\"sy0\">;</span>\n\
+&nbsp;\n\
+&nbsp;</pre>\n\
+\n\
+<p>\n\
+Save the file. \n\
+</p>\n\
+\n\
+</div>\n\
+<!-- EDIT6 SECTION \"Programming blank AVRs\" [7356-11424] -->\n\
+<h3 class=\"sectionedit7\"><a name=\"if_you_just_want_to_program_the_arduino_bootloader_on\" id=\"if_you_just_want_to_program_the_arduino_bootloader_on\">If you just want to program the Arduino Bootloader on...</a> </h3>\n\
+<div class=\"level3\">\n\
+\n\
+<p>\n\
+Don&#039;t forget, if you have two &#039;duinos, you can turn one into an <acronym title=\"Internet Service Provider\">ISP</acronym> programmer, <a href=\"http://arduino.cc/en/Tutorial/ArduinoISP\" class=\"urlextern\" title=\"http://arduino.cc/en/Tutorial/ArduinoISP\"  rel=\"nofollow\">check out this tutorial which runs much faster than the below.</a> \n\
+</p>\n\
+\n\
+<p>\n\
+You can burn chips right from the Arduin IDE with one more edit, open up the <strong>programmers.txt </strong>file (its in<strong> hardware\\arduino </strong>in the IDE installation) and add the following text to the bottom\n\
+</p>\n\
+<pre class=\"code C\">ftdifriend.<span class=\"me1\">name</span><span class=\"sy0\">=</span>FTDI Friend bitbang\n\
+ftdifriend.<span class=\"me1\">communication</span><span class=\"sy0\">=</span>serial\n\
+ftdifriend.<span class=\"me1\">protocol</span><span class=\"sy0\">=</span>ftdifriend</pre>\n\
+\n\
+<p>\n\
+Save <strong>programmers.txt</strong>\n\
+</p>\n\
+\n\
+<p>\n\
+<a href=\"http://www.ladyada.net/images/ftdi/bitbang.jpg\" class=\"media\" title=\"http://www.ladyada.net/images/ftdi/bitbang.jpg\"  rel=\"nofollow\"><img src=\"/wiki/lib/exe/fetch.php?hash=64001e&amp;w=500&amp;h=301&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Fftdi%2Fbitbang_t.jpg\" class=\"mediacenter\" alt=\"\" width=\"500\" height=\"301\" /></a> \n\
+</p>\n\
+\n\
+<p>\n\
+Its time to wire it up!\n\
+</p>\n\
+<ul>\n\
+<li class=\"level1\"><div class=\"li\">Connect the Black (Ground) wire to the ground of your chip</div>\n\
+</li>\n\
+<li class=\"level1\"><div class=\"li\">Connect the Red (VCC) wire to the power/VCC/5V pin of your chip</div>\n\
+</li>\n\
+<li class=\"level1\"><div class=\"li\">Connect the White (DTR) wire to the Reset pin </div>\n\
+</li>\n\
+<li class=\"level1\"><div class=\"li\">Connect the Orange (TX) wire to SCK pin (Arduino pin 13)</div>\n\
+</li>\n\
+<li class=\"level1\"><div class=\"li\">Connect the Green (RTS) wire to MOSI pin (Arduino pin 12)</div>\n\
+</li>\n\
+<li class=\"level1\"><div class=\"li\">Connect the Blue (CTS) wire to the MISO pin (Arduino pin 11)</div>\n\
+</li>\n\
+</ul>\n\
+\n\
+<p>\n\
+Start up the IDE and select the COM port of the FTDI friend\n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=c302a6&amp;w=402&amp;h=233&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Fftdi%2Fbitbangserial.gif\" class=\"mediacenter\" alt=\"\" width=\"402\" height=\"233\" />\n\
+</p>\n\
+\n\
+<p>\n\
+Make sure you have the right <strong>Board</strong> selected, for whatever you want to burn. Then select <strong>Burn Bootloader→FTDI Friend</strong>\n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=34db7d&amp;w=472&amp;h=319&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Fftdi%2Fbitbangprog.gif\" class=\"mediacenter\" alt=\"\" width=\"472\" height=\"319\" />\n\
+</p>\n\
+\n\
+<p>\n\
+<strong>It will take a really really long time to program the chip, about two hours!</strong>\n\
+</p>\n\
+\n\
+<p>\n\
+Its taking forever because its programming very inefficiently. It takes 4 bytes to program one byte of the AVR, and data is sent as a single bit in two USB packet, each packet takes 3 milliseconds and an AVR has 32768 bytes = 262144 bits. 262144 bits * 2 packet/bit * 3 ms/packet * 4 bytes/byte = 6291456 ms = 6300 seconds = 104 minutes! If you used a real AVR programmer, it would take maybe 15 seconds so thats why its nice to have one.\n\
+</p>\n\
+\n\
+<p>\n\
+Do this before you go to bed or watch a movie! The <strong>L</strong> (pin 13) LED will be on &#039;solid&#039; while its programming. When it goes out you&#039;re done. Its very slow but if you&#039;re in a pinch, it may come in handy!\n\
+</p>\n\
+\n\
+</div>\n\
+<!-- EDIT7 SECTION \"If you just want to program the Arduino Bootloader on...\" [11425-13612] -->\n\
+<h3 class=\"sectionedit8\"><a name=\"using_the_command_line_avrdude\" id=\"using_the_command_line_avrdude\">Using the command line AVRdude</a> </h3>\n\
+<div class=\"level3\">\n\
+\n\
+<p>\n\
+Now if you open up a terminal and try running <strong>avrdude -c ftdifriend</strong> If you are using the avrdude installation thats inside the Arduino IDE, you can open up a <strong>cmd</strong> terminal and <strong>cd</strong> to the directory where you have the IDE installed and then go to <strong>hardware\\tools\\avr</strong>. Then you can run<strong> bin\\avrdude.exe -C etc\\avrdude.conf -c ftdifriend </strong>so for example, my installation is in <strong>C:\\arduino-0018\\</strong> I <strong>cd</strong> to <strong>C:\\arduino-0018\\hardware\\tools</strong><strong>\\avr</strong>\n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=84abf3&amp;w=669&amp;h=302&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Fftdi%2Favrdudefriendtest.gif\" class=\"mediacenter\" alt=\"\" width=\"669\" height=\"302\" />\n\
+</p>\n\
+\n\
+<p>\n\
+You should get a note that<strong> No AVR part has been specified</strong> (not that it <strong>Can&#039;t find programmer id &quot;ftdifriend&quot;</strong>) \n\
+</p>\n\
+\n\
+<p>\n\
+Great, now its time to program! \n\
+</p>\n\
+<ul>\n\
+<li class=\"level1\"><div class=\"li\">Connect the Black (Ground) wire to the ground of your chip</div>\n\
+</li>\n\
+<li class=\"level1\"><div class=\"li\">Connect the Red (VCC) wire to the power/VCC/5V pin of your chip</div>\n\
+</li>\n\
+<li class=\"level1\"><div class=\"li\">Connect the White (DTR) wire to the Reset pin </div>\n\
+</li>\n\
+<li class=\"level1\"><div class=\"li\">Connect the Orange (TX) wire to SCK pin</div>\n\
+</li>\n\
+<li class=\"level1\"><div class=\"li\">Connect the Green (RTS) wire to MOSI pin </div>\n\
+</li>\n\
+<li class=\"level1\"><div class=\"li\">Connect the Blue (CTS) wire to the MISO pin We suggest verifying the wiring! We&#039;ll verify the connection by running <strong>avrdude -c ftdifriend</strong> <strong>-P \\\\.\\COMxx -p atmega328p </strong>Replace the <strong>\\\\.\\COMxx</strong> with the COM port you found in the earlier part of this tutorial via the Device Manager. If you&#039;re using linux or mac, the COM port should be <strong>/dev/cu.usbserialXXX </strong>or <strong>/dev/ttyUSBx</strong> to match the name. For the device, we&#039;re testing with an <strong>Atmega328p</strong> chip which is found in the latest Arduinos. If you&#039;re using some other chip, substitute the name right after the <strong>-p</strong> </div>\n\
+</li>\n\
+</ul>\n\
+\n\
+<p>\n\
+If you are using the avrdude in the Arduino IDE, you&#039;ll need to use <strong>bin\\avrdude -C etc\\avrdude.conf -c ftdifriend</strong> <strong>-P \\\\.\\COMxx -p atmega328p </strong>etc.\n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=2bf75c&amp;w=669&amp;h=230&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Fftdi%2Fhashes.gif\" class=\"mediacenter\" alt=\"\" width=\"669\" height=\"230\" />\n\
+</p>\n\
+\n\
+<p>\n\
+Once you have the hashbar show up nicely, that means you are talking to the chip all right. Yay! You can now program the chip using the<strong> -U flash:w: </strong>command. \n\
+</p>\n\
+\n\
+<p>\n\
+Press the up arrow to get back the command you wrote and tack onto the end a <strong>-U flash:w:firmware.hex</strong> (where <strong>firmware.hex</strong> is the hex file you want to burn in) For example, if you want to burn a bootloader on, make it easy on yourself by copying the file from use:\n\
+</p>\n\
+\n\
+<p>\n\
+<strong>bin\\avrdude.exe -C etc\\avrdude.conf -c ftdifriend -P \\\\.\\COM46 -p atmega328p -U flash:w:..\\..\\arduino\\bootloaders\\atmega\\ATmegaBOOT_168_atmega328.hex</strong>\n\
+</p>\n\
+\n\
+<p>\n\
+(you can also copy your file to C:\\ so its not so long to type. Hit return and grab a beer, it&#039;ll take about 5 minutes per byte of data you want to write&amp;verify)\n\
+</p>\n\
+\n\
+<p>\n\
+<img src=\"/wiki/lib/exe/fetch.php?hash=f21e31&amp;w=669&amp;h=446&amp;media=http%3A%2F%2Fwww.ladyada.net%2Fimages%2Fftdi%2Fbangard.gif\" class=\"mediacenter\" alt=\"\" width=\"669\" height=\"446\" />\n\
+</p>\n\
+\n\
+</div>\n\
+<!-- EDIT8 SECTION \"Using the command line AVRdude\" [13613-] -->";document.write(zoomy);document.write("<hr /><br /><em>This page was autogenerated from <a href=\"http://www.ladyada.net/wiki/tutorials/learn/breakoutplus/ftdifriend.html\" target=\"_blank\">http://www.ladyada.net/wiki/tutorials/learn/breakoutplus/ftdifriend.html</a> <br />Please edit the wiki to contribute any updates or corrections.</em>")

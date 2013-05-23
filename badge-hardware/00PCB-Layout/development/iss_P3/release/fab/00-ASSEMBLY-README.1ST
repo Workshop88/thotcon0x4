@@ -1,0 +1,119 @@
+FILE:  00-ASSEMBLY-README.1ST
+
+Project: "Thotcon Badge Project" - An RFID name tag.
+
+Engineer: Paul Reich <reichp@att.net> -- 630-924-7289.
+Project Manager: Rudy Ristlich <rudy@workshop88.com>
+
+Customer: Thotcon 0x4 Organizing Committee.
+
+NOTES:
+
+   1.  You will receive a total of 96 panels from the
+       customer, or from Brigitflex, and a kit of parts
+       sufficient to assemble 768 units. There will be
+       some component overage, mainly small parts.
+
+       Unused, scrap, and leftover materials must be
+       returned.
+
+   2.  Each unit should be packaged in a manner sufficient
+       to protect against ESD hazards. Antistat bags are
+       acceptable.
+
+   3.  Completed units will be picked up by the customer
+       (or agent) at your Elgin location.
+
+   4.  There are a substantial number of unplaced  components
+       on each assembly.  These components are designated
+       "DO NOT PLACE" or "P/O PCB" on the enclosed bills of
+       material.
+
+   5.  The circuit panels will be panellized 8-up and should
+       be as follows:
+
+       * 69 panels with black soldermask and white silk screen
+            reading "THOTCON 0X4 HACKER" (556 pcs.)
+
+       * 15 panels with green soldermask and white silk screen
+            reading "THOTCON 0X4 X" (120 pcs.)
+
+       *  5 panels with red soldermask and black silk screen
+            reading "THOTCON 0X4 OPER" (40 pcs.)
+
+       *  4 panels with blue soldermask and white silk screen
+            reading "THOTCON 0X4 VOICE" (32 pcs.)
+
+       *  3 panels with yellow soldermask and black silk screen
+            reading "THOTCON 0X4 ROOT" (24 pcs.)
+
+       The setup and assembly process for each of these color
+       options is identical.
+
+       It is suggested that the black color panels be used for
+       "practice", as there are considerably more of this style.
+
+   6.  Do not break off the tab containing the 5 mm. hole and
+       revision notice, as shown on the fab drawing. The "USB
+       tab *must* remain attached after assembly and singulation.
+
+   7.  Many of the files supplied are in gerber format, and will
+       appear as overlays to the PCB image, when using a gerber
+       viewer. Please consult the "Dwgs_User" files for addi-
+       tional  information.
+
+       The engineer recommends "gerbv" for this purpose. It is
+       available at no charge for the Windows, Macintosh, and
+       Linux platforms.  "gerbv" may be obtained at:
+
+                 <gerbv.sourceforge.net>
+
+   8.  Please advise ASAP as to the suitablility of the enclosed
+       files, particulary the centroid files, should any format
+       conversions be required.
+
+********************************************************************
+
+CONTENTS as follows:
+
+File name                                  Description
+------------------------------------------------------------------
+00-ASSEMBLY-README.1ST                      This file
+
+thotcon_badge_zig_SCHEM.pdf                B size schematic, PDF
+
+thotcon_badge_zig-F_copper.pos             comp. side centroid
+thotcon_badge_zig-B_copper.pos             back side centroid (text)
+
+thotcon_black_mask_wht_ink-F_Paste.gtp     comp. side paste mask
+thotcon_black_mask_wht_ink-B_Paste.gbp     back side paste mask
+
+thotcon_badge_zig-F_SilkS.pdf              comp. side silk screen
+thotcon_badge_zig-B_SilkS.pdf              back side silk screen
+thotcon_badge_zig-B_SilkS-MIRRORED.pdf     back silk, mirrored view
+
+thotcon_badge_zig_BOM-BY-REF_P3_PRODN.xls  BOM by reference (Excel)
+thotcon_badge_zig_BOM-BY-PART_P3_PRODN.xls BOM by part number (Excel)
+
+thotcon_black_mask_wht_ink-Dwgs_User.gbr   Fab drawing (gerber)
+thotcon_black_mask_wht_ink-Edge_Cuts.gbr   Board outline (gerber)
+
+
+FOR REFERENCE:
+
+File name                                  Description
+----------------------------------------------------------------------
+thotcon_black_mask_wht_ink-Dwgs_User.gbr   Gerber assembly drawing
+thotcon_black_mask_wht_ink-Edge_Cuts.gbr   Gerber board outline
+
+thotcon_black_mask_wht_ink-F_copper.gtl    comp. side copper
+thotcon_black_mask_wht_ink-F_Mask.gts      comp. side solder mask
+thotcon_black_mask_wht_ink-F_SilkS.gto     comp. silk screen
+
+thotcon_black_mask_wht_ink-B_copper.gbl    back side copper
+thotcon_black_mask_wht_ink-B_Mask.gbs      back side solder mask
+thotcon_black_mask_wht_ink-B_SilkS.gbo     back silk screen
+
+
+03-14-2013 Issue P3 release
+EDITS: 03-14-13

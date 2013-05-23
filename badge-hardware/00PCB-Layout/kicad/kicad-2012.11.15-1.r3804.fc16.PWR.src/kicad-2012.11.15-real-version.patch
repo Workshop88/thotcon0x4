@@ -1,0 +1,14 @@
+--- kicad-2012.11.15/common/build_version.cpp.orig	2012-11-15 16:42:06.000000000 -0600
++++ kicad-2012.11.15/common/build_version.cpp	2012-11-16 19:25:58.000000000 -0600
+@@ -7,9 +7,9 @@
+ 
+ #ifndef KICAD_BUILD_VERSION
+ #if defined KICAD_GOST
+-#   define KICAD_BUILD_VERSION "(2012-oct-18 GOST)"
++#   define KICAD_BUILD_VERSION "(2012-11-15 BZR 3804 GOST)"
+ #else
+-#   define KICAD_BUILD_VERSION "(2012-oct-18)"
++#   define KICAD_BUILD_VERSION "(2012-11-15 BZR 3804)"
+ #endif
+ #endif
+ 

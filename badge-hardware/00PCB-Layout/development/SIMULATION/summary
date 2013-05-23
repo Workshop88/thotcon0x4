@@ -1,0 +1,84 @@
+w=20:
+
+height=60, width=20 thickness=5, air_space=470 (each side)
+100_ohm_balanced_700x700.bmp 3 Er_odd=   2.921 Er_even=   1.670 Zodd=  79.404 Zeven= 277.638 Zo= 148.477 Zdiff= 158.807 Zcomm= 138.819 Ohms VERSION=4.6.1
+
+height=60, width=20 thickness=5, air_space=300 (each side)
+100_ohm_balanced_700x700.bmp 3 Er_odd=   2.914 Er_even=   1.668 Zodd=  79.276 Zeven= 262.279 Zo= 144.196 Zdiff= 158.552 Zcomm= 131.140 Ohms VERSION=4.6.1
+
+height=60 width=20 thickness=5 air_space=200
+100_ohm_balanced_700x700.bmp 3 Er_odd=   2.903 Er_even=   1.652 Zodd=  79.054 Zeven= 246.895 Zo= 139.707 Zdiff= 158.108 Zcomm= 123.448 Ohms VERSION=4.6.1
+
+height=60 width=20 thickness=5 air_space=100
+100_ohm_balanced_700x700.bmp 3 Er_odd=   2.825 Er_even=   1.637 Zodd=  77.454 Zeven= 190.497 Zo= 121.469 Zdiff= 154.908 Zcomm=  95.248 Ohms VERSION=4.6.1
+
+********
+
+w=30
+
+height=60, width=30 thickness=5, air_space=470 (each side)
+100_ohm_balanced_700x700.bmp 3 Er_odd=   3.036 Er_even=   1.641 Zodd=  66.966 Zeven= 263.832 Zo= 132.921 Zdiff= 133.933 Zcomm= 131.916 Ohms VERSION=4.6.1
+
+********
+
+w=30 t=20
+
+height=60, width=30 thickness=20, air_space=470 (each side)
+100_ohm_balanced_700x700.bmp 3 Er_odd=   2.770 Er_even=   1.512 Zodd=  58.676 Zeven= 235.869 Zo= 117.643 Zdiff= 117.352 Zcomm= 117.935 Ohms VERSION=4.6.1
+
+height=60, width=30 thickness=5, air_space=470 (each side) resize grid to x=2000 y=1000 (grid was x=700 y=1000), recheck for convergence.
+100_ohm_balanced_2kX1k.bmp 3 Er_odd=   3.038 Er_even=   1.510 Zodd=  66.993 Zeven= 311.831 Zo= 144.535 Zdiff= 133.985 Zcomm= 155.916 Ohms VERSION=4.6.1
+
+********
+
+CHECK FOR CONVERGENCE:
+
+x=2000 y=1000, w=30 h=60 t=5:
+    Zodd=  66.993 Zeven= 311.831 Zo= 144.535 Zdiff= 133.985 Zcomm= 155.916 Ohms
+
+x=1400 y=1000, w=30 h=60 t=5:
+    Zodd=  66.993 Zeven= 307.026 Zo= 143.417 Zdiff= 133.985 Zcomm= 153.513 Ohms
+
+x=700 y=1000, w=30 h=60 t=5:
+    Zodd=  66.966 Zeven= 263.832 Zo= 132.921 Zdiff= 133.933 Zcomm= 131.916 Ohms
+
+Convergence appears adequate at x=1400.
+
+********
+
+Set Zo: (x=1400 y=1000, w=60 h=63 t=3):
+100_ohm_balanced_1400X1000.bmp 3 Er_odd=   3.294 Er_even=   1.488 Zodd=  48.800 Zeven= 279.925 Zo= 116.877 Zdiff=  97.600 Zcomm= 139.963 Ohms VERSION=4.6.1
+
+convergence test with w=50 mils, t=4:
+100_ohm_balanced_1400X1000.bmp 3 Er_odd=   3.212 Er_even=   1.546 Zodd=  53.681 Zeven= 281.571 Zo= 122.943 Zdiff= 107.362 Zcomm= 140.786 Ohms VERSION=4.6.1
+
+********
+
+Test again with unbalanced line: (x=1400 y=1000, w=60 h=63 t=3)
+100_ohm_balanced_1400X1000.bmp 2 Er=  2.94 Zo=  81.953 Ohms C=   69.8 pF/m L=  468.8 nH/m v= 1.748e+08 m/s v_f= 0.583 VERSION= 4.6.1
+
+Test again with unbalanced line: (x=1400 y=1000, w=50 h=63 t=3)
+100_ohm_balanced_1400X1000.bmp 2 Er=  2.88 Zo=  89.926 Ohms C=   63.0 pF/m L=  509.1 nH/m v= 1.767e+08 m/s v_f= 0.589 VERSION= 4.6.1
+
+********
+03-05-13 NOTE: The lower conductor was modelled here as being at ground potential.
+Height=63, w=50 t=2 mils Compare to convergence test, above. Line covered with 2 mils dielectric of K=3, with dielectric of K=3,
+thickness 5 mils surrounding the line.
+
+Command = "atlc -d f700ff=3 -d ffbf00-4.4 i 4 -v 100_ohm_embedded_1400X1000.bmp"
+100_ohm_embedded_1400X1000.bmp 2 Er=  3.00 Zo=  88.041 Ohms C=   65.7 pF/m L=  509.1 nH/m v= 1.729e+08 m/s v_f= 0.577 VERSION= 4.6.1
+
+Line buried under 7 mils of dielectric k=3, surrounded by 10 mils depth of k=3 dielectric.
+Test with dielectric material of K=3 covering the line, depth of 7 mils over the line, 10 mils depth K=3
+surrounding the line
+Command = "atlc -d f700ff=3 -d ffbf00-4.4 i 4 -v 100_ohm_embedded_1400X1000.bmp"
+100_ohm_embedded_1400X1000.bmp 2 Er=  3.11 Zo=  86.518 Ohms C=   68.0 pF/m L=  509.1 nH/m v= 1.7e+08 m/s v_f= 0.567 VERSION= 4.6.1
+
+NOTE: The lower conductor was modelled here as being at -1V, non-ground potential, as a true stripline. Compare to convergence test, above.
+Line buried under 7 mils of dielectric k=3, surrounded by 10 mils depth of k=3 dielectric.
+COMMAND = "atlc -d f700ff=3 -d ffbf00-4.4 i 4 -v 100_ohm_embedded_1400X1000.bmp"
+100_ohm_embedded_1400X1000.bmp 3 Er_odd=   3.485 Er_even=   1.614 Zodd=  52.200 Zeven= 277.945 Zo= 120.453 Zdiff= 104.401 Zcomm= 138.972 Ohms VERSION=4.6.1a
+
+End Mar 5 2013
+********
+

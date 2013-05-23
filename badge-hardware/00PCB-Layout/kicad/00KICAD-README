@@ -1,0 +1,20 @@
+00-ABOUT-KICAD  04-28-13.
+
+This directory contains RPM spec files, patches and non-KiCad supplements required
+to build and install KiCad-2012.11.15-1.-STABLE.PWR.fc16 (Fedora 16) and
+kicad-2013.04.19-1.r4011.STABLE.fc18.PWR (Fedora 18). Original source code for KiCad
+is  *not* mirrored here.
+
+Thotcon0x04 was developed with KiCad BZR snapshot version r3805, and tested with
+KiCad BZR snapshot r4011.
+
+*************************************************************************************
+
+With the availability of other, more featureful, libre-software, such as Kicad and
+geda-gpl, there is little reason to use the crippled, non-free Eagle-PCB. The libre
+software options are better, and deserve your support -- you'll be glad you did.
+
+P. Reich
+K9PR
+
+04-28-2013

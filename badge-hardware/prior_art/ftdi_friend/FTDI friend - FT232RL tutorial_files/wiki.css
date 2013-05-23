@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+p, h3
+{
+	margin: 0 0 1em;
+}
+a img
+{
+	border: 2px solid #0000FF;
+}
+.imageborder1 img, .imgborder1 img a, .imgborder1 a img
+{
+	border: 1px solid;	
+}
+pre
+{
+	border: 1px solid #CCCCCC;
+	background-color: #F5F5F5;
+	margin: 0 0 1em;
+}
+
+
+.resistor table, .resistor table td
+{
+		border: 0px solid #ffffff;	
+	padding: 0;
+}
+.resistorplain 
+{
+	float: none;
+	
+}
+.resistorplain img
+{
+	float: left;
+	
+}
+
+
+.table tr td img a, .table tr td a img, .table tr td img
+{
+	border: none;
+	float: left;
+}
+
+.noborder table, .noborder table tr td
+{
+		border: 0px solid #ffffff;
+}
+
+.warning
+{
+background-color:#FFEEEE;
+border:1px dashed #000000;
+margin:4px 8px 4px 2px;
+padding:4px 6px;
+text-align: center;
+}
+
+.white
+{
+	color: #FFFFFF;
+}
+
+.note
+{
+background-color:#EEFFFF;
+border:1px dashed #000000;
+margin:4px 8px 4px 2px;
+padding:4px 6px;
+text-align: center;
+}
+
+
+ul
+{
+	margin-bottom: 8px;
+}
+
+pre 
+{
+	margin: 15px;
+}
+
+.inlinecode pre
+{
+	margin: 0px;
+}
+
+.center
+{
+	text-align: center;
+	margin-top: -1em;
+}
+
+
+a.media
+{
+	display: table;
+	margin-left: auto;
+	margin-right: auto
+	
+}
+
+a.media .imgcenter
+{
+	display: inline;
+}
+
+.style3
+{
+	color:#FF0000;
+	font-weight:bold;
+}
+
+.style4
+{
+    color: #FF0000;
+}
+
+.inline
+{
+	display:inline;
+}
+.nobottom
+{
+	border-bottom : 0;
+	margin-bottom : 0;
+	margin-top : 0;
+}
+.notop
+{
+	border-top :0;
+	margin-top : 0;
+}
+
+.left
+{
+	text-align: left;
+}

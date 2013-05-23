@@ -1,0 +1,153 @@
+PCBNEW-BOARD Version 2 date Fri 15 Mar 2013 13:51:23 CDT
+
+# Created by Pcbnew(2012-11-15 BZR 3804)-stable
+
+$GENERAL
+encoding utf-8
+Units mm
+LayerCount 2
+EnabledLayers 1FFF8001
+VisibleLayers 1FFFFFFF
+Links 0
+NoConn 0
+Di 60.884999 20.244999 213.435001 172.795001
+Ndraw 4
+Ntrack 0
+Nzone 0
+BoardThickness 1.6
+Nmodule 2
+Nnets 1
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A 11000 8500
+Title "Balun, 2450 Exponential"
+Date "15 mar 2013"
+Rev "T1"
+Comp "Workshop88"
+Comment1 "Engineer: Paul Reich"
+Comment2 "Drawn: Paul Reich"
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+Layers 2
+Layer[0] B.Cu signal
+Layer[15] F.Cu signal
+TrackWidth 0.254
+TrackClearence 0.254
+ZoneClearence 0.508
+Zone_45_Only 0
+TrackMinWidth 0.254
+DrawSegmWidth 0.2
+EdgeSegmWidth 0.15
+ViaSize 0.889
+ViaDrill 0.635
+ViaMinSize 0.889
+ViaMinDrill 0.508
+MicroViaSize 0.508
+MicroViaDrill 0.127
+MicroViasAllowed 0
+MicroViaMinSize 0.508
+MicroViaMinDrill 0.127
+TextPcbWidth 0.3
+TextPcbSize 1 1
+EdgeModWidth 0.15
+TextModSize 1 1
+TextModWidth 0.15
+PadSize 1.27 1.27
+PadDrill 0
+Pad2MaskClearance 0
+SolderMaskMinWidth 0
+AuxiliaryAxisOrg 0 0
+VisibleElements FFFFFBBF
+PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 152400) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 0.254
+TrackWidth 0.254
+ViaDia 0.889
+ViaDrill 0.635
+uViaDia 0.508
+uViaDrill 0.127
+AddNet ""
+$EndNCLASS
+$MODULE STRIP_50x700
+Po 137.16 96.52 -0 0 51436C7F 51436BED ~~
+Li STRIP_50x700
+Kw STRIPLINE
+Sc 51436BED
+AR 
+Op 0 0 0
+At VIRTUAL
+T0 0 5.08 2.032 2.032 0 0.381 M V 20 N "Z2"
+T1 0 -2.286 1.016 1.016 -0 0.127 M I 20 N "STRIP_50x700"
+$PAD
+Sh "1" R 1.27 1.27 0 0 -0
+Dr 0 0 0
+At SMD N 00000001
+Ne 0 ""
+Po -74.93 0
+$EndPAD
+$PAD
+Sh "2" R 1.27 1.27 0 0 -0
+Dr 0 0 0
+At SMD N 00000001
+Ne 0 ""
+Po 74.93 0
+$EndPAD
+$EndMODULE STRIP_50x700
+$MODULE STRIP_50x700
+Po 137.16 96.52 0 15 51436D59 51436BE2 ~~
+Li STRIP_50x700
+Kw STRIPLINE
+Sc 51436BE2
+AR /51269017
+Op 0 0 0
+At VIRTUAL
+T0 0 -5.08 2.032 2.032 0 0.381 N V 21 N "Z1"
+T1 0 2.286 1.016 1.016 0 0.127 N I 21 N "STRIP_BAL_100"
+$PAD
+Sh "1" R 1.27 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00008000
+Ne 0 ""
+Po -74.93 0
+$EndPAD
+$PAD
+Sh "2" R 1.27 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00008000
+Ne 0 ""
+Po 74.93 0
+$EndPAD
+$EndMODULE STRIP_50x700
+$DRAWSEGMENT
+Po 0 213.36 20.32 60.96 20.32 0.15
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 213.36 172.72 213.36 20.32 0.15
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 60.96 172.72 213.36 172.72 0.15
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 60.96 20.32 60.96 172.72 0.15
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD

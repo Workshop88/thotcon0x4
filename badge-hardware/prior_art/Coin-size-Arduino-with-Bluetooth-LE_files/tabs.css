@@ -1,0 +1,66 @@
+﻿.tabs-list .ui-tabs .ui-tabs-nav { list-style: none; padding:0; height:35px; *height:35px; /*IE7 fix*/border-bottom: 1px solid #D3D3D3;}
+.tabs-list .ui-tabs .ui-tabs-nav li { float: left; border-bottom-width: 0 !important; margin: 0 .2em -1px 0; padding: 0; }
+.tabs-list .ui-tabs .ui-tabs-nav li a { float: left; text-decoration: none; padding: .5em .5em; }
+.tabs-list .ui-tabs .ui-tabs-nav li.ui-tabs-selected { padding-bottom: 1px !important; border-bottom-width: 0;background-image: url(../Images/master/edn_background.png);background-repeat: repeat;   }
+.tabs-list .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.tabs-list .ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.tabs-list .tabs-list .ui-tabs .ui-tabs-panel { padding: 0; display: block; border-width: 0; background: none; }
+.tabs-list .ui-tabs .ui-tabs-hide { display: none !important; }
+
+/* Component containers
+----------------------------------*/
+/*.ui-widget { font-family: Verdana,Arial,sans-serif*//*{ffDefault}*//*; font-size: 1.1em/*{fsDefault}*//*; }*/
+.tabs-list .ui-widget input, .tabs-list .ui-widget select, .tabs-list .ui-widget textarea, .tabs-list .ui-widget button { font-family: Arial, Verdana, Sans-Serif/*{ffDefault}*/; font-size: 12px; }
+
+.tabs-list .ui-widget-content a { /*color: #d51628*/ /*{fcContent}*/; }
+.tabs-list .ui-widget-header { background: none/*{bgColorHeader}*/ 50%/*{bgHeaderXPos}*/ 50%/*{bgHeaderYPos}*/ repeat-x/*{bgHeaderRepeat}*/; color: #222222/*{fcHeader}*/; font-weight: bold;}
+.tabs-list .ui-widget-header a { color: #222222/*{fcHeader}*/; }
+
+/* Interaction states
+----------------------------------*/
+.tabs-list .ui-state-default, .tabs-list .ui-widget-content .ui-state-default { border: 1px solid #d3d3d3/*{borderColorDefault}*/; background: #e6e6e6/*{bgColorDefault}*/  50%/*{bgDefaultXPos}*/ 50%/*{bgDefaultYPos}*/ repeat-x/*{bgDefaultRepeat}*/; font-weight: normal/*{fwDefault}*/; color: #555555/*{fcDefault}*/; outline: none; }
+.tabs-list .ui-state-default a, .tabs-list .ui-state-default a:link, .tabs-list .ui-state-default a:visited { color: #a1a1a1/*{fcDefault}*/; text-decoration: none; outline: none; font-weight:bold;*font-size: 14px;}
+.tabs-list .ui-state-hover, .tabs-list .ui-widget-content .ui-state-hover, .tabs-list .ui-state-focus, .tabs-list .ui-widget-content .ui-state-focus { border: 1px solid #999999/*{borderColorHover}*/; background: #dadada/*{bgColorHover}*/ 50%/*{bgHoverXPos}*/ 50%/*{bgHoverYPos}*/ repeat-x/*{bgHoverRepeat}*/; font-weight: normal/*{fwDefault}*/; color: #212121/*{fcHover}*/; outline: none; }
+.tabs-list .ui-state-hover a, .tabs-list .ui-state-hover a:hover { color: #d51628/*{fcHover}*/; text-decoration: none; outline: none; }
+.tabs-list .ui-state-active, .tabs-list .ui-widget-content .ui-state-active { background: transparent/*{bgColorActive}*/ 50%/*{bgActiveXPos}*/ 50%/*{bgActiveYPos}*/ repeat-x/*{bgActiveRepeat}*/; font-weight: normal/*{fwDefault}*/; color: #fff/*{fcActive}*/; outline: none; border:1px solid #C4161C; font-weight:bold; border-color: #D3D3D3;padding-bottom: 1px !important; border-bottom-width: 0;background-image: url(../Images/master/edn_background.png);background-repeat: repeat;}
+.tabs-list .ui-state-active a, .tabs-list .ui-state-active a:link, .tabs-list .ui-state-active a:visited { color: #d51628/*{fcActive}*/; outline: none; text-decoration: none; font-weight:bold;*font-size: 14px;}
+
+/* Interaction Cues
+----------------------------------*/
+.tabs-list .ui-state-highlight, .tabs-list .ui-widget-content .ui-state-highlight {border: 1px solid #fcefa1/*{borderColorHighlight}*/; background: #fbf9ee/*{bgColorHighlight}*/ 50%/*{bgHighlightXPos}*/ 50%/*{bgHighlightYPos}*/ repeat-x/*{bgHighlightRepeat}*/; color: #363636/*{fcHighlight}*/; }
+.tabs-list .ui-state-highlight a, .tabs-list .ui-widget-content .ui-state-highlight a { color: #363636/*{fcHighlight}*/; }
+.tabs-list .ui-state-error, .tabs-list .ui-widget-content .ui-state-error {border: 1px solid #cd0a0a/*{borderColorError}*/; background: #fef1ec/*{bgColorError}*/ 50%/*{bgErrorXPos}*/ 50%/*{bgErrorYPos}*/ repeat-x/*{bgErrorRepeat}*/; color: #cd0a0a/*{fcError}*/; }
+.tabs-list .ui-state-error a, .tabs-list .ui-widget-content .ui-state-error a { color: #cd0a0a/*{fcError}*/; }
+.tabs-list .ui-state-error-text, .tabs-list .ui-widget-content .ui-state-error-text { color: #cd0a0a/*{fcError}*/; }
+.tabs-list .ui-state-disabled, .tabs-list .ui-widget-content .ui-state-disabled { opacity: .35; filter:Alpha(Opacity=35); background-image: none; }
+.tabs-list .ui-priority-primary, .tabs-list .ui-widget-content .ui-priority-primary { font-weight: bold; }
+.tabs-list .ui-priority-secondary, .tabs-list .ui-widget-content .ui-priority-secondary { opacity: .7; filter:Alpha(Opacity=70); font-weight: normal; }
+.tabs-list .ui-corner-top { -moz-border-radius-topleft: 4px/*{cornerRadius}*/; -webkit-border-top-left-radius: 4px/*{cornerRadius}*/; -moz-border-radius-topright: 4px/*{cornerRadius}*/; -webkit-border-top-right-radius: 4px/*{cornerRadius}*/; }
+
+/* COMMUNITY TABS SPECIFIC CSS
+----------------------------------*/
+/*ln 1*/
+.communitytabs_partial .ui-tabs .ui-tabs-nav { font-size: 12px;padding-top: 3px;height: 33px;*height: 33px;}
+/*new for label only*/
+.tabs-list .ui-tabs-nav li.non-active { background-image: url(../Images/master/blue_swatch.png);padding: 7px 20px 5px 18px;color: white;*padding-left: 10px;*padding-right: 10px;}
+/*ln 3*/
+.communitytabs_partial .ui-tabs .ui-tabs-nav li a { padding: .5em .3em}
+/*ln 26*/
+.communitytabs_partial .ui-state-active a, .communitytabs_partial .ui-state-active a:link, .communitytabs_partial .ui-state-active a:visited { color: #224863 !important; }
+.communitytabs_partial .type-color { color:#224862}
+.communitytabs_partial .tabs-list .ui-state-hover a, .communitytabs_partial .tabs-list .ui-state-hover a:hover { color: #224862/*{fcHover}*/; text-decoration: none; outline: none; }
+/* EDUCATION TABS SPECIFIC CSS
+----------------------------------*/
+/*ln1*/
+.educationtabs_partial .ui-tabs .ui-tabs-nav { margin: 10px 0 0 0;font-size: 14px;}
+/*ln 6*/
+.educationtabs_partial .ui-tabs .ui-tabs-nav li a, .educationtabs_partial .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { text-align: center;} 
+
+/* PROFILE TABS SPECIFIC CSS
+----------------------------------*/
+.profile-tabs .ui-state-active a, .profile-tabs .ui-state-active a:link, .profile-tabs .ui-state-active a:visited { color: #224863 !important; }
+/* hard-coded tabs (refresh page) - hover state*/
+.tabs-hard-coded .ui-tabs .ui-tabs-nav li a { float: left; text-decoration: none; padding: .5em .5em; }
+.tabs-hard-coded .ui-tabs .ui-tabs-nav li a:hover {color: #d51628/*{fcHover}*/; text-decoration: none; outline: none;}
+.tabs-hard-coded .ui-tabs .ui-tabs-nav li:hover { border-color: #999;}
+.tabs-hard-coded .ui-tabs .ui-tabs-nav li.ui-state-active:hover { border-color: #D3D3D3;}

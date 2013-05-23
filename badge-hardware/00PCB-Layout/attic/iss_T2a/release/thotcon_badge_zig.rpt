@@ -1,0 +1,8517 @@
+## Module report - date Mon 11 Feb 2013 20:28:58 CST
+## Created by Pcbnew version pcbnew (2012-11-15 BZR 3804)-stable
+## Unit = inches, Angle = deg.
+##
+
+$BeginDESCRIPTION
+
+$BOARD
+unit INCH
+upper_left_corner  0.800000  0.467500
+lower_right_corner 12.388937  7.802500
+$EndBOARD
+
+$MODULE "C15"
+reference "C15"
+value "10_uF"
+footprint "c_elec_4x5.8"
+attribut none
+position  4.630000  2.560000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "smd/capacitors/c_elec_4x5_7.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position  0.070900  0.000000
+size  0.102400  0.063000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position -0.070900  0.000000
+size  0.102400  0.063000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  C15
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.950000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.650000  3.925000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.700000  3.925000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.750000  3.925000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.800000  3.925000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.900000  3.925000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.850000  3.925000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "D41"
+reference "D41"
+value "RxD"
+footprint "LED-1206"
+attribut smd
+position  7.155000  2.790000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D41
+
+$MODULE "U1"
+reference "U1"
+value "ATMEGA128RFA1"
+footprint "MEGA128_QFN64"
+attribut smd
+position  7.075000  3.410000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_qfn/qfn-64.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "57"
+position -0.180000  0.010000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "58"
+position -0.180000  0.030000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "60"
+position -0.180000  0.070000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "59"
+position -0.180000  0.050000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "63"
+position -0.180000  0.130000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "64"
+position -0.180000  0.150000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "62"
+position -0.180000  0.110000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "61"
+position -0.180000  0.090000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "53"
+position -0.180000 -0.070000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "54"
+position -0.180000 -0.050000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "56"
+position -0.180000 -0.010000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "55"
+position -0.180000 -0.030000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "51"
+position -0.180000 -0.110000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "52"
+position -0.180000 -0.090000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "50"
+position -0.180000 -0.130000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "1"
+position -0.150000  0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position -0.130000  0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "4"
+position -0.090000  0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "5"
+position -0.070000  0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "6"
+position -0.050000  0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "7"
+position -0.030000  0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "14"
+position  0.110000  0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "15"
+position  0.130000  0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "17"
+position  0.180000  0.150000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "18"
+position  0.180000  0.130000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "20"
+position  0.180000  0.090000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "3"
+position -0.110000  0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "65"
+position  0.070000  0.070000
+size  0.045000  0.045000
+drill  0.020000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "65"
+position -0.070000  0.070000
+size  0.045000  0.045000
+drill  0.020000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "65"
+position -0.070000 -0.070000
+size  0.045000  0.045000
+drill  0.020000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "65"
+position  0.070000 -0.070000
+size  0.045000  0.045000
+drill  0.020000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "30"
+position  0.180000 -0.110000
+size  0.032000  0.011700
+drill  0.000000
+shape_offset  0.001400  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "31"
+position  0.180000 -0.130000
+size  0.032000  0.011700
+drill  0.000000
+shape_offset  0.001400  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "36"
+position  0.090000 -0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "37"
+position  0.070000 -0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "38"
+position  0.050000 -0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "39"
+position  0.030000 -0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "40"
+position  0.010000 -0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "41"
+position -0.010000 -0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "42"
+position -0.030000 -0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "8"
+position -0.010000  0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "9"
+position  0.010000  0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "10"
+position  0.030000  0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "11"
+position  0.050000  0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "12"
+position  0.070000  0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "21"
+position  0.180000  0.070000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "22"
+position  0.180000  0.050000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "23"
+position  0.180000  0.030000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "24"
+position  0.180000  0.010000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "32"
+position  0.180000 -0.150000
+size  0.032000  0.011700
+drill  0.000000
+shape_offset  0.001400  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "33"
+position  0.150000 -0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "34"
+position  0.130000 -0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "35"
+position  0.110000 -0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "43"
+position -0.050000 -0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "44"
+position -0.070000 -0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "45"
+position -0.090000 -0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "46"
+position -0.110000 -0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "47"
+position -0.130000 -0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "48"
+position -0.150000 -0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "49"
+position -0.180000 -0.150000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "65"
+position -0.070000  0.000000
+size  0.045000  0.095000
+drill  0.020000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "65"
+position  0.000000 -0.070000
+size  0.095000  0.045000
+drill  0.020000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "65"
+position  0.070000  0.000000
+size  0.045000  0.095000
+drill  0.020000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "65"
+position  0.000000  0.070000
+size  0.095000  0.045000
+drill  0.020000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "65"
+position  0.000000  0.000000
+size  0.095000  0.095000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "25"
+position  0.180000 -0.010000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "26"
+position  0.180000 -0.030000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "27"
+position  0.180000 -0.050000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "28"
+position  0.180000 -0.070000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "29"
+position  0.180000 -0.090000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "19"
+position  0.180000  0.110000
+size  0.033400  0.011700
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "13"
+position  0.090000  0.180000
+size  0.011700  0.033400
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  U1
+
+$MODULE "B1"
+reference "B1"
+value "CR-2032"
+footprint "BAT_HLD_2032"
+attribut smd
+position  7.005000  3.410000
+orientation  270.00
+layer copper
+$PAD "1"
+position -0.450000  0.000000
+size  0.100000  0.200000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  copper
+$EndPAD
+$PAD "2"
+position  0.450000  0.000000
+size  0.100000  0.200000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  copper
+$EndPAD
+$PAD "3"
+position  0.000000  0.000000
+size  0.060000  0.060000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  B1
+
+$MODULE "badge-clip-here"
+reference "badge-clip-here"
+value "MH1"
+footprint "hole_5mm"
+attribut none
+position  3.950000  3.400000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/details/hole.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD ""
+position  0.000000  0.000000
+size  0.196900  0.196900
+drill  0.196900
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  badge-clip-here
+
+$MODULE "TP3"
+reference "TP3"
+value "RXD"
+footprint "Measurement_Point_Round-TH_Small"
+attribut none
+position  6.650000  2.575000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.060000  0.060000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  TP3
+
+$MODULE "TP4"
+reference "TP4"
+value "TXD"
+footprint "Measurement_Point_Round-TH_Small"
+attribut none
+position  6.550000  2.575000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.060000  0.060000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  TP4
+
+$MODULE "TP2"
+reference "TP2"
+value "USB_D+"
+footprint "Measurement_Point_Round-TH_Small"
+attribut none
+position  4.675000  2.800000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.062000  0.062000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  TP2
+
+$MODULE "TP1"
+reference "TP1"
+value "USB_D-"
+footprint "Measurement_Point_Round-TH_Small"
+attribut none
+position  4.575000  2.800000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.062000  0.062000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  TP1
+
+$MODULE "J4"
+reference "J4"
+value "DIGITAL_1"
+footprint "SIL-8"
+attribut none
+position  5.440000  2.450000
+orientation  180.00
+layer component
+$PAD "1"
+position -0.350000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "2"
+position -0.250000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "3"
+position -0.150000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "4"
+position -0.050000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "5"
+position  0.050000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "6"
+position  0.150000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "7"
+position  0.250000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "8"
+position  0.350000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$EndMODULE  J4
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.400000  4.200000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.500000  4.125000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.450000  4.175000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.400000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.450000  4.125000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.400000  4.125000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.900000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.900000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.950000  3.925000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.950000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.850000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.850000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.800000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.800000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.800000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.850000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.950000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.900000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.700000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.750000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.650000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.600000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.400000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.450000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.550000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.500000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.500000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.500000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.550000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.550000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.450000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.450000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.400000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.400000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.600000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.600000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.650000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.650000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.750000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.750000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.700000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.700000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.300000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.300000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.300000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.300000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.300000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.300000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.300000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.300000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.350000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.350000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.350000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.350000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.350000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.350000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.350000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.350000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.250000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.250000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.250000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.250000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.250000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.250000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.250000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.250000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.200000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.200000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.200000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.200000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.200000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.200000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.200000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.200000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.900000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.900000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.900000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.900000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.900000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.900000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.900000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.900000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.950000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.950000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.950000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.950000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.950000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.950000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.950000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.950000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.850000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.850000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.850000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.850000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.850000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.850000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.850000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.850000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.800000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.800000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.800000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.800000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.800000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.800000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.800000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.800000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.000000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.000000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.000000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.000000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.000000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.000000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.000000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.000000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.050000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.050000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.050000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.050000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.050000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.050000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.050000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.050000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.150000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.150000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.150000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.150000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.150000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.150000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.150000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.150000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.100000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.100000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.100000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.100000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.100000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.100000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.100000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  5.100000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.700000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.700000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.700000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.700000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.700000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.700000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.700000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.700000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.750000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.750000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.750000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.750000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.750000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.750000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.750000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.750000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.650000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.650000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.650000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.650000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.650000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.650000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.650000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.650000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.600000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.600000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.600000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.600000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.600000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.600000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.600000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.600000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.400000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.400000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.400000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.400000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.400000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.400000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.400000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.400000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.450000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.450000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.450000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.450000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.450000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.450000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.450000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.450000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.550000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.550000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.550000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.550000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.550000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.550000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.550000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.550000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.500000  3.975000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.500000  4.025000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.500000  4.075000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.500000  4.100000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.500000  4.150000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.025000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.500000  4.225000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.500000  4.275000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "pad_2mm"
+reference "pad_2mm"
+value "VAL**"
+footprint "pad_2mm"
+attribut none
+position  4.500000  4.325000
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.040000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  pad_2mm
+
+$MODULE "S1"
+reference "S1"
+value "RESET"
+footprint "PB_NO_SMD_6x6R6"
+attribut smd
+position  6.000000  3.675000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "walter/misc_comp/smd_push2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.135000 -0.080000
+size  0.130000  0.050000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.135000  0.080000
+size  0.130000  0.050000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "3"
+position -0.135000  0.080000
+size  0.130000  0.050000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "4"
+position  0.135000 -0.080000
+size  0.130000  0.050000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  S1
+
+$MODULE "S3"
+reference "S3"
+value "PF2"
+footprint "PB_NO_SMD_6x6R6"
+attribut smd
+position  6.000000  3.125000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "walter/misc_comp/smd_push2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.135000 -0.080000
+size  0.130000  0.050000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.135000  0.080000
+size  0.130000  0.050000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "3"
+position -0.135000  0.080000
+size  0.130000  0.050000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "4"
+position  0.135000 -0.080000
+size  0.130000  0.050000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  S3
+
+$MODULE "S2"
+reference "S2"
+value "PF1"
+footprint "PB_NO_SMD_6x6R6"
+attribut smd
+position  6.000000  3.400000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "walter/misc_comp/smd_push2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.135000 -0.080000
+size  0.130000  0.050000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.135000  0.080000
+size  0.130000  0.050000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "3"
+position -0.135000  0.080000
+size  0.130000  0.050000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "4"
+position  0.135000 -0.080000
+size  0.130000  0.050000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  S2
+
+$MODULE "Y1"
+reference "Y1"
+value "16.000_MHz"
+footprint "Crystal_SMD_0603_4Pads_RevA_09Aug2010"
+attribut smd
+position  7.340000  3.980000
+orientation  90.00
+layer component
+$PAD "1"
+position -0.086600  0.047200
+size  0.070900  0.055100
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.086600  0.047200
+size  0.070900  0.055100
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "3"
+position  0.086600 -0.047200
+size  0.070900  0.055100
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "4"
+position -0.086600 -0.047200
+size  0.070900  0.055100
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  Y1
+
+$MODULE "Y2"
+reference "Y2"
+value "32.768_KHz"
+footprint "CRYSTAL_SMD_2820_4"
+attribut smd
+position  7.190000  3.060000
+orientation  180.00
+layer component
+$PAD "1"
+position -0.108000  0.063000
+size  0.052000  0.075000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.108000  0.063000
+size  0.052000  0.075000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "3"
+position  0.108000 -0.063000
+size  0.052000  0.075000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "4"
+position -0.108000 -0.063000
+size  0.052000  0.075000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  Y2
+
+$MODULE "J3"
+reference "J3"
+value "DIGITAL_0"
+footprint "SIL-8"
+attribut none
+position  6.300000  2.450000
+orientation  180.00
+layer component
+$PAD "1"
+position -0.350000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "2"
+position -0.250000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "3"
+position -0.150000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "4"
+position -0.050000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "5"
+position  0.050000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "6"
+position  0.150000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "7"
+position  0.250000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "8"
+position  0.350000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$EndMODULE  J3
+
+$MODULE "U2"
+reference "U2"
+value "LP2985-33"
+footprint "SOT23-5"
+attribut smd
+position  4.810000  2.500000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "smd/SOT23_5.wrl"
+Sc 0.1 0.1 0.1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.037500  0.050000
+size  0.020000  0.030000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "3"
+position  0.037500  0.050000
+size  0.020000  0.030000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "5"
+position -0.037500 -0.050000
+size  0.020000  0.030000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.000000  0.050000
+size  0.020000  0.030000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "4"
+position  0.037500 -0.050000
+size  0.020000  0.030000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  U2
+
+$MODULE "D45"
+reference "D45"
+value "S01575"
+footprint "SM1206POL"
+attribut smd
+position  5.785000  2.795000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "smd/chip_cms_pol.wrl"
+Sc 0.17 0.16 0.16
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.065000  0.000000
+size  0.060000  0.080000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.065000  0.000000
+size  0.060000  0.080000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D45
+
+$MODULE "F1"
+reference "F1"
+value ".5_A"
+footprint "SM1206"
+attribut smd
+position  4.340000  2.480000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.17 0.16 0.16
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.065000  0.000000
+size  0.060000  0.080000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.065000  0.000000
+size  0.060000  0.080000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  F1
+
+$MODULE "C10"
+reference "C10"
+value "4.7_uF"
+footprint "SM1206"
+attribut smd
+position  6.930000  3.850000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.17 0.16 0.16
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.065000  0.000000
+size  0.060000  0.080000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.065000  0.000000
+size  0.060000  0.080000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  C10
+
+$MODULE "C9"
+reference "C9"
+value "4.7_uF"
+footprint "SM1206"
+attribut smd
+position  6.990000  3.000000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.17 0.16 0.16
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.065000  0.000000
+size  0.060000  0.080000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.065000  0.000000
+size  0.060000  0.080000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  C9
+
+$MODULE "C13"
+reference "C13"
+value "4.7_uF"
+footprint "SM1206"
+attribut smd
+position  4.890000  2.640000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.17 0.16 0.16
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.065000  0.000000
+size  0.060000  0.080000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.065000  0.000000
+size  0.060000  0.080000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  C13
+
+$MODULE "R17"
+reference "R17"
+value "5V"
+footprint "SM1206"
+attribut smd
+position  4.280000  2.690000
+orientation  270.00
+layer component
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.17 0.16 0.16
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.065000  0.000000
+size  0.060000  0.080000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.065000  0.000000
+size  0.060000  0.080000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R17
+
+$MODULE "R18"
+reference "R18"
+value "5V"
+footprint "SM1206"
+attribut smd
+position  4.410000  2.690000
+orientation  270.00
+layer component
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.17 0.16 0.16
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.065000  0.000000
+size  0.060000  0.080000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.065000  0.000000
+size  0.060000  0.080000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R18
+
+$MODULE "C3"
+reference "C3"
+value "12_pF"
+footprint "SM0603_Capa"
+attribut smd
+position  7.225000  3.900000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "smd\\capacitors\\C0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  C3
+
+$MODULE "C8"
+reference "C8"
+value ".01_uF"
+footprint "SM0603_Capa"
+attribut smd
+position  7.265000  3.690000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "smd\\capacitors\\C0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  C8
+
+$MODULE "C14"
+reference "C14"
+value ".01_uF"
+footprint "SM0603_Capa"
+attribut smd
+position  4.950000  2.500000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "smd\\capacitors\\C0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  C14
+
+$MODULE "C5"
+reference "C5"
+value "12_pF"
+footprint "SM0603_Capa"
+attribut smd
+position  7.145000  2.915000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "smd\\capacitors\\C0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  C5
+
+$MODULE "C4"
+reference "C4"
+value "12_pF"
+footprint "SM0603_Capa"
+attribut smd
+position  7.155000  3.900000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "smd\\capacitors\\C0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  C4
+
+$MODULE "C6"
+reference "C6"
+value "12_pF"
+footprint "SM0603_Capa"
+attribut smd
+position  7.265000  2.915000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "smd\\capacitors\\C0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  C6
+
+$MODULE "R6"
+reference "R6"
+value "10K"
+footprint "SM0603"
+attribut smd
+position  6.835000  3.250000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R6
+
+$MODULE "R9"
+reference "R9"
+value "1K"
+footprint "SM0603"
+attribut smd
+position  6.990000  2.590000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R9
+
+$MODULE "R14"
+reference "R14"
+value "0"
+footprint "SM0603"
+attribut smd
+position  6.950000  3.950000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R14
+
+$MODULE "R19"
+reference "R19"
+value "1K"
+footprint "SM0603"
+attribut smd
+position  6.275000  3.250000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R19
+
+$MODULE "R16"
+reference "R16"
+value "1K"
+footprint "SM0603"
+attribut smd
+position  4.870000  2.850000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R16
+
+$MODULE "R1"
+reference "R1"
+value "120"
+footprint "SM0603"
+attribut smd
+position  5.550000  3.845000
+orientation  270.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R1
+
+$MODULE "R15"
+reference "R15"
+value "0"
+footprint "SM0603"
+attribut smd
+position  5.080000  2.620000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R15
+
+$MODULE "R20"
+reference "R20"
+value "1K"
+footprint "SM0603"
+attribut smd
+position  6.275000  3.030000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R20
+
+$MODULE "R13"
+reference "R13"
+value "10K"
+footprint "SM0603"
+attribut smd
+position  5.750000  2.885000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R13
+
+$MODULE "R12"
+reference "R12"
+value "0"
+footprint "SM0603"
+attribut smd
+position  6.835000  3.140000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R12
+
+$MODULE "R4"
+reference "R4"
+value "120"
+footprint "SM0603"
+attribut smd
+position  5.550000  3.245000
+orientation  270.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R4
+
+$MODULE "R10"
+reference "R10"
+value "120"
+footprint "SM0603"
+attribut smd
+position  5.525000  2.550000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R10
+
+$MODULE "R11"
+reference "R11"
+value "120"
+footprint "SM0603"
+attribut smd
+position  5.525000  2.625000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R11
+
+$MODULE "R2"
+reference "R2"
+value "120"
+footprint "SM0603"
+attribut smd
+position  5.550000  3.645000
+orientation  270.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R2
+
+$MODULE "R21"
+reference "R21"
+value "0"
+footprint "SM0603"
+attribut smd
+position  5.750000  4.240000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R21
+
+$MODULE "R3"
+reference "R3"
+value "120"
+footprint "SM0603"
+attribut smd
+position  5.550000  3.445000
+orientation  270.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R3
+
+$MODULE "R8"
+reference "R8"
+value "1K"
+footprint "SM0603"
+attribut smd
+position  6.990000  2.790000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R8
+
+$MODULE "R7"
+reference "R7"
+value "1K"
+footprint "SM0603"
+attribut smd
+position  6.990000  2.690000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R7
+
+$MODULE "R5"
+reference "R5"
+value "120"
+footprint "SM0603"
+attribut smd
+position  5.550000  3.045000
+orientation  270.00
+layer component
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.030000  0.000000
+size  0.025000  0.045000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  R5
+
+$MODULE "C1"
+reference "C1"
+value "22p"
+footprint "SM0402"
+attribut smd
+position  7.340000  3.377500
+orientation  0.00
+layer component
+$SHAPE3D
+Na "smd\\chip_cms.wrl"
+Sc 0.05 0.05 0.05
+Of 0 0 0.002
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.017700  0.000000
+size  0.015700  0.023600
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.017700  0.000000
+size  0.015700  0.023600
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  C1
+
+$MODULE "C11"
+reference "C11"
+value "22p"
+footprint "SM0402"
+attribut smd
+position  7.160000  3.680000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "smd\\chip_cms.wrl"
+Sc 0.05 0.05 0.05
+Of 0 0 0.002
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.017700  0.000000
+size  0.015700  0.023600
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.017700  0.000000
+size  0.015700  0.023600
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  C11
+
+$MODULE "C2"
+reference "C2"
+value "22p"
+footprint "SM0402"
+attribut smd
+position  7.340000  3.422500
+orientation  0.00
+layer component
+$SHAPE3D
+Na "smd\\chip_cms.wrl"
+Sc 0.05 0.05 0.05
+Of 0 0 0.002
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.017700  0.000000
+size  0.015700  0.023600
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.017700  0.000000
+size  0.015700  0.023600
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  C2
+
+$MODULE "J1"
+reference "J1"
+value "POWER"
+footprint "SIL-6"
+attribut none
+position  5.700000  4.350000
+orientation  0.00
+layer component
+$PAD "1"
+position -0.250000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "2"
+position -0.150000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "3"
+position -0.050000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "4"
+position  0.050000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "5"
+position  0.150000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "6"
+position  0.250000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$EndMODULE  J1
+
+$MODULE "J2"
+reference "J2"
+value "ANALOG"
+footprint "SIL-6"
+attribut none
+position  6.400000  4.350000
+orientation  0.00
+layer component
+$PAD "1"
+position -0.250000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "2"
+position -0.150000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "3"
+position -0.050000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "4"
+position  0.050000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "5"
+position  0.150000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "6"
+position  0.250000  0.000000
+size  0.060000  0.100000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$EndMODULE  J2
+
+$MODULE "P2"
+reference "P2"
+value "AVR-ISP-6A"
+footprint "pin_array_3x2"
+attribut none
+position  6.075000  2.825000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "pin_array/pins_array_3x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.100000  0.050000
+size  0.060000  0.060000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "2"
+position -0.100000 -0.050000
+size  0.060000  0.060000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "3"
+position  0.000000  0.050000
+size  0.060000  0.060000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "4"
+position  0.000000 -0.050000
+size  0.060000  0.060000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "5"
+position  0.100000  0.050000
+size  0.060000  0.060000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "6"
+position  0.100000 -0.050000
+size  0.060000  0.060000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  P2
+
+$MODULE "C12"
+reference "C12"
+value "4.7_uF"
+footprint "SM1206"
+attribut smd
+position  7.285000  3.780000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "smd/chip_cms.wrl"
+Sc 0.17 0.16 0.16
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.065000  0.000000
+size  0.060000  0.080000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.065000  0.000000
+size  0.060000  0.080000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  C12
+
+$MODULE "Z3"
+reference "Z3"
+value "ANTENNA"
+footprint "DIPOLE_2450"
+attribut virtual
+position  8.100000  3.400000
+orientation  0.00
+layer component
+$PAD "1"
+position -0.050000 -0.030000
+size  0.050000  0.050000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position -0.020000 -0.030000
+size  0.010000  0.050000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "3"
+position -0.020000 -0.940000
+size  0.010000  0.010000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "4"
+position -0.150000 -0.940000
+size  0.010000  0.010000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "5"
+position -0.150000 -0.960000
+size  0.010000  0.010000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "6"
+position  0.000000 -0.960000
+size  0.010000  0.010000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "7"
+position  0.000000  0.960000
+size  0.010000  0.010000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "8"
+position -0.150000  0.960000
+size  0.010000  0.010000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "9"
+position -0.150000  0.940000
+size  0.010000  0.010000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "10"
+position -0.020000  0.940000
+size  0.010000  0.010000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "11"
+position -0.020000  0.030000
+size  0.010000  0.050000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "12"
+position -0.050000  0.030000
+size  0.050000  0.050000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "13"
+position -0.150000 -0.980000
+size  0.010000  0.010000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "14"
+position  0.020000 -0.980000
+size  0.010000  0.010000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "15"
+position  0.020000  0.980000
+size  0.010000  0.010000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "16"
+position -0.150000  0.980000
+size  0.010000  0.010000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  Z3
+
+$MODULE "D24"
+reference "D24"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.980000  3.200000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D24
+
+$MODULE "D25"
+reference "D25"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.980000  3.000000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D25
+
+$MODULE "D26"
+reference "D26"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  5.140000  3.800000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D26
+
+$MODULE "D27"
+reference "D27"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  5.140000  3.600000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D27
+
+$MODULE "D28"
+reference "D28"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  5.140000  3.400000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D28
+
+$MODULE "D29"
+reference "D29"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  5.140000  3.200000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D29
+
+$MODULE "D30"
+reference "D30"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  5.140000  3.000000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D30
+
+$MODULE "D31"
+reference "D31"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  5.300000  3.800000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D31
+
+$MODULE "D34"
+reference "D34"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  5.300000  3.200000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D34
+
+$MODULE "D35"
+reference "D35"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  5.300000  3.000000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D35
+
+$MODULE "D36"
+reference "D36"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  5.460000  3.800000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D36
+
+$MODULE "D37"
+reference "D37"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  5.460000  3.600000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D37
+
+$MODULE "D38"
+reference "D38"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  5.460000  3.400000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D38
+
+$MODULE "D39"
+reference "D39"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  5.460000  3.200000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D39
+
+$MODULE "D17"
+reference "D17"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.820000  3.600000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D17
+
+$MODULE "D32"
+reference "D32"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  5.300000  3.600000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D32
+
+$MODULE "D33"
+reference "D33"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  5.300000  3.400000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D33
+
+$MODULE "D1"
+reference "D1"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.340000  3.800000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D1
+
+$MODULE "D2"
+reference "D2"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.340000  3.600000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D2
+
+$MODULE "D3"
+reference "D3"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.340000  3.400000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D3
+
+$MODULE "D4"
+reference "D4"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.340000  3.200000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D4
+
+$MODULE "D5"
+reference "D5"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.340000  3.000000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D5
+
+$MODULE "D6"
+reference "D6"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.500000  3.800000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D6
+
+$MODULE "D7"
+reference "D7"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.500000  3.600000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D7
+
+$MODULE "D8"
+reference "D8"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.500000  3.400000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D8
+
+$MODULE "D9"
+reference "D9"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.500000  3.200000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D9
+
+$MODULE "D10"
+reference "D10"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.500000  3.000000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D10
+
+$MODULE "D23"
+reference "D23"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.980000  3.400000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D23
+
+$MODULE "D12"
+reference "D12"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.660000  3.600000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D12
+
+$MODULE "D13"
+reference "D13"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.660000  3.400000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D13
+
+$MODULE "D14"
+reference "D14"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.660000  3.200000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D14
+
+$MODULE "D15"
+reference "D15"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.660000  3.000000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D15
+
+$MODULE "D16"
+reference "D16"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.820000  3.800000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D16
+
+$MODULE "D18"
+reference "D18"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.820000  3.400000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D18
+
+$MODULE "D19"
+reference "D19"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.820000  3.200000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D19
+
+$MODULE "D20"
+reference "D20"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.820000  3.000000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D20
+
+$MODULE "D21"
+reference "D21"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.980000  3.800000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D21
+
+$MODULE "D22"
+reference "D22"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.980000  3.600000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D22
+
+$MODULE "D11"
+reference "D11"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  4.660000  3.800000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D11
+
+$MODULE "D44"
+reference "D44"
+value "EXT"
+footprint "LED-1206"
+attribut smd
+position  5.060000  2.850000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D44
+
+$MODULE "D40"
+reference "D40"
+value "RED"
+footprint "LED-1206"
+attribut smd
+position  5.460000  3.000000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D40
+
+$MODULE "D42"
+reference "D42"
+value "TxD"
+footprint "LED-1206"
+attribut smd
+position  7.155000  2.690000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D42
+
+$MODULE "D43"
+reference "D43"
+value "SCK"
+footprint "LED-1206"
+attribut smd
+position  7.155000  2.590000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/smd_leds/led_1206.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.055900  0.000000
+size  0.062900  0.070900
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  D43
+
+$MODULE "P1"
+reference "P1"
+value "USB_2_MALE"
+footprint "USB_A_PC_MALE"
+attribut none
+position  3.970000  2.585000
+orientation  0.00
+layer component
+$PAD "1"
+position -0.010000 -0.140000
+size  0.320000  0.090000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "2"
+position  0.015000 -0.040000
+size  0.270000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "3"
+position  0.015000  0.040000
+size  0.270000  0.040000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$PAD "4"
+position  0.000000  0.140000
+size  0.320000  0.080000
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  component
+$EndPAD
+$EndMODULE  P1
+
+$MODULE "N***"
+reference "N***"
+value "THOTCON0x04_LOGO"
+footprint "THOTCON0x04_LOGO"
+attribut virtual
+position  7.765000  3.405000
+orientation  90.00
+layer component
+$EndMODULE  N***
+
+$MODULE "N1"
+reference "N1"
+value "(c) 2013 WS88"
+footprint "WS88_LOGO_TRACE"
+attribut none
+position  6.620000  3.960000
+orientation  90.00
+layer component
+$EndMODULE  N1
+
+$MODULE "testpoint_2mm5"
+reference "testpoint_2mm5"
+value "TP5"
+footprint "testpoint_2mm5"
+attribut none
+position  4.275000  4.025000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/details/testpoint.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position  0.000000  0.000000
+size  0.098500  0.098500
+drill  0.000000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  component
+$EndPAD
+$EndMODULE  testpoint_2mm5
+
+$LINE 
+start 8.175000 2.375000
+end 8.150000 2.350000
+width 0.006000
+$EndLINE 
+$LINE 
+start 8.150000 4.450000
+end 8.175000 4.425000
+width 0.006000
+$EndLINE 
+$LINE 
+start 3.775000 4.450000
+end 3.750000 4.425000
+width 0.006000
+$EndLINE 
+$LINE 
+start 3.750000 2.375000
+end 3.775000 2.350000
+width 0.006000
+$EndLINE 
+$LINE 
+start 3.750000 2.915000
+end 3.750000 4.425000
+width 0.006000
+$EndLINE 
+$LINE 
+start 3.750000 2.375000
+end 3.750000 2.820000
+width 0.006000
+$EndLINE 
+$LINE 
+start 4.175000 2.915000
+end 3.750000 2.915000
+width 0.006000
+$EndLINE 
+$LINE 
+start 4.175000 2.820000
+end 4.175000 2.915000
+width 0.006000
+$EndLINE 
+$LINE 
+start 3.750000 2.820000
+end 4.175000 2.820000
+width 0.006000
+$EndLINE 
+$LINE 
+start 8.150000 2.350000
+end 3.775000 2.350000
+width 0.005906
+$EndLINE 
+$LINE 
+start 8.175000 4.425000
+end 8.175000 2.375000
+width 0.006000
+$EndLINE 
+$LINE 
+start 3.775000 4.450000
+end 8.150000 4.450000
+width 0.005906
+$EndLINE 
+$EndDESCRIPTION

@@ -1,0 +1,4 @@
+﻿body {margin:0; padding:0; line-height: 1.4em; word-spacing:1px; letter-spacing:0.2px; font: 20px Arial, Helvetica,"Lucida Grande", serif; color: #000;}
+#banner, #down_ruler, .single_col, .social-options, #comments, #comment-counter, .commentsModuleHeader, #footer, .hard_break, .global-breadcrumb, #header,
+.double_col
+{width:900px !important;}
