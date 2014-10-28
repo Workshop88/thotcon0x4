@@ -1,0 +1,23 @@
+#!/bin/ksh
+# Run hete remotely via a hard-coded URL.
+# Send result summary to stdout. If the test passes,
+# return 0, otherwise 1
+#
+trap 'if [ -f "$tempfile" ]; then rm $tempfile; fi' 0 SIGTERM SIGQUIT SIGINT SIGHUP
+usage() {
+printf "Run HETE remotely\nUsage: hete, hete -s, or hete -h\n -s        ---> Run portion of HETE before starting eNodeB\n -h        ---> Print this message\n No option ---> Run portion of HETE after starting eNodeB\n\n"
+}
+# Does nothing if -s is specified, else echos
+if getopts sh opt; then
+  case $opt in
+  s) ;;
+  h) usage;;
+  ?) usage;;
+  esac
+else
+  tempfile=`mktemp heteOut`
+  curl -s -m 60 http://138.120.247.186:8080/hete | tee $tempfile
+  grep -q "Call Setup completed" $tempfile
+  exit $?
+fi
+exit 0

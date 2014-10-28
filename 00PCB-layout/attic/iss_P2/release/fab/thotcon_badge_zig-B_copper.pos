@@ -1,0 +1,7 @@
+### Module positions - created on Fri 01 Mar 2013 03:04:11 CST ###
+### Printed by Pcbnew version pcbnew (2012-11-15 BZR 3804)-stable
+## Unit = inches, Angle = deg.
+## Side : F_copper
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+B1       CR_2032          BAT_HLD_2032        2.7300     0.6150      90.0    B_copper
+## End

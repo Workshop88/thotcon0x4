@@ -1,0 +1,2 @@
+font.h: font.txt
+        python fontmaker.py > font.h

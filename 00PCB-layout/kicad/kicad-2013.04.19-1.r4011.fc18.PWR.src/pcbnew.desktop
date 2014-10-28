@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Development;Electronics
+Comment=Printed circuit board design
+Comment[fr]=Router un circuit imprimés
+Exec=pcbnew
+GenericName=PCB design
+GenericName[fr]=Routage de circuits imprimés
+Icon=pcbnew
+MimeType=application/x-kicad-pcbnew;
+Name=Pcbnew
+Type=Application

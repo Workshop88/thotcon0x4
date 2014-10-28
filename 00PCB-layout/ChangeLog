@@ -1,0 +1,181 @@
+ Jan. 29 2013
+      iss_T2:
+         -- New nomenclature, former release dates now iss_t1, iss_t2,
+            etc. See explanation in ABOUT_VERSIONS.
+
+         -- Schematic: Redrawn. Add  some (not all) compatibility pieces
+            for use with some Arduino shields. Populate schematic database
+            with alternate source information, update costing for 500 pc.
+            volume. Add color PDF schematic to release directory.
+
+         -- Schematic: Add CC-BY-SA-3.0 logo, and copyright notices and
+            text "Thotcon" logo. Fix Workshop 88 logo artwork. Delete
+            "Open Hardare" logo, it seems redundant. Schematic is mostly
+            feature complete, except for Arduino compatibility.
+
+         -- Bill of Material: Correct errors. Fill in all fields. Separate
+            cost information for "DNP" parts, do not include in production
+            cost. Add PC board cost estimate. Provide both .ods and .pdf
+            files.
+
+Feb. 4 2012
+     iss_T2a
+         -- Schematic: Deleted unused resistors R22 - R27.
+
+         -- Schematic: Modify per actual PCB layout.
+
+         -- Schematic:  Fixed CC-BY-SA logo, WS88 copyright logo prints
+            black.
+
+         -- BOM: Correct speeling errors, update counts/part_numbers,
+            prices.
+
+         -- Administrivia: Move 01-15-13 release to the attic.
+
+Feb. 10, 2013
+     iss_T2a
+         -- PC board: First public release.
+
+         -- Bill of Material (BOM) Split into production material and 
+            separate costed list all material, incl. "add-ons".
+
+         -- PC Board: Generate new front/back 3D views based on actual
+            layout.
+
+         -- PC Board: Generate new postscript files of PCB artwork for
+            review. WARNING: The gerber files in /fab are the sole source
+            for accurate art.  The provision of post script files is for
+            convenience only.
+
+         -- PC Board: Add auxiliary pads to upper left corner for hacking
+            purposes.
+
+         -- PC Board: Create dimen. drawing and fab notes for quotation.
+            Fix component geometry errors observed in first mask set.
+
+         -- PC Board: Create KiCAD PCB footprint archive
+
+         -- Schematic: Refresh. Add usage notes and cautions to schematic
+            (mainly warnings about 3V arduino shield restrictions.)
+
+         -- Administrivia: Add "fab" directory under "release" for gerbers
+            and manufacturing-specific info.
+
+         -- Administrivia: Move iss_T1 release to the attic. Move release
+            T2 to the attic. Experimental issue iss_T3 created. New iss_P1
+            folder in anticipation of release to prototype manufacture.
+
+Feb. 10, 2013
+     iss_T2a
+         -- PC board: Fix soldermask/solderpaste issue under U1. New
+            gerber files.
+
+         -- PC board: Make postscipt plot displaying component ref_des
+            and component value. Refresh other postscript plot files.
+
+Feb. 12, 2013
+         -- Administrivia: /development/iss_T2a/release/fab: Create
+            "paul-reich-pcb.zip" & "paul-reich-assembly.zip"; solicit
+            bids from Brigitflex )PCB) and CBD Incorporated (contract
+            assembler) for 760 units. Email.
+
+Feb. 14,2013
+     iss_P1
+	 -- PC Board: Fix lead pitch issue at U1. Relieve routing pressure
+            at Y1 (6 extra vias). Increase ground fill area near U2. Add
+            ground connection near pad field. Update drawing to iss P1.
+            Add revision field to PC fab drawing. Modify backside text
+            per design review. Regenerate all artwork. Production documents
+            & data --> "iss_P1/release/fab" directory, design documentation
+            --> "iss_P1/release" directory.
+
+         -- Schematic: Update PC board cost estimate to $4, was $3. Direct
+            material cost estimate now $13.912 (no assembly labor).  New
+            schematic; provide "PDF" copy under iss_P1/release directory.
+            Regenerate production-only BOM.
+            
+         -- Administrivia:  Release to production. New /development/iss_P1
+            project directory. Prepare "official" release package ZIP 
+            files. Move iss_T2a to the attic. Added KiCad file version
+            information to 00_README.FIRST
+
+         -- Miscellaneous: Create artwork and design file copies in "PDF"
+            format, and place in /development/iss_P1/release. Regenerate 3D
+            views, provide perspective views.
+
+         -- Miscellaneous: Consolidate component datasheets into:
+            Workshop88Shared/Thotcon badges/PCB-layout/library/datasheets
+
+Feb. 21,2013
+     iss_P1
+         -- Schematic: Correct Mouser part number for Y2. Regenerate docu-
+            mentation. 
+
+         -- Documentation: Clarify 00ASSEMBLY_README.1ST per E-Teknet design
+            guide. They're using a chinese/indian fab of some sort...
+
+         -- New directory: /development/fixture for project-related test
+            equipment designs.
+
+Feb. 23, 2013
+     iss_P1
+         -- Schematic: Be more specific about which ATMEGA128RFA1 we want.
+            Change mfr. P/N to ATMEGA128RFA1-ZUR [Rev. "D", -40 - +85C, tape
+            'n reel.
+
+         -- BOM: Update per schematic changes, regenerate all bills of material.
+
+Feb. 28, 2013 <"Cut bait and go fishing" release>
+     iss_P2
+         -- PC Board: Fix pin mapping at Y2 - pins 1,2 (not 1,3). Fix PCB
+            legend cathode mark at D45 reversed. Shorten antenna to 1.95" per
+            test data.
+
+         -- Schematic: Fix pin numbering at Y1. 
+
+         -- Administrivia: Upissue everything to iss_P2. Push. Release.
+            Move iss_P1 to the attic.
+
+Mar. 6, 2013
+     iss_P2
+         -- Schematic: R12 10K was 0. Update schematic, BOM. Refresh release.
+
+Mar. 14 2013  <"Let's do it!" release>
+     iss_P3
+         -- Schematic: Don't use R10. Use unshrouded P2 CISP header. Update
+            BOM. TXD/RXD lamps were reversed.
+
+         -- PC Board:
+              *  Fix R17, R18 footprint 0603 was 1206.
+              *  Create and place legend for each of 5 Thotcon colors.
+              *  Add MH2 fixture pin.
+              *  Remove unneeded solder mask from stripline (radio range > 150').
+              *  Add B1 battery polarity graphic.
+              *  Move TP6 & trace to accomodate USB breakaway, modify (0,0)
+                 location.
+              *  Reduce congestion @ Y1; move C3, C4.
+              *  Make PCB text more legible.  Fix P2 outline, J1-J4 hole sizes.
+                 4 drill sizes now. 
+
+         -- PC Fab Drawing: Clarify: "finish copper thickness"; tab breakaway
+            detail. Remove "logo area" note.
+
+         -- PCB Fab package(s):  5 separate zip files now, one per color.
+
+         -- Administrivia: Move issue P2 to the attic. Mover gerbers to zip files.
+
+Apr. 13 2013 <err, "REALLY ship it now" release>
+     
+
+         -- PC Board:
+              *  Document "bed-o-nails" fixture design; PCB database layer
+                 "user_comment".
+              *  Create document 00-PCB-Layout/ABOUT-KICAD; document tested versions
+                 of Kicad, KiCad-libs.
+
+Apr. 28 2013
+     iss_P3
+
+         -- Administrivia: Add kicad/ directory, Kicad source and rpmbuild files.
+
+

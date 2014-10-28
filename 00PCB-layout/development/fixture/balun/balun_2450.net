@@ -1,0 +1,13 @@
+# EESchema Netlist Version 1.1 created  Thu 21 Feb 2013 15:27:56 CST
+(
+ ( /51269017 $noname  Z1 STRIP_BAL_100 {Lib=STRIP_BAL_100}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+ )
+)
+*
+{ Pin List by Nets
+}
+#End

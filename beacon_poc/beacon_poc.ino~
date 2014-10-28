@@ -1,0 +1,20 @@
+#include <ZigduinoRadio.h>
+
+void setup() {
+ ZigduinoRadio.begin(20);
+ Serial.begin(9600);
+ randomSeed(analogRead(33));
+}
+
+void loop(){
+  uint16_t i = random(9);
+
+      ZigduinoRadio.beginTransmission();
+      Serial.print("Sending area: ");
+      Serial.println(i);
+      ZigduinoRadio.write((char)i);
+      ZigduinoRadio.endTransmission();
+      delay(6000);
+
+}
+

@@ -1,0 +1,376 @@
+jim@jimsDellMini:/usr/bin$ avrdude -vvvv -c stk500v1 -p m128rfa1 -P /dev/ttyUSB0 -b 19200 
+
+avrdude: Version 5.10, compiled on Mar 23 2010 at 15:03:00
+         Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/
+         Copyright (c) 2007-2009 Joerg Wunsch
+
+         System wide configuration file is "/etc/avrdude.conf"
+         User configuration file is "/home/jim/.avrduderc"
+         User configuration file does not exist or is not a regular file, skipping
+
+         Using Port                    : /dev/ttyUSB0
+         Using Programmer              : stk500v1
+         Overriding Baud Rate          : 19200
+avrdude: Send: 0 [30]   [20] 
+avrdude: Send: 0 [30]   [20] 
+avrdude: Send: 0 [30]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [10] 
+         AVR Part                      : ATMEGA128RFA1
+         Chip Erase delay              : 9000 us
+         PAGEL                         : PD7
+         BS2                           : PE2
+         RESET disposition             : dedicated
+         RETRY pulse                   : SCK
+         serial program mode           : yes
+         parallel program mode         : yes
+         Timeout                       : 200
+         StabDelay                     : 100
+         CmdexeDelay                   : 25
+         SyncLoops                     : 32
+         ByteDelay                     : 0
+         PollIndex                     : 3
+         PollValue                     : 0x53
+         Memory Detail                 :
+
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           eeprom        65    10     8    0 no       4096    8      0  9000  9000 0x00 0x00
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           flash         65    10   256    0 yes    131072  256    512  4500  4500 0x00 0x00
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           lfuse          0     0     0    0 no          1    0      0  9000  9000 0x00 0x00
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           hfuse          0     0     0    0 no          1    0      0  9000  9000 0x00 0x00
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           efuse          0     0     0    0 no          1    0      0  9000  9000 0x00 0x00
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           lock           0     0     0    0 no          1    0      0  9000  9000 0x00 0x00
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           calibration    0     0     0    0 no          1    0      0     0     0 0x00 0x00
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           signature      0     0     0    0 no          3    0      0     0     0 0x00 0x00
+
+         Programmer Type : STK500
+         Description     : Atmel STK500 Version 1.x firmware
+avrdude: Send: A [41] . [80]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [02] 
+avrdude: Recv: . [10] 
+avrdude: Send: A [41] . [81]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [01] 
+avrdude: Recv: . [10] 
+avrdude: Send: A [41] . [82]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [12] 
+avrdude: Recv: . [10] 
+avrdude: Send: A [41] . [98]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [00] 
+avrdude: Recv: . [10] 
+         Hardware Version: 2
+         Firmware Version: 1.18
+         Topcard         : Unknown
+avrdude: Send: A [41] . [84]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [00] 
+avrdude: Recv: . [10] 
+avrdude: Send: A [41] . [85]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [00] 
+avrdude: Recv: . [10] 
+avrdude: Send: A [41] . [86]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [00] 
+avrdude: Recv: . [10] 
+avrdude: Send: A [41] . [87]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [00] 
+avrdude: Recv: . [10] 
+avrdude: Send: A [41] . [89]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [00] 
+avrdude: Recv: . [10] 
+         Vtarget         : 0.0 V
+         Varef           : 0.0 V
+         Oscillator      : Off
+         SCK period      : 0.1 us
+
+avrdude: Send: A [41] . [81]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [01] 
+avrdude: Recv: . [10] 
+avrdude: Send: A [41] . [82]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [12] 
+avrdude: Recv: . [10] 
+avrdude: Send: B [42] . [00] . [00] . [00] . [01] . [01] . [01] . [01] . [03] . [00] . [00] . [00] . [00] . [01] . [00]
+ . [10] . [00] . [00] . [02] . [00] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [10] 
+avrdude: Send: E [45] . [05] . [08] . [d7] . [e2] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [10] 
+avrdude: Send: P [50]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [10] 
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading |                                                    | 0% 0.00savrdude: Send: V [56] 0 [30] . [00] . [00] . [00
+]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [1e] 
+avrdude: Recv: . [10] 
+avrdude: Send: V [56] 0 [30] . [00] . [01] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [a7] 
+avrdude: Recv: . [10] 
+Reading | #################                                  | 33% 0.08savrdude: Send: V [56] 0 [30] . [00] . [02] . [0
+0]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [01] 
+avrdude: Recv: . [10] 
+Reading | ################################################## | 100% 0.12s
+
+avrdude: Device signature = 0x1ea701
+avrdude: Send: V [56] P [50] . [00] . [00] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [f7] 
+avrdude: Recv: . [10] 
+avrdude: safemode read 1, lfuse value: f7
+avrdude: Send: V [56] P [50] . [00] . [00] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [f7] 
+avrdude: Recv: . [10] 
+avrdude: safemode read 2, lfuse value: f7
+avrdude: Send: V [56] P [50] . [00] . [00] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [f7] 
+avrdude: Recv: . [10] 
+avrdude: safemode read 3, lfuse value: f7
+avrdude: safemode: lfuse reads as F7
+avrdude: Send: V [56] X [58] . [08] . [00] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [da] 
+avrdude: Recv: . [10] 
+avrdude: safemode read 1, hfuse value: da
+avrdude: Send: V [56] X [58] . [08] . [00] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [da] 
+avrdude: Recv: . [10] 
+avrdude: safemode read 2, hfuse value: da
+avrdude: Send: V [56] X [58] . [08] . [00] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [da] 
+avrdude: Recv: . [10] 
+avrdude: safemode read 3, hfuse value: da
+avrdude: safemode: hfuse reads as DA
+avrdude: Send: V [56] P [50] . [08] . [00] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [f5] 
+avrdude: Recv: . [10] 
+avrdude: safemode read 1, efuse value: f5
+avrdude: Send: V [56] P [50] . [08] . [00] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [f5] 
+avrdude: Recv: . [10] 
+avrdude: safemode read 2, efuse value: f5
+avrdude: Send: V [56] P [50] . [08] . [00] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [f5] 
+avrdude: Recv: . [10] 
+avrdude: safemode read 3, efuse value: f5
+avrdude: safemode: efuse reads as F5
+avrdude: Send: V [56] . [a0] . [0f] . [fc] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [ff] 
+avrdude: Recv: . [10] 
+avrdude: Send: V [56] . [a0] . [0f] . [fd] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [ff] 
+avrdude: Recv: . [10] 
+avrdude: Send: V [56] . [a0] . [0f] . [fe] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [ff] 
+avrdude: Recv: . [10] 
+avrdude: Send: V [56] . [a0] . [0f] . [ff] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [ff] 
+avrdude: Recv: . [10] 
+
+avrdude: Send: V [56] P [50] . [00] . [00] . [00]   [20] 
+jim@jimsDellMini:~$ 
+jim@jimsDellMini:~$ avrdude -vvvv -c stk500v1 -p m128rfa1 -P /dev/ttyUSB0 -b 19200 
+
+avrdude: Version 5.10, compiled on Mar 23 2010 at 15:03:00
+         Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/
+         Copyright (c) 2007-2009 Joerg Wunsch
+
+         System wide configuration file is "/etc/avrdude.conf"
+         User configuration file is "/home/jim/.avrduderc"
+         User configuration file does not exist or is not a regular file, skipping
+
+         Using Port                    : /dev/ttyUSB0
+         Using Programmer              : stk500v1
+         Overriding Baud Rate          : 19200
+avrdude: Send: 0 [30]   [20] 
+avrdude: Send: 0 [30]   [20] 
+avrdude: Send: 0 [30]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [10] 
+         AVR Part                      : ATMEGA128RFA1
+         Chip Erase delay              : 9000 us
+         PAGEL                         : PD7
+         BS2                           : PE2
+         RESET disposition             : dedicated
+         RETRY pulse                   : SCK
+         serial program mode           : yes
+         parallel program mode         : yes
+         Timeout                       : 200
+         StabDelay                     : 100
+         CmdexeDelay                   : 25
+         SyncLoops                     : 32
+         ByteDelay                     : 0
+         PollIndex                     : 3
+         PollValue                     : 0x53
+         Memory Detail                 :
+
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           eeprom        65    10     8    0 no       4096    8      0  9000  9000 0x00 0x00
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           flash         65    10   256    0 yes    131072  256    512  4500  4500 0x00 0x00
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           lfuse          0     0     0    0 no          1    0      0  9000  9000 0x00 0x00
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           hfuse          0     0     0    0 no          1    0      0  9000  9000 0x00 0x00
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           efuse          0     0     0    0 no          1    0      0  9000  9000 0x00 0x00
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           lock           0     0     0    0 no          1    0      0  9000  9000 0x00 0x00
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           calibration    0     0     0    0 no          1    0      0     0     0 0x00 0x00
+                                  Block Poll               Page                       Polled
+           Memory Type Mode Delay Size  Indx Paged  Size   Size #Pages MinW  MaxW   ReadBack
+           ----------- ---- ----- ----- ---- ------ ------ ---- ------ ----- ----- ---------
+           signature      0     0     0    0 no          3    0      0     0     0 0x00 0x00
+
+         Programmer Type : STK500
+         Description     : Atmel STK500 Version 1.x firmware
+avrdude: Send: A [41] . [80]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [02] 
+avrdude: Recv: . [10] 
+avrdude: Send: A [41] . [81]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [01] 
+avrdude: Recv: . [10] 
+avrdude: Send: A [41] . [82]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [12] 
+avrdude: Recv: . [10] 
+avrdude: Send: A [41] . [98]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [00] 
+avrdude: Recv: . [10] 
+         Hardware Version: 2
+         Firmware Version: 1.18
+         Topcard         : Unknown
+avrdude: Send: A [41] . [84]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [00] 
+avrdude: Recv: . [10] 
+avrdude: Send: A [41] . [85]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [00] 
+avrdude: Recv: . [10] 
+avrdude: Send: A [41] . [86]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [00] 
+avrdude: Recv: . [10] 
+avrdude: Send: A [41] . [87]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [00] 
+avrdude: Recv: . [10] 
+avrdude: Send: A [41] . [89]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [00] 
+avrdude: Recv: . [10] 
+         Vtarget         : 0.0 V
+         Varef           : 0.0 V
+         Oscillator      : Off
+         SCK period      : 0.1 us
+
+avrdude: Send: A [41] . [81]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [01] 
+avrdude: Recv: . [10] 
+avrdude: Send: A [41] . [82]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [12] 
+avrdude: Recv: . [10] 
+avrdude: Send: B [42] . [00] . [00] . [00] . [01] . [01] . [01] . [01] . [03] . [00] . [00] . [00] . [00] . [01] . [00] . [10] . [00] . [00] . [02] . [00] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [10] 
+avrdude: Send: E [45] . [05] . [08] . [d7] . [e2] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [10] 
+avrdude: Send: P [50]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [10] 
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading |                                                    | 0% 0.00savrdude: Send: V [56] 0 [30] . [00] . [00] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [00] 
+avrdude: Recv: . [10] 
+avrdude: Send: V [56] 0 [30] . [00] . [01] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [00] 
+avrdude: Recv: . [10] 
+Reading | #################                                  | 33% 0.08savrdude: Send: V [56] 0 [30] . [00] . [02] . [00]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [00] 
+avrdude: Recv: . [10] 
+Reading | ################################################## | 100% 0.12s
+
+avrdude: Device signature = 0x000000
+avrdude: Yikes!  Invalid device signature.
+         Double check connections and try again, or use -F to override
+         this check.
+
+avrdude: Send: Q [51]   [20] 
+avrdude: Recv: . [14] 
+avrdude: Recv: . [10] 
+
+avrdude done.  Thank you.
+

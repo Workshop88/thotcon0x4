@@ -1,0 +1,41 @@
+Project: "Thotcon Badge Project"
+
+This package contains PCB fabrication information.
+
+There are 5 ZIP files, one for each color scheme.
+The only difference between these file is the front
+silkscreen text. They are otherwise identical.
+
+Manufacture panels as follows:
+
+1:  Panelize 8-up 10.5" x 12" panels, indented breakaway style.
+
+2:  SOLDER MASK and SILKSCREEN INK COLORS:
+
+    69  panels (552 boards):
+        black color solder mask, white silkscreen.
+        Artwork should read "THOTCON0x4 Hacker".
+
+    15  panels (120 boards):
+        green color solder mask, white silkscreen.
+        Artwork should read "THOTCON0x4 X".
+
+     5  panels (40 boards):
+        red color solder mask, black silkscreen;
+        Artwork should read "THOTCON0x4 OPER".
+
+     3  panels (24 boards):
+        yellow color solder mask, black silkscreen;
+        with the "THOTCON0x4 ROOT".
+
+     4  panels (32 boards):
+        blue solder mask, white silkscreen;
+        with "THOTCON0x4 VOICE".
+    ___________
+    96 panels (768 boards) total, of various
+       color schemes.
+
+ IMPORTANT: Refer to files ending in "Dwgs_User.gbr",
+            "Edge_Cuts.gbr"  for fab drawing gerber
+             overlay files.
+

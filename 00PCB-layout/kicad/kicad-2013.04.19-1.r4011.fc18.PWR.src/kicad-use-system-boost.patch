@@ -1,0 +1,13 @@
+--- kicad-2013.04.10/CMakeLists.txt.orig	2013-04-15 23:36:30.000000000 -0500
++++ kicad-2013.04.10/CMakeLists.txt	2013-04-16 07:18:21.833590396 -0500
+@@ -260,8 +260,8 @@
+ # kicad now includes needed boost files.
+ # the two next lines can be uncommented to use the native boost lib.
+ # but this is not a good idea
+-#find_package(Boost 1.36 QUIET)
+-#check_find_package_result(Boost_FOUND "Boost")
++find_package(Boost 1.50)
++check_find_package_result(Boost_FOUND "Boost")
+ 
+ ##########################
+ # Find wxWidgets library #

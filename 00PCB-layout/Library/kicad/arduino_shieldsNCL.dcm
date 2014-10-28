@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0  Date: 2013-01-07 12:00:00
+#
+$CMP ARDUINO_MEGA_SHIELD
+D Arduino MEGA Shield
+K Arduino Mega shield
+$ENDCMP
+#
+$CMP ARDUINO_SHIELD
+D Arduino Shield
+K Arduino shield
+$ENDCMP
+#
+#End Doc Library

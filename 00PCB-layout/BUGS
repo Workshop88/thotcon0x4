@@ -1,0 +1,25 @@
+BUGS:
+    01-29-2013:
+
+    -- Backwards compatibility feature with 5 volt Arduino shields not
+       implemented.
+
+    -- Compatibility with the Zigduino design is incomplete.
+
+    02-04-2013:
+
+    -- Use of standard via hole sizes simplifies hand assembly, but occupies
+       considerable PCB real-estate. Could use micro-vias, but drill bits 
+       that small are not a hobbyist item.
+
+    -- Drive current from U1 I/O lines is 8 mA, maximum, according to the
+       data sheet. The prototypes seemed to have higher drive capability than
+       expected. The performance of the prototypes should not be taken as
+       an indication that higher drive currents are acceptable.
+        
+    02-11-2013:
+
+    -- USB "connector" on PC board only provides a source of 5 volt
+       power.  The USB data lines are unterminated stubs. The stubs may
+       cause problems for other high speed USB peripherals sharing a port
+       with the badge.

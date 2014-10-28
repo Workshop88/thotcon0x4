@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1138.51">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;h3&gt;Links for Thotcon badges&lt;/h3&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h4&gt;Protocols&lt;/h4&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;ul&gt;</p>
+<p class="p1">&lt;li&gt;802.15.4 - MAC (Media Access Layer) and PHY (Physical layer) used by all RF devices (may be some others)&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;ZigBee - proprietary (consortium owned) protocol set over 802.15.4 RF. Requires ~128k memory for protocol stack. &lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;6LowPan - &lt;a href="http://www.ecnmag.com/articles/2009/02/6lowpan-goes-where-zigbee-cant"&gt;IPv6 over Low Power access network&lt;/a&gt; - Routing, Addressing, IP protocols over 802.15.4 RF. Applications similar to Zigbee, multiple implementations. Each node gets an IP address. Less memory usage compared to Zigbee?&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;&lt;a href="http://www.contiki-os.org/"&gt;Contiki&lt;/a&gt; - network OS built atop 6LowPan, open source. Runs on current generation chipsets. Full IDE, Cooja network simulator free. &lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;&lt;a href="http://www.ti.com/tool/simpliciti"&gt;SimpliciTI&lt;/a&gt; - simple protocol for small star networks, uses hubs for store and forward, minimal memory footprint, software available for Texas Instruments chipsets, price? &lt;a href="http://www.ti.com/lit/ml/swru130b/swru130b.pdf"&gt;Overview&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;SNAP - network operating system over 802.15.4. Proprietary to &lt;a href="http://www.synapse-wireless.com/snap-components/rf-engine"&gt;Synapse Networks&lt;/a&gt;, programmed by Python over the air. Modules $40 each.&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;&lt;a href="http://en.m.wikipedia.org/wiki/MiWi"&gt;MiWi&lt;/a&gt; Proprietary MicroChip protocol for PIC controllers over 802.15.4.&lt;/li&gt;</p>
+<p class="p1">&lt;/ul&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h4&gt;Chipsets&lt;/h4&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;TI has a variety of &lt;a href="http://focus.ti.com/wireless/docs/wirelessproduct.tsp?familyId=2003&amp;amp;sectionId=646&amp;amp;tabId=2736"&gt;chipsets&lt;/a&gt; with integrated radios that could fit the budget:&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;ul&gt;</p>
+<p class="p1">&lt;li&gt; &lt;a href="http://www.ti.com/product/cc1110f32"&gt;CC1110F32&lt;/a&gt; 8 bit processor (antique 8051 instruction set) + CC1101 900MHz RF. $2.75 1K quantity. This probably needs an additional host processor to do much. There’s a version with 6LowPan protocol preloaded &lt;a href="http://www.ti.com/product/cc1180"&gt;CC1180&lt;/a&gt; $3.85@1K.&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt; &lt;a href="http://www.ti.com/docs/prod/folders/print/cc430f6137.html"&gt;CC430F6137&lt;/a&gt; -<span class="Apple-converted-space">  </span>TI CC430 processor + CC1101 900MHz RF. $3 in 1K quantity. Used for variety of radio protocols. The processor is TI&amp;#39;s 16 bit ultra low power series. &amp;lt;1Ghz radio, use same band as wireless phone handset (900 mhz)&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;&lt;a href="http://www.ti.com/product/cc2530"&gt;CC2530&lt;/a&gt; 8-bit 8051 + 2.4 GHz radio $3.65@1K. ZigBee stack available on 256K flash memory version&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;&lt;a href="http://www.ti.com/product/cc2544"&gt;CC2544&lt;/a&gt; - 8-bit + 2.4GHz radio. “Value line” $1.80@1k. 32K flash memory, targeted to proprietary 2.4 GHz systems, USB dongles&lt;/li&gt;</p>
+<p class="p1">&lt;/ul&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;Freescale&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;ul&gt;</p>
+<p class="p1">&lt;li&gt;MC13211:2.4 GHz 802.15.4 RF and 8-bit HCS08 MCU with 16KB Flash, 1KB RAM&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt; MC13224V: 2.4 GHz 802.15.4 RF and 32-bit ARM7™ MCU with 128KB Flash, 96K ram &amp;lt;$5.&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;MPXY8300: Microcontroller, Pressure Sensor, X-Z Accelerometer and RF Transmitter- 900 MHz intended for tire pressure monitoring&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;MC12311: Sub-1 GHz RF and 8-bit HCS08 MCU with 32KB Flash, 2KB RAM&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;MC33696: PLL Tuned UHF Transceiver - 900Mhz, needs microprocessor to do anything&lt;/li&gt;</p>
+<p class="p1">&lt;/ul&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;Atmel&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;ul&gt;</p>
+<p class="p1">&lt;li&gt;&lt;a href="http://www.atmel.com/devices/ATMEGA256RFR2.aspx"&gt;ATMEGA256RFR2&lt;/a&gt; brand new, AVR 8 bit processor + 2.4 GHz $6.20 DigiKey qty 1&lt;/li&gt;</p>
+<p class="p1">&lt;li&gt;AT86RF212 - 900 MHz transceiver chip, &amp;lt; $3&lt;/li&gt;</p>
+<p class="p1">&lt;/ul&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;STMicroelectronics&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;ul&gt;</p>
+<p class="p1">&lt;li&gt;&lt;a href="http://www.st.com/internet/mcu/product/245381.jsp"&gt;STM32W108xx&lt;/a&gt; ARM processor + 2.4 GHz radio, &lt;a href="http://www.digikey.com/scripts/DkSearch/dksus.dll?lang=en&amp;amp;KeyWords=STM32W108CB&amp;amp;WT.z_slp_buy=ST_STM32_W&amp;amp;cur=USD"&gt;$2.75 @ 2.5K, $6.00 @ 1&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p1">&lt;/ul&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;Silicon Labs&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;ul&gt;</p>
+<p class="p1">&lt;li&gt;&lt;a href="http://www.silabs.com/Support%20Documents/TechnicalDocs/Si1010.pdf"&gt;Si1012-A-GM&lt;/a&gt; 8051 core + 915 MHz transceiver $5&lt;/li&gt;</p>
+<p class="p1">&lt;/ul&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h4&gt;RF modules&lt;/h4&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;Modules include radio chip, antenna, and support chips, sometimes with MCU. Price is the issue - first gen Zigbee seem to range from $20 to $75.&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;&lt;a href="http://www.anaren.com/air-wiki-zigbee/index.php/Main_Page"&gt;Anaren&lt;/a&gt; - makes &lt;a href="https://estore.ti.com/430BOOST-CC110L-CC110L-RF-Module-BoosterPack-P2734.aspx"&gt;RF Boosterpacks&lt;/a&gt; for TI Launchpad dev units. $19 single unit&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;&lt;a href="http://www.anaren.com/sites/default/files/Part-Datasheets/A110LR09A.pdf"&gt;Anaren A110LR09A&lt;/a&gt; - 900 MHz $15&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;&lt;a href="http://www.newark.com/microchip/mrf89xam9a-i-rm/915mhz-radio-transceiver-module/dp/76R6669?in_merch=Popular%20RF%20Modules&amp;amp;in_merch=Popular%20Products&amp;amp;MER=PPSO_N_C_RFModules_None"&gt;MICROCHIP - MRF89XAM9A-I&amp;#47;RM&lt;/a&gt; - 915MHZ RADIO TRANSCEIVER MODULE W&amp;#47; FCC CERTIFICATION, PCB ANTENNA AND MIWI SUPPORT $7+, SPI interface to host board, MiWi only if PIC processor used&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;&lt;a href="http://m.dhgate.com/product/FreeShipping-5pcs-lot-F20-Micro-NRF24L01+/112844608.html"&gt;No name Chinese 2.4 ghz xmit module&lt;/a&gt; ~$6&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h4&gt;Dev kits&lt;/h4&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;&lt;a href="http://www.atmel.com/tools/ATMEGA256RFR2-EK.aspx"&gt;AT256RFR2-EK&lt;/a&gt; Atmel kit includes two radios, processor, $349&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;&lt;a href="http://www.ti.com/tool/ez430-rf2500"&gt;EZ430-RF2500&lt;/a&gt; kit from TI - two 2.4 GHz radio modules, MPS430 processor, USB board to attach radio to PC - $49&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;&lt;a href="http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=1320xRFC&amp;amp;fpsp=1&amp;amp;tab=desc"&gt;1320x-QE128-DSK&lt;/a&gt; Freescale two radio kit $349&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;&lt;a href="http://www.newark.com/stmicroelectronics/stm32w-rfckit/eval-kit-stm32w-rf-control-kit/dp/39T7141"&gt;STM32W&lt;/a&gt; two boards dev kit $38.75&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h4&gt;RF issues&lt;/h4&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;Design decision needed: what radio spectrum? Common choices for US are 900 MHz and 2.4 GHz. Radios available for each, most (all?) protocols work on both. Other things being equal, 915 MHz should have 2485&amp;#47;915 ~= 2.5 times the range.&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;Noise floor - how many transmitters can we run simultaneously without blowing range, data rate?&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;How to test our implementation? Spectrum analyzer?&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;FCC certification for manufacture? We can &lt;strong&gt;operate&lt;/strong&gt; in 2.4 Ghz, can we build 700 devices? We can get around any problems if we use an existing certified module.&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;Antenna detuning when used as badge - body within a centimeter would cause radio efficiency to get very poor if not tuned well. Even if tuned, radiation directional?&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;&lt;a href="http://www.ti.com/lit/an/swra169a/swra169a.pdf"&gt;Application note&lt;/a&gt; describes range calculations and measurements for sensor radios.&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;&lt;a href="http://www.qsl.net/va3iul/Antenna/Printed_and_Microstrip_Antennas/Design_Ideas_for_Printed_and_Microstrip_Antennas.htm"&gt;Collection of real antenna designs&lt;/a&gt;&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;&lt;a href="http://www.newark.com/taiyo-yuden/ah212m245001-t/chip-antenna-2-45ghz/dp/46T5705?in_merch=true&amp;amp;MER=ACC_N_L5_SemiconductorsModules_None"&gt;Chip antenna&lt;/a&gt; Taiyo Yuden 2.45GHz<span class="Apple-converted-space">  </span>$0.73&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;p&gt;&lt;a href="http://www.newark.com/abracon/abls2-13-000mhz-d4-t/crystal-13mhz-18pf-smd/dp/67P3787?in_merch=true&amp;amp;MER=ACC_N_L5_SemiconductorsModules_None"&gt;Abracon&lt;/a&gt;<span class="Apple-converted-space">  </span>13 MHz SMD crystal $0.35</p>
+</body>
+</html>

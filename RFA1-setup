@@ -1,0 +1,47 @@
+128RFA1 Board Set up sequence:
+
+1) Set Fuses -- 
+
+Fuses are CMOS-ish chip configs that survive absent power.  setting them is important, these are the settings I have, we may need to alter them through out the project.  
+
+Here is information on how you understand fuses: http://www.ladyada.net/learn/avr/fuses.html
+
+Reference the data sheet for fuse settings specific to the RFA1
+
+Here is the avrdude command (via usbtiny) I am currently using:
+
+sudo avrdude -c usbtiny -p ATMEGA128RFA1 -U lfuse:w:0xFF:m -U hfuse:w:0x9A:m -U efuse:w:0xF5:m -U lock:w:0x0F:m
+
+UPDATE 4/6/13 jw:  The fuse settings above leave the JTAG interface enabled, but we're currently not running that way.  Here's the HFUSE programming phrase with JTAGEN disabled: hfuse:w:0xDA:m
+
+UPDATE 4/7/13 rr/jw: The functional fuse settings are as follows:  e:0xfe h:0xda l:0x62
+
+2) Upload the Bootloader
+
+sudo avrdude -c usbtiny -p ATMEGA128RFA1 -U flash:w:ATmegaBOOT_168_atmega128rfa1.hex
+
+3) Set up IDE environment
+  I am using Ardunio 1.0.1 with CrossPak 2010-01-15
+      The trick with RFA1 and the Zidguino libraries is that we need AVR > 4.3.3 to support RFA1 in the compiler and < 4.5.1 to avoid the Zigduino libraries to throw exceptions on typedefs (this changed in 4.5)
+      I am using 4.3.3 bound to the Arduino avr path.
+
+4) Install Ziguino Cores for board and code support, pin mappings etc.
+github.com/logos-electromechanical/Zigduino-1.0
+
+The repository contains zigduino-1_0.zip file which, should be extracted and merged with arduino. Simply extract the .zip file and you get a folder called ‘hardware’, then copy the entire folder and paste it in the arduino 1.0.1 (current software version) main folder, that contains the same folder. Both folders should be merged and different files should be replaced.  If you're on windows its zigduino-1_0-win.zip
+
+If you have git, from you're hardware path run:
+
+git clone https://github.com/logos-electromechanical/Zigduino-1.0/blob/new-extension/zigduino-1_0.git
+
+5) Install the Zigduino Radio libs
+
+svn or download:
+
+svn checkout http://zigduino-radio.googlecode.com/svn/trunk/ zigduino-radio-read-only
+
+http://code.google.com/p/zigduino-radio/downloads/detail?name=ZigduinoRadio_201111130010.zip
+
+simply extraact to your libraries directory : Documents/Arduino/libraries on OSX, sktechbook/libraries on Linux, "My Documents\Arduino\libraries" in Win
+
+
